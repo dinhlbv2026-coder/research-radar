@@ -2,7 +2,8 @@
 Research Radar — quét xu hướng định kỳ bằng Gemini (Google Search grounding) + OpenAlex (trắc lượng thư mục).
 
 Nguyên tắc thiết kế:
-  1. Gemini chỉ được viết từ kết quả tìm kiếm thật; mọi nguồn lấy từ grounding metadata, không để mô hình tự bịa URL.
+  1. Gemini chỉ được viết từ tin thật do hệ thống thu thập (Google News RSS — miễn phí) hoặc Google Search grounding
+     (cần gói trả phí với Gemini 3.x); URL do hệ thống gắn, không để mô hình tự viết.
   2. OpenAlex chỉ dùng làm TÍN HIỆU trắc lượng (số công bố theo năm, bài được trích dẫn nhiều) — không dùng làm
      cơ sở nội dung lược khảo.
   3. Kết quả lưu thành Markdown + JSON có ngày tháng trong kho GitHub để theo dõi theo thời gian (có phiên bản).
@@ -18,8 +19,12 @@ import datetime as dt
 import json
 import os
 import sys
+import re
 import time
+import xml.etree.ElementTree as ET
+from email.utils import parsedate_to_datetime
 from pathlib import Path
+from urllib.parse import quote_plus
 
 import requests
 import yaml
@@ -104,20 +109,45 @@ def openalex_top_cited(query: str, n: int) -> list[dict]:
     return out
 
 
+# -------------------------------------------------------------- Tin tức ---
+def fetch_news(queries: list[str], days: int, cap: int = 40) -> list[dict]:
+    """Lấy tin từ Google News RSS (miễn phí). Truy vấn có dấu tiếng Việt → bản tin VN; còn lại → bản tin quốc tế."""
+    items, seen = [], set()
+    for q in queries:
+        vi = any(ord(c) > 127 for c in q)
+        hl, gl, ceid = ("vi", "VN", "VN:vi") if vi else ("en-US", "US", "US:en")
+        url = (f"https://news.google.com/rss/search?q={quote_plus(q + f' when:{days}d')}"
+               f"&hl={hl}&gl={gl}&ceid={ceid}")
+        try:
+            r = requests.get(url, timeout=30, headers={"User-Agent": "Mozilla/5.0 research-radar"})
+            r.raise_for_status()
+            root = ET.fromstring(r.content)
+        except Exception as e:  # noqa: BLE001
+            print(f"  ! RSS lỗi '{q}': {e}", flush=True)
+            continue
+        for it in root.iter("item"):
+            title = (it.findtext("title") or "").strip()
+            key = re.sub(r"\W+", " ", title.lower()).strip()
+            if not title or key in seen:
+                continue
+            seen.add(key)
+            try:
+                d = parsedate_to_datetime(it.findtext("pubDate")).date().isoformat()
+            except Exception:  # noqa: BLE001
+                d = ""
+            src = it.find("source")
+            items.append({"title": title, "uri": (it.findtext("link") or "").strip(), "date": d,
+                          "source": (src.text if src is not None else "") or ""})
+    items.sort(key=lambda x: x["date"], reverse=True)
+    return items[:cap]
+
+
 # ------------------------------------------------------------------ Gemini ---
-PROMPT = """Bạn là chuyên viên nghiên cứu xu hướng cho một nghiên cứu sinh Tiến sĩ Quản trị kinh doanh,
-đồng thời là quản lý kinh doanh bảo hiểm nhân thọ tại Việt Nam.
-Hôm nay là {today}. Hãy dùng Google Search để quét các diễn biến trong khoảng {days} ngày gần nhất về:
-
-CHỦ ĐỀ: {name}
-PHẠM VI TÌM: {query}
-THỊ TRƯỜNG ƯU TIÊN: {market}
-
-Yêu cầu bắt buộc:
-- Chỉ nêu sự kiện/số liệu có trong kết quả tìm kiếm; mỗi ý phải ghi rõ tổ chức công bố và ngày/tháng.
-- Không suy diễn số liệu; nếu không tìm được bằng chứng thì ghi "chưa tìm thấy nguồn xác nhận".
+RULES = """Yêu cầu bắt buộc:
+- Chỉ nêu sự kiện/số liệu có trong {basis}; mỗi ý phải ghi rõ tổ chức công bố và ngày/tháng.
+- Không suy diễn số liệu; nếu không đủ bằng chứng thì ghi "chưa tìm thấy nguồn xác nhận".
 - Không dùng từ sáo rỗng ("then chốt", "toàn diện", "bức tranh toàn cảnh", "mở ra hướng đi mới").
-- Không viết URL (hệ thống tự gắn nguồn).
+- Không viết URL (hệ thống tự gắn nguồn).{cite}
 
 Trình bày bằng tiếng Việt, Markdown, đúng cấu trúc:
 
@@ -125,8 +155,8 @@ Trình bày bằng tiếng Việt, Markdown, đúng cấu trúc:
 Với mỗi xu hướng:
 **Tên xu hướng** — Mức tín hiệu: Mạnh / Trung bình / Yếu
 - Diễn biến: (sự kiện cụ thể, ai, khi nào)
-- Bằng chứng định lượng: (số liệu + đơn vị công bố + thời điểm)
-- Insight xã hội/khách hàng: (động cơ hoặc mâu thuẫn hành vi đằng sau)
+- Bằng chứng định lượng: (số liệu + đơn vị công bố + thời điểm; không có thì ghi rõ)
+- Insight xã hội/khách hàng: (động cơ hoặc mâu thuẫn hành vi đằng sau — ghi rõ đây là diễn giải)
 - Câu hỏi nghiên cứu tiềm năng: (1 câu, có biến độc lập/phụ thuộc gợi ý)
 - Hàm ý kinh doanh: (1 hành động cụ thể cho đội kinh doanh)
 
@@ -137,40 +167,75 @@ Yếu = tin đơn lẻ/ý kiến.
 (2–3 dòng)
 """
 
+HEAD = """Bạn là chuyên viên nghiên cứu xu hướng cho một nghiên cứu sinh Tiến sĩ Quản trị kinh doanh,
+đồng thời là quản lý kinh doanh bảo hiểm nhân thọ tại Việt Nam.
+Hôm nay là {today}. Phân tích diễn biến trong khoảng {days} ngày gần nhất về:
 
-def gemini_scan(topic: dict, settings: dict) -> dict:
+CHỦ ĐỀ: {name}
+PHẠM VI: {query}
+THỊ TRƯỜNG ƯU TIÊN: {market}
+"""
+
+
+def _call_gemini(prompt: str, settings: dict, tools) -> tuple[str, object]:
     from google import genai
     from google.genai import types
 
     client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
-    prompt = PROMPT.format(today=TODAY.isoformat(), days=settings["lookback_days"],
-                           name=topic["name"], query=" ".join(topic["gemini_query"].split()),
-                           market=settings["market_focus"])
-    config = types.GenerateContentConfig(tools=[types.Tool(google_search=types.GoogleSearch())],
-                                         temperature=0.3)
-    models = [settings["gemini_model"], *settings.get("gemini_fallback_models", [])]
+    config = types.GenerateContentConfig(tools=tools, temperature=0.3) if tools else \
+        types.GenerateContentConfig(temperature=0.3)
     last_err = None
-    for model in models:
+    for model in [settings["gemini_model"], *settings.get("gemini_fallback_models", [])]:
         for attempt in range(3):
             try:
-                resp = client.models.generate_content(model=model, contents=prompt, config=config)
-                sources, queries = [], []
-                cand = resp.candidates[0] if resp.candidates else None
-                gm = getattr(cand, "grounding_metadata", None) if cand else None
-                if gm:
-                    queries = list(gm.web_search_queries or [])
-                    seen = set()
-                    for ch in gm.grounding_chunks or []:
-                        web = getattr(ch, "web", None)
-                        if web and web.uri and web.uri not in seen:
-                            seen.add(web.uri)
-                            sources.append({"title": web.title, "uri": web.uri})
-                return {"model": model, "text": resp.text or "", "sources": sources,
-                        "search_queries": queries}
-            except Exception as e:  # noqa: BLE001 — thử lại / đổi mô hình
+                return model, client.models.generate_content(model=model, contents=prompt, config=config)
+            except Exception as e:  # noqa: BLE001
                 last_err = e
-                time.sleep(5 * (attempt + 1))
+                if "404" in str(e) or "NOT_FOUND" in str(e):
+                    break  # mô hình không dùng được → chuyển mô hình dự phòng
+                time.sleep(10 * (attempt + 1))
     raise RuntimeError(f"Gemini lỗi trên mọi mô hình: {last_err}")
+
+
+def gemini_scan(topic: dict, settings: dict) -> dict:
+    from google.genai import types
+
+    head = HEAD.format(today=TODAY.isoformat(), days=settings["lookback_days"], name=topic["name"],
+                       query=" ".join(topic["gemini_query"].split()), market=settings["market_focus"])
+    mode = settings.get("search_mode", "news_rss")
+
+    if mode == "google_search":  # cần gói trả phí cho dòng Gemini 3.x
+        prompt = head + "\nHãy dùng Google Search để tìm tin.\n" + RULES.format(basis="kết quả tìm kiếm", cite="")
+        model, resp = _call_gemini(prompt, settings, [types.Tool(google_search=types.GoogleSearch())])
+        sources, queries = [], []
+        cand = resp.candidates[0] if resp.candidates else None
+        gm = getattr(cand, "grounding_metadata", None) if cand else None
+        if gm:
+            queries = list(gm.web_search_queries or [])
+            seen = set()
+            for ch in gm.grounding_chunks or []:
+                web = getattr(ch, "web", None)
+                if web and web.uri and web.uri not in seen:
+                    seen.add(web.uri)
+                    sources.append({"title": web.title, "uri": web.uri})
+        return {"model": model, "mode": mode, "text": resp.text or "", "sources": sources,
+                "search_queries": queries, "n_items": None}
+
+    # Chế độ mặc định (miễn phí): Google News RSS → Gemini tổng hợp, bắt buộc trích [số]
+    news = fetch_news(topic.get("news_queries", []), settings["lookback_days"])
+    if not news:
+        raise RuntimeError("Không lấy được tin từ Google News RSS")
+    listing = "\n".join(f"[{i}] ({n['date']}, {n['source']}) {n['title']}" for i, n in enumerate(news, 1))
+    prompt = (head + "\nDANH SÁCH TIN (chỉ có tiêu đề, nguồn, ngày):\n" + listing + "\n\n" +
+              RULES.format(basis="DANH SÁCH TIN ở trên (chỉ dựa vào tiêu đề, không suy thêm nội dung bài)",
+                           cite="\n- Sau mỗi ý phải ghi số tin làm căn cứ, dạng [3] hoặc [3][7]."))
+    model, resp = _call_gemini(prompt, settings, None)
+    text = resp.text or ""
+    cited = sorted({int(x) for x in re.findall(r"\[(\d+)\]", text) if 1 <= int(x) <= len(news)})
+    sources = [{"title": f"[{i}] {news[i-1]['title']} ({news[i-1]['date']})", "uri": news[i-1]["uri"]}
+               for i in cited]
+    return {"model": model, "mode": mode, "text": text, "sources": sources,
+            "search_queries": topic.get("news_queries", []), "n_items": len(news)}
 
 
 # ------------------------------------------------------------------ Report ---
@@ -190,10 +255,13 @@ def build_topic_md(topic: dict, res: dict) -> str:
     if gem:
         md.append(gem["text"].strip() + "\n")
         if gem["sources"]:
-            md.append("**Nguồn (từ Google Search grounding):**\n")
-            md += [f"{i}. [{s['title']}]({s['uri']})" for i, s in enumerate(gem["sources"], 1)]
+            label = "Google News RSS — số trong [ ] khớp trích dẫn" if gem.get("mode") != "google_search" \
+                else "Google Search grounding"
+            md.append(f"**Nguồn ({label}):**\n")
+            md += [f"- [{s['title']}]({s['uri']})" for s in gem["sources"]]
             md.append("")
-        md.append(f"<sub>Mô hình: {gem['model']} · Truy vấn: {'; '.join(gem['search_queries'][:6])}</sub>\n")
+        extra = f" · Số tin đầu vào: {gem['n_items']}" if gem.get("n_items") else ""
+        md.append(f"<sub>Mô hình: {gem['model']}{extra} · Truy vấn: {'; '.join(gem['search_queries'][:6])}</sub>\n")
     elif res.get("gemini_error"):
         md.append(f"> ⚠️ Không quét được bằng Gemini: {res['gemini_error']}\n")
 
