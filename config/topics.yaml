@@ -2,10 +2,12 @@
 # Sửa file này trên GitHub để thêm/bớt chủ đề — lần chạy kế tiếp sẽ tự áp dụng.
 
 settings:
-  # Gói miễn phí: Google Search grounding chỉ mở cho dòng Gemini 2.x/2.5 (1.500 lượt/ngày); dòng Gemini 3.x
-  # bị khoá grounding (hạn mức 0). Khi bật billing có thể đổi sang "gemini-3.8-flash".
-  gemini_model: "gemini-2.5-flash"
-  gemini_fallback_models: ["gemini-2.5-flash-lite"]
+  # search_mode:
+  #   "news_rss"      (mặc định, miễn phí): hệ thống lấy tin Google News RSS rồi Gemini tổng hợp, trích [số] từng ý.
+  #   "google_search" (cần bật billing): Gemini tự tìm bằng Google Search. Gói miễn phí khoá grounding của Gemini 3.x.
+  search_mode: "news_rss"
+  gemini_model: "gemini-3.8-flash"            # gói miễn phí: 5 lượt/phút, 20 lượt/ngày
+  gemini_fallback_models: ["gemini-3.5-flash-lite"]
   lookback_days: 30                          # cửa sổ quét tin/xu hướng
   bibliometric_years: 6                      # số năm để tính tốc độ tăng công bố (OpenAlex)
   top_papers_per_topic: 5                    # số bài được trích dẫn nhiều nhất gần đây (chỉ làm tín hiệu)
@@ -20,6 +22,12 @@ topics:
     gemini_query: >
       Xu hướng mới về ngân hàng số, fintech, trải nghiệm khách hàng số, AI trong ngân hàng,
       thanh toán số tại Việt Nam và Đông Nam Á
+    news_queries:
+      - "ngân hàng số"
+      - "chuyển đổi số ngân hàng"
+      - "fintech Việt Nam"
+      - "digital banking Southeast Asia"
+      - "generative AI banking"
     openalex_search: '"digital banking" AND "customer experience"'
     openalex_extra:
       - '"mobile banking" AND "continuance intention"'
@@ -30,6 +38,12 @@ topics:
     gemini_query: >
       Xu hướng thị trường bảo hiểm nhân thọ Việt Nam, InsurTech, kênh phân phối (đại lý, bancassurance,
       số hoá), hành vi khách hàng và quy định mới của Bộ Tài chính
+    news_queries:
+      - "bảo hiểm nhân thọ"
+      - "thị trường bảo hiểm"
+      - "bancassurance"
+      - "insurtech Asia"
+      - "life insurance distribution"
     openalex_search: '"life insurance" AND "purchase intention"'
     openalex_extra:
       - "insurtech"
@@ -40,6 +54,12 @@ topics:
     gemini_query: >
       Xu hướng mới trong quản trị kinh doanh và quản trị nhân sự: lãnh đạo đội ngũ bán hàng,
       đào tạo, giữ chân nhân sự, AI trong HR, mô hình làm việc
+    news_queries:
+      - "quản trị nhân sự"
+      - "đào tạo đội ngũ bán hàng"
+      - "thị trường lao động Việt Nam"
+      - "AI in HR"
+      - "sales leadership"
     openalex_search: '"sales force management" OR "salesperson performance"'
     openalex_extra:
       - '"artificial intelligence" AND "human resource management"'
@@ -50,6 +70,12 @@ topics:
     gemini_query: >
       Xu hướng công nghệ, mô hình kinh doanh và thời trang/tiêu dùng mới nổi đáng chú ý toàn cầu và
       tại Việt Nam; insight hành vi người tiêu dùng Gen Z và Millennials
+    news_queries:
+      - "xu hướng tiêu dùng"
+      - "thương mại điện tử Việt Nam"
+      - "thời trang Gen Z"
+      - "consumer trends 2026"
+      - "agentic AI business"
     openalex_search: '"social commerce" AND "consumer behavior"'
     openalex_extra:
       - '"sustainable fashion" AND consumption'
