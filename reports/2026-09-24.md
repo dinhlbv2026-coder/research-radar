@@ -6,146 +6,146 @@ Cửa sổ quét tin: 30 ngày · Thị trường: Việt Nam, đặc biệt Đ�
 
 | Hạng | Chủ đề | Từ khoá | CAGR thô | CAGR chuẩn hoá |
 |---|---|---|---|---|
-| 1 | Ngân hàng số / Fintech | `digital banking customer experience` | 30.3% | +24.1% |
-| 2 | Xu hướng công nghệ, kinh doanh, thời trang | `consumer behavior social commerce` | 23.0% | +17.2% |
-| 3 | Quản trị kinh doanh & nhân sự | `sales force management` | 6.0% | +0.9% |
-| 4 | Bảo hiểm nhân thọ / InsurTech | `life insurance purchase intention` | 0.5% | -4.3% |
+| 1 | Ngân hàng số / Fintech | `"digital banking" AND "customer experience"` | 80.2% | +71.6% |
+| 2 | Xu hướng công nghệ, kinh doanh, thời trang | `"social commerce" AND "consumer behavior"` | 67.2% | +59.3% |
+| 3 | Bảo hiểm nhân thọ / InsurTech | `"life insurance" AND "purchase intention"` | 8.4% | +3.3% |
+| 4 | Quản trị kinh doanh & nhân sự | `"sales force management" OR "salesperson performance"` | -1.7% | -6.4% |
 
 ## Ngân hàng số / Fintech
 
-> ⚠️ Không quét được bằng Gemini: Gemini lỗi trên mọi mô hình: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to
+> ⚠️ Không quét được bằng Gemini: Gemini lỗi trên mọi mô hình: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions 
 
 ### Tín hiệu trắc lượng thư mục (OpenAlex)
 
 > Chỉ dùng để nhận diện độ 'nóng' của chủ đề trong học thuật; không dùng làm cơ sở nội dung lược khảo.
 
-*Từ khoá:* `digital banking customer experience` — CAGR thô 2020-2025: **30.3%/năm** · CAGR chuẩn hoá theo tổng CSDL: **+24.1%/năm** (>0 = chủ đề tăng nhanh hơn mặt bằng chung)
+*Từ khoá:* `"digital banking" AND "customer experience"` — CAGR thô 2020-2025: **80.2%/năm** · CAGR chuẩn hoá theo tổng CSDL: **+71.6%/năm** (>0 = chủ đề tăng nhanh hơn mặt bằng chung)
 
 | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 | 2026 |
 |---|---|---|---|---|---|---|
-| 6942 | 8557 | 11226 | 17485 | 20930 | 26072 | 17371 |
+| 10 | 17 | 23 | 44 | 80 | 190 | 233 |
 
-*Từ khoá:* `mobile banking continuance intention` — CAGR thô 2020-2025: **23.6%/năm** · CAGR chuẩn hoá theo tổng CSDL: **+17.7%/năm** (>0 = chủ đề tăng nhanh hơn mặt bằng chung)
-
-| 2020 | 2021 | 2022 | 2023 | 2024 | 2025 | 2026 |
-|---|---|---|---|---|---|---|
-| 646 | 917 | 1249 | 1618 | 1675 | 1860 | 1400 |
-
-*Từ khoá:* `generative AI banking` — CAGR thô 2020-2025: **93.3%/năm** · CAGR chuẩn hoá theo tổng CSDL: **+84.1%/năm** (>0 = chủ đề tăng nhanh hơn mặt bằng chung)
+*Từ khoá:* `"mobile banking" AND "continuance intention"` — CAGR thô 2020-2025: **36.9%/năm** · CAGR chuẩn hoá theo tổng CSDL: **+30.3%/năm** (>0 = chủ đề tăng nhanh hơn mặt bằng chung)
 
 | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 | 2026 |
 |---|---|---|---|---|---|---|
-| 288 | 467 | 793 | 1854 | 4027 | 7779 | 8743 |
+| 5 | 10 | 9 | 17 | 17 | 24 | 32 |
+
+*Từ khoá:* `"generative AI" AND banking` — CAGR thô 2020-2025: **106.4%/năm** · CAGR chuẩn hoá theo tổng CSDL: **+96.6%/năm** (>0 = chủ đề tăng nhanh hơn mặt bằng chung)
+
+| 2020 | 2021 | 2022 | 2023 | 2024 | 2025 | 2026 |
+|---|---|---|---|---|---|---|
+| 4 | 2 | 1 | 22 | 79 | 150 | 247 |
 
 **Bài được trích dẫn nhiều nhất 3 năm gần đây** (cần kiểm tra toàn văn, tạp chí, tình trạng rút bài):
 
-- Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on opportunities, challenges and implications of generative conversational AI for research, practice and policy (2023) — International Journal of Information Management — 4372 trích dẫn — https://doi.org/10.1016/j.ijinfomgt.2023.102642
-- Beyond Mobile Payments: Exploring the Evolution and Future of Fintech (BY IJISRT) (2024) — International Journal of Innovative Science and Research Technology (IJISRT) — 1633 trích dẫn — https://doi.org/10.38124/ijisrt/ijisrt24apr259
-- The 2023 report of the Lancet Countdown on health and climate change: the imperative for a health-centred response in a world facing irreversible harms (2023) — The Lancet — 1254 trích dẫn — https://doi.org/10.1016/s0140-6736(23)01859-7
-- Metaverse as a disruptive technology revolutionising tourism management and marketing (2023) — Tourism Management — 901 trích dẫn — https://doi.org/10.1016/j.tourman.2023.104724
-- Cyberfraud in the Nigerian Banking Sector: The Techniques and Preventive Measures (2024) — International Journal of Innovative Science and Research Technology (IJISRT) — 739 trích dẫn — https://doi.org/10.38124/ijisrt/ijisrt24aug395
+- Impacts of digitization on operational efficiency in the banking sector: Thematic analysis and research agenda proposal (2024) — International Journal of Information Management Data Insights — 109 trích dẫn — https://doi.org/10.1016/j.jjimei.2024.100230
+- Continuous intention usage of artificial intelligence enabled digital banks: a review of expectation confirmation model (2024) — Journal of Enterprise Information Management — 57 trích dẫn — https://doi.org/10.1108/jeim-11-2023-0617
+- Green Finance and Fintech Adoption Services among Croatian Online Users: How Digital Transformation and Digital Awareness Increase Banking Sustainability (2024) — Economies — 44 trích dẫn — https://doi.org/10.3390/economies12030054
+- Augmented reality is the new digital banking – AR brand experience impact on brand loyalty (2024) — International Journal of Bank Marketing — 30 trích dẫn — https://doi.org/10.1108/ijbm-11-2022-0522
+- Unraveling Digital Transformation in Banking: Evidence from Romania (2023) — Systems — 30 trích dẫn — https://doi.org/10.3390/systems11110534
 
 ## Bảo hiểm nhân thọ / InsurTech
 
-> ⚠️ Không quét được bằng Gemini: Gemini lỗi trên mọi mô hình: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to
+> ⚠️ Không quét được bằng Gemini: Gemini lỗi trên mọi mô hình: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions 
 
 ### Tín hiệu trắc lượng thư mục (OpenAlex)
 
 > Chỉ dùng để nhận diện độ 'nóng' của chủ đề trong học thuật; không dùng làm cơ sở nội dung lược khảo.
 
-*Từ khoá:* `life insurance purchase intention` — CAGR thô 2020-2025: **0.5%/năm** · CAGR chuẩn hoá theo tổng CSDL: **-4.3%/năm** (>0 = chủ đề tăng nhanh hơn mặt bằng chung)
+*Từ khoá:* `"life insurance" AND "purchase intention"` — CAGR thô 2020-2025: **8.4%/năm** · CAGR chuẩn hoá theo tổng CSDL: **+3.3%/năm** (>0 = chủ đề tăng nhanh hơn mặt bằng chung)
 
 | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 | 2026 |
 |---|---|---|---|---|---|---|
-| 4217 | 3815 | 4024 | 5309 | 4829 | 4328 | 2857 |
+| 12 | 4 | 3 | 4 | 11 | 18 | 11 |
 
-*Từ khoá:* `insurtech` — CAGR thô 2020-2025: **20.4%/năm** · CAGR chuẩn hoá theo tổng CSDL: **+14.6%/năm** (>0 = chủ đề tăng nhanh hơn mặt bằng chung)
-
-| 2020 | 2021 | 2022 | 2023 | 2024 | 2025 | 2026 |
-|---|---|---|---|---|---|---|
-| 482 | 396 | 463 | 670 | 767 | 1217 | 975 |
-
-*Từ khoá:* `insurance agent performance` — CAGR thô 2020-2025: **7.6%/năm** · CAGR chuẩn hoá theo tổng CSDL: **+2.5%/năm** (>0 = chủ đề tăng nhanh hơn mặt bằng chung)
+*Từ khoá:* `insurtech` — CAGR thô 2020-2025: **4.5%/năm** · CAGR chuẩn hoá theo tổng CSDL: **-0.5%/năm** (>0 = chủ đề tăng nhanh hơn mặt bằng chung)
 
 | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 | 2026 |
 |---|---|---|---|---|---|---|
-| 12841 | 12882 | 13669 | 17346 | 16953 | 18503 | 14716 |
+| 206 | 86 | 76 | 120 | 147 | 257 | 265 |
+
+*Từ khoá:* `"insurance agent" AND performance` — CAGR thô 2020-2025: **14.9%/năm** · CAGR chuẩn hoá theo tổng CSDL: **+9.4%/năm** (>0 = chủ đề tăng nhanh hơn mặt bằng chung)
+
+| 2020 | 2021 | 2022 | 2023 | 2024 | 2025 | 2026 |
+|---|---|---|---|---|---|---|
+| 9 | 13 | 5 | 21 | 14 | 18 | 11 |
 
 **Bài được trích dẫn nhiều nhất 3 năm gần đây** (cần kiểm tra toàn văn, tạp chí, tình trạng rút bài):
 
-- The Lancet Commission on prostate cancer: planning for the surge in cases (2024) — The Lancet — 724 trích dẫn — https://doi.org/10.1016/s0140-6736(24)00651-2
-- 9. Pharmacologic Approaches to Glycemic Treatment: Standards of Care in Diabetes—2025 (2024) — Diabetes Care — 705 trích dẫn — https://doi.org/10.2337/dc25-s009
-- Metaverse for Healthcare: A Survey on Potential Applications, Challenges and Future Directions (2023) — IEEE Access — 510 trích dẫn — https://doi.org/10.1109/access.2023.3241628
-- Six Human-Centered Artificial Intelligence Grand Challenges (2023) — International Journal of Human-Computer Interaction — 496 trích dẫn — https://doi.org/10.1080/10447318.2022.2153320
-- Patient Satisfaction with Healthcare Services and the Techniques Used for its Assessment: A Systematic Literature Review and a Bibliometric Analysis (2023) — Healthcare — 408 trích dẫn — https://doi.org/10.3390/healthcare11050639
+- Determinants of Online Purchase Intention Toward Life Insurance in Malaysia: Moderating Role of Trust (2023) — Jindal Journal of Business Research — 7 trích dẫn — https://doi.org/10.1177/22786821231189377
+- The impact of enterprise brand equity on customer purchase intention through brand preference (2025) — International Journal of ADVANCED AND APPLIED SCIENCES — 3 trích dẫn — https://doi.org/10.21833/ijaas.2025.08.019
+- Exploring the mediating role of risk aversion in the relationship between personality traits and life insurance purchase intention (2025) — International Journal of Business Excellence — 3 trích dẫn — https://doi.org/10.1504/ijbex.2025.146552
+- Determinants of Life Insurance Purchase Intention using Structured Equation Modelling with Focus on Saving Motive and Financial Literacy (2024) — International Journal of Banking Risk and Insurance — 3 trích dẫn — https://doi.org/10.21863/ijbri/2024.12.2.009
+- Predictors of Life Insurance Purchase Intention Among Filipino Adults: A Structural Equation Modeling Approach (2024) — Springer series in design and innovation — 2 trích dẫn — https://doi.org/10.1007/978-3-031-60863-6_19
 
 ## Quản trị kinh doanh & nhân sự
 
-> ⚠️ Không quét được bằng Gemini: Gemini lỗi trên mọi mô hình: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to
+> ⚠️ Không quét được bằng Gemini: Gemini lỗi trên mọi mô hình: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions 
 
 ### Tín hiệu trắc lượng thư mục (OpenAlex)
 
 > Chỉ dùng để nhận diện độ 'nóng' của chủ đề trong học thuật; không dùng làm cơ sở nội dung lược khảo.
 
-*Từ khoá:* `sales force management` — CAGR thô 2020-2025: **6.0%/năm** · CAGR chuẩn hoá theo tổng CSDL: **+0.9%/năm** (>0 = chủ đề tăng nhanh hơn mặt bằng chung)
+*Từ khoá:* `"sales force management" OR "salesperson performance"` — CAGR thô 2020-2025: **-1.7%/năm** · CAGR chuẩn hoá theo tổng CSDL: **-6.4%/năm** (>0 = chủ đề tăng nhanh hơn mặt bằng chung)
 
 | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 | 2026 |
 |---|---|---|---|---|---|---|
-| 21353 | 21868 | 23317 | 29668 | 29306 | 28523 | 19252 |
+| 48 | 35 | 35 | 29 | 32 | 44 | 35 |
 
-*Từ khoá:* `AI human resource management` — CAGR thô 2020-2025: **53.1%/năm** · CAGR chuẩn hoá theo tổng CSDL: **+45.8%/năm** (>0 = chủ đề tăng nhanh hơn mặt bằng chung)
-
-| 2020 | 2021 | 2022 | 2023 | 2024 | 2025 | 2026 |
-|---|---|---|---|---|---|---|
-| 17128 | 23446 | 31003 | 52292 | 80144 | 144287 | 131692 |
-
-*Từ khoá:* `employee retention sales` — CAGR thô 2020-2025: **13.8%/năm** · CAGR chuẩn hoá theo tổng CSDL: **+8.4%/năm** (>0 = chủ đề tăng nhanh hơn mặt bằng chung)
+*Từ khoá:* `"artificial intelligence" AND "human resource management"` — CAGR thô 2020-2025: **77.6%/năm** · CAGR chuẩn hoá theo tổng CSDL: **+69.1%/năm** (>0 = chủ đề tăng nhanh hơn mặt bằng chung)
 
 | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 | 2026 |
 |---|---|---|---|---|---|---|
-| 4546 | 4190 | 4739 | 6661 | 7802 | 8687 | 5837 |
+| 74 | 139 | 120 | 320 | 686 | 1306 | 1710 |
+
+*Từ khoá:* `"employee retention" AND sales` — CAGR thô 2020-2025: **2.9%/năm** · CAGR chuẩn hoá theo tổng CSDL: **-2.0%/năm** (>0 = chủ đề tăng nhanh hơn mặt bằng chung)
+
+| 2020 | 2021 | 2022 | 2023 | 2024 | 2025 | 2026 |
+|---|---|---|---|---|---|---|
+| 13 | 10 | 5 | 5 | 6 | 15 | 18 |
 
 **Bài được trích dẫn nhiều nhất 3 năm gần đây** (cần kiểm tra toàn văn, tạp chí, tình trạng rút bài):
 
-- GPT-4 Technical Report (2023) — arXiv (Cornell University) — 2490 trích dẫn — https://doi.org/10.4230/lipics.cosit.2024.11
-- Antimicrobial Resistance: A Growing Serious Threat for Global Public Health (2023) — Healthcare — 1955 trích dẫn — https://doi.org/10.3390/healthcare11131946
-- Sparks of Artificial General Intelligence: Early experiments with GPT-4 (2023) — arXiv (Cornell University) — 1585 trích dẫn — https://doi.org/10.48550/arxiv.2303.12712
-- Global Carbon Budget 2023 (2023) — Earth system science data — 1485 trích dẫn — https://doi.org/10.5194/essd-15-5301-2023
-- Technology Roadmap for Flexible Sensors (2023) — ACS Nano — 1368 trích dẫn — https://doi.org/10.1021/acsnano.2c12606
+- SALES MANAGEMENT ANALYSIS AND DECISION MAKING (2023) — PROCURATIO Jurnal Manajemen & Bisnis — 127 trích dẫn — https://doi.org/10.62394/projmb.v2i1.57
+- A desire for success: Exploring the roles of personal and job resources in determining the outcomes of salesperson social media use (2023) — Industrial Marketing Management — 32 trích dẫn — https://doi.org/10.1016/j.indmarman.2023.06.005
+- Alleviating the negative effects of salesperson depression on performance during a crisis: Examining the role of job resources (2023) — Industrial Marketing Management — 30 trích dẫn — https://doi.org/10.1016/j.indmarman.2023.02.009
+- Sales Force Management (2025) — n/a — 22 trích dẫn — https://doi.org/10.4324/9781032692807
+- How social media use enhances salesperson performance (2023) — Journal of Business and Industrial Marketing — 20 trích dẫn — https://doi.org/10.1108/jbim-02-2022-0082
 
 ## Xu hướng công nghệ, kinh doanh, thời trang
 
-> ⚠️ Không quét được bằng Gemini: Gemini lỗi trên mọi mô hình: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to
+> ⚠️ Không quét được bằng Gemini: Gemini lỗi trên mọi mô hình: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions 
 
 ### Tín hiệu trắc lượng thư mục (OpenAlex)
 
 > Chỉ dùng để nhận diện độ 'nóng' của chủ đề trong học thuật; không dùng làm cơ sở nội dung lược khảo.
 
-*Từ khoá:* `consumer behavior social commerce` — CAGR thô 2020-2025: **23.0%/năm** · CAGR chuẩn hoá theo tổng CSDL: **+17.2%/năm** (>0 = chủ đề tăng nhanh hơn mặt bằng chung)
+*Từ khoá:* `"social commerce" AND "consumer behavior"` — CAGR thô 2020-2025: **67.2%/năm** · CAGR chuẩn hoá theo tổng CSDL: **+59.3%/năm** (>0 = chủ đề tăng nhanh hơn mặt bằng chung)
 
 | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 | 2026 |
 |---|---|---|---|---|---|---|
-| 15003 | 18199 | 23379 | 32288 | 34020 | 42321 | 28584 |
+| 12 | 11 | 15 | 30 | 75 | 157 | 217 |
 
-*Từ khoá:* `sustainable fashion consumption` — CAGR thô 2020-2025: **11.0%/năm** · CAGR chuẩn hoá theo tổng CSDL: **+5.7%/năm** (>0 = chủ đề tăng nhanh hơn mặt bằng chung)
-
-| 2020 | 2021 | 2022 | 2023 | 2024 | 2025 | 2026 |
-|---|---|---|---|---|---|---|
-| 13287 | 13616 | 14445 | 19674 | 19235 | 22411 | 15275 |
-
-*Từ khoá:* `agentic AI business` — CAGR thô 2020-2025: **36.5%/năm** · CAGR chuẩn hoá theo tổng CSDL: **+30.0%/năm** (>0 = chủ đề tăng nhanh hơn mặt bằng chung)
+*Từ khoá:* `"sustainable fashion" AND consumption` — CAGR thô 2020-2025: **42.8%/năm** · CAGR chuẩn hoá theo tổng CSDL: **+36.0%/năm** (>0 = chủ đề tăng nhanh hơn mặt bằng chung)
 
 | 2020 | 2021 | 2022 | 2023 | 2024 | 2025 | 2026 |
 |---|---|---|---|---|---|---|
-| 9729 | 12335 | 15305 | 23599 | 30272 | 46084 | 44909 |
+| 51 | 72 | 82 | 95 | 195 | 303 | 320 |
+
+*Từ khoá:* `"agentic AI"` — CAGR thô 2020-2025: **191.6%/năm** · CAGR chuẩn hoá theo tổng CSDL: **+177.7%/năm** (>0 = chủ đề tăng nhanh hơn mặt bằng chung)
+
+| 2020 | 2021 | 2022 | 2023 | 2024 | 2025 | 2026 |
+|---|---|---|---|---|---|---|
+| 14 | 15 | 21 | 76 | 203 | 2950 | 13071 |
 
 **Bài được trích dẫn nhiều nhất 3 năm gần đây** (cần kiểm tra toàn văn, tạp chí, tình trạng rút bài):
 
-- Generative AI (2023) — Business & Information Systems Engineering — 1384 trích dẫn — https://doi.org/10.1007/s12599-023-00834-7
-- Artificial Intelligence Risk Management Framework (AI RMF 1.0) (2023) — n/a — 1076 trích dẫn — https://doi.org/10.6028/nist.ai.100-1
-- Sustainable Fashion: Exploring the Concept of Greenwashing and New Trends in the Fashion Industry (2024) — International Journal of Innovative Science and Research Technology (IJISRT) — 966 trích dẫn — https://doi.org/10.38124/ijisrt/ijisrt24jul957
-- Metaverse as a disruptive technology revolutionising tourism management and marketing (2023) — Tourism Management — 901 trích dẫn — https://doi.org/10.1016/j.tourman.2023.104724
-- Fake news, disinformation and misinformation in social media: a review (2023) — Social Network Analysis and Mining — 764 trích dẫn — https://doi.org/10.1007/s13278-023-01028-5
+- Social commerce and buying intention post COVID-19: Evidence from a hybrid approach based on SEM – fsQCA (2023) — Journal of Retailing and Consumer Services — 89 trích dẫn — https://doi.org/10.1016/j.jretconser.2023.103548
+- The effects of trust and platform innovation characteristics on consumer behaviors in social commerce: A social influence perspective (2023) — Electronic Commerce Research and Applications — 65 trích dẫn — https://doi.org/10.1016/j.elerap.2023.101284
+- Developing trends in showrooming, webrooming, and omnichannel shopping behaviors: Performance analysis, conceptual mapping, and future directions (2023) — Journal of Consumer Behaviour — 59 trích dẫn — https://doi.org/10.1002/cb.2186
+- The role of online interaction in user stickiness of social commerce: The shopping value perspective (2023) — Digital Business — 52 trích dẫn — https://doi.org/10.1016/j.digbus.2023.100061
+- Beyond likes and comments: How social proof influences consumer impulse buying on short-form video platforms (2024) — Journal of Retailing and Consumer Services — 44 trích dẫn — https://doi.org/10.1016/j.jretconser.2024.104199
 
 ---
 *Báo cáo tự động. Mọi số liệu cần đối chiếu nguồn gốc trước khi đưa vào luận án/tài liệu chính thức.*

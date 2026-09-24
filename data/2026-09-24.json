@@ -1,381 +1,381 @@
 {
   "digital-banking": {
-    "gemini_error": "Gemini lỗi trên mọi mô hình: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to",
+    "gemini_error": "Gemini lỗi trên mọi mô hình: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions ",
     "growth": [
       {
-        "query": "digital banking customer experience",
+        "query": "\"digital banking\" AND \"customer experience\"",
         "series": {
-          "2020": 6942,
-          "2021": 8557,
-          "2022": 11226,
-          "2023": 17485,
-          "2024": 20930,
-          "2025": 26072,
-          "2026": 17371
+          "2020": 10,
+          "2021": 17,
+          "2022": 23,
+          "2023": 44,
+          "2024": 80,
+          "2025": 190,
+          "2026": 233
         },
-        "cagr": 0.3029805941438912,
-        "rel_cagr": 0.24088010266714277,
+        "cagr": 0.8019831273171423,
+        "rel_cagr": 0.7161000079966064,
         "cagr_window": "2020-2025",
         "note": "Năm 2026 chưa trọn vẹn, không đưa vào CAGR."
       },
       {
-        "query": "mobile banking continuance intention",
+        "query": "\"mobile banking\" AND \"continuance intention\"",
         "series": {
-          "2020": 646,
-          "2021": 917,
-          "2022": 1249,
-          "2023": 1618,
-          "2024": 1675,
-          "2025": 1860,
-          "2026": 1400
+          "2020": 5,
+          "2021": 10,
+          "2022": 9,
+          "2023": 17,
+          "2024": 17,
+          "2025": 24,
+          "2026": 32
         },
-        "cagr": 0.23553793801645684,
-        "rel_cagr": 0.17665178611685528,
+        "cagr": 0.36851085783726334,
+        "rel_cagr": 0.30328717204722344,
         "cagr_window": "2020-2025",
         "note": "Năm 2026 chưa trọn vẹn, không đưa vào CAGR."
       },
       {
-        "query": "generative AI banking",
+        "query": "\"generative AI\" AND banking",
         "series": {
-          "2020": 288,
-          "2021": 467,
-          "2022": 793,
-          "2023": 1854,
-          "2024": 4027,
-          "2025": 7779,
-          "2026": 8743
+          "2020": 4,
+          "2021": 2,
+          "2022": 1,
+          "2023": 22,
+          "2024": 79,
+          "2025": 150,
+          "2026": 247
         },
-        "cagr": 0.9333311871990011,
-        "rel_cagr": 0.8411879753568725,
+        "cagr": 1.064458958666684,
+        "rel_cagr": 0.9660661533225552,
         "cagr_window": "2020-2025",
         "note": "Năm 2026 chưa trọn vẹn, không đưa vào CAGR."
       }
     ],
     "top_cited": [
       {
-        "title": "Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on opportunities, challenges and implications of generative conversational AI for research, practice and policy",
-        "year": 2023,
-        "cited_by": 4372,
-        "doi": "https://doi.org/10.1016/j.ijinfomgt.2023.102642",
-        "source": "International Journal of Information Management",
-        "openalex": "https://openalex.org/W4360620450"
-      },
-      {
-        "title": "Beyond Mobile Payments: Exploring the Evolution and Future of Fintech (BY IJISRT)",
+        "title": "Impacts of digitization on operational efficiency in the banking sector: Thematic analysis and research agenda proposal",
         "year": 2024,
-        "cited_by": 1633,
-        "doi": "https://doi.org/10.38124/ijisrt/ijisrt24apr259",
-        "source": "International Journal of Innovative Science and Research Technology (IJISRT)",
-        "openalex": "https://openalex.org/W4395010520"
+        "cited_by": 109,
+        "doi": "https://doi.org/10.1016/j.jjimei.2024.100230",
+        "source": "International Journal of Information Management Data Insights",
+        "openalex": "https://openalex.org/W4393333713"
       },
       {
-        "title": "The 2023 report of the Lancet Countdown on health and climate change: the imperative for a health-centred response in a world facing irreversible harms",
-        "year": 2023,
-        "cited_by": 1254,
-        "doi": "https://doi.org/10.1016/s0140-6736(23)01859-7",
-        "source": "The Lancet",
-        "openalex": "https://openalex.org/W4388673199"
-      },
-      {
-        "title": "Metaverse as a disruptive technology revolutionising tourism management and marketing",
-        "year": 2023,
-        "cited_by": 901,
-        "doi": "https://doi.org/10.1016/j.tourman.2023.104724",
-        "source": "Tourism Management",
-        "openalex": "https://openalex.org/W4320527588"
-      },
-      {
-        "title": "Cyberfraud in the Nigerian Banking Sector: The Techniques and Preventive Measures",
+        "title": "Continuous intention usage of artificial intelligence enabled digital banks: a review of expectation confirmation model",
         "year": 2024,
-        "cited_by": 739,
-        "doi": "https://doi.org/10.38124/ijisrt/ijisrt24aug395",
-        "source": "International Journal of Innovative Science and Research Technology (IJISRT)",
-        "openalex": "https://openalex.org/W4401666902"
+        "cited_by": 57,
+        "doi": "https://doi.org/10.1108/jeim-11-2023-0617",
+        "source": "Journal of Enterprise Information Management",
+        "openalex": "https://openalex.org/W4401035822"
+      },
+      {
+        "title": "Green Finance and Fintech Adoption Services among Croatian Online Users: How Digital Transformation and Digital Awareness Increase Banking Sustainability",
+        "year": 2024,
+        "cited_by": 44,
+        "doi": "https://doi.org/10.3390/economies12030054",
+        "source": "Economies",
+        "openalex": "https://openalex.org/W4392058746"
+      },
+      {
+        "title": "Augmented reality is the new digital banking – AR brand experience impact on brand loyalty",
+        "year": 2024,
+        "cited_by": 30,
+        "doi": "https://doi.org/10.1108/ijbm-11-2022-0522",
+        "source": "International Journal of Bank Marketing",
+        "openalex": "https://openalex.org/W4390696014"
+      },
+      {
+        "title": "Unraveling Digital Transformation in Banking: Evidence from Romania",
+        "year": 2023,
+        "cited_by": 30,
+        "doi": "https://doi.org/10.3390/systems11110534",
+        "source": "Systems",
+        "openalex": "https://openalex.org/W4388221482"
       }
     ]
   },
   "life-insurance": {
-    "gemini_error": "Gemini lỗi trên mọi mô hình: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to",
+    "gemini_error": "Gemini lỗi trên mọi mô hình: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions ",
     "growth": [
       {
-        "query": "life insurance purchase intention",
+        "query": "\"life insurance\" AND \"purchase intention\"",
         "series": {
-          "2020": 4217,
-          "2021": 3815,
-          "2022": 4024,
-          "2023": 5309,
-          "2024": 4829,
-          "2025": 4328,
-          "2026": 2857
+          "2020": 12,
+          "2021": 4,
+          "2022": 3,
+          "2023": 4,
+          "2024": 11,
+          "2025": 18,
+          "2026": 11
         },
-        "cagr": 0.005209837607467183,
-        "rel_cagr": -0.04269879989123726,
+        "cagr": 0.08447177119769855,
+        "rel_cagr": 0.03278548339977028,
         "cagr_window": "2020-2025",
         "note": "Năm 2026 chưa trọn vẹn, không đưa vào CAGR."
       },
       {
         "query": "insurtech",
         "series": {
-          "2020": 482,
-          "2021": 396,
-          "2022": 463,
-          "2023": 670,
-          "2024": 767,
-          "2025": 1217,
-          "2026": 975
+          "2020": 206,
+          "2021": 86,
+          "2022": 76,
+          "2023": 120,
+          "2024": 147,
+          "2025": 257,
+          "2026": 265
         },
-        "cagr": 0.20350724213887728,
-        "rel_cagr": 0.146147683931676,
+        "cagr": 0.04523316321368265,
+        "rel_cagr": -0.004582999386969044,
         "cagr_window": "2020-2025",
         "note": "Năm 2026 chưa trọn vẹn, không đưa vào CAGR."
       },
       {
-        "query": "insurance agent performance",
+        "query": "\"insurance agent\" AND performance",
         "series": {
-          "2020": 12841,
-          "2021": 12882,
-          "2022": 13669,
-          "2023": 17346,
-          "2024": 16953,
-          "2025": 18503,
-          "2026": 14716
+          "2020": 9,
+          "2021": 13,
+          "2022": 5,
+          "2023": 21,
+          "2024": 14,
+          "2025": 18,
+          "2026": 11
         },
-        "cagr": 0.07579286746220348,
-        "rel_cagr": 0.024520219122817988,
+        "cagr": 0.1486983549970351,
+        "rel_cagr": 0.09395100670615908,
         "cagr_window": "2020-2025",
         "note": "Năm 2026 chưa trọn vẹn, không đưa vào CAGR."
       }
     ],
     "top_cited": [
       {
-        "title": "The Lancet Commission on prostate cancer: planning for the surge in cases",
+        "title": "Determinants of Online Purchase Intention Toward Life Insurance in Malaysia: Moderating Role of Trust",
+        "year": 2023,
+        "cited_by": 7,
+        "doi": "https://doi.org/10.1177/22786821231189377",
+        "source": "Jindal Journal of Business Research",
+        "openalex": "https://openalex.org/W4386249735"
+      },
+      {
+        "title": "The impact of enterprise brand equity on customer purchase intention through brand preference",
+        "year": 2025,
+        "cited_by": 3,
+        "doi": "https://doi.org/10.21833/ijaas.2025.08.019",
+        "source": "International Journal of ADVANCED AND APPLIED SCIENCES",
+        "openalex": "https://openalex.org/W7128238068"
+      },
+      {
+        "title": "Exploring the mediating role of risk aversion in the relationship between personality traits and life insurance purchase intention",
+        "year": 2025,
+        "cited_by": 3,
+        "doi": "https://doi.org/10.1504/ijbex.2025.146552",
+        "source": "International Journal of Business Excellence",
+        "openalex": "https://openalex.org/W4411032837"
+      },
+      {
+        "title": "Determinants of Life Insurance Purchase Intention using Structured Equation Modelling with Focus on Saving Motive and Financial Literacy",
         "year": 2024,
-        "cited_by": 724,
-        "doi": "https://doi.org/10.1016/s0140-6736(24)00651-2",
-        "source": "The Lancet",
-        "openalex": "https://openalex.org/W4393926609"
+        "cited_by": 3,
+        "doi": "https://doi.org/10.21863/ijbri/2024.12.2.009",
+        "source": "International Journal of Banking Risk and Insurance",
+        "openalex": "https://openalex.org/W4399410915"
       },
       {
-        "title": "9. Pharmacologic Approaches to Glycemic Treatment: Standards of Care in Diabetes—2025",
+        "title": "Predictors of Life Insurance Purchase Intention Among Filipino Adults: A Structural Equation Modeling Approach",
         "year": 2024,
-        "cited_by": 705,
-        "doi": "https://doi.org/10.2337/dc25-s009",
-        "source": "Diabetes Care",
-        "openalex": "https://openalex.org/W4405187712"
-      },
-      {
-        "title": "Metaverse for Healthcare: A Survey on Potential Applications, Challenges and Future Directions",
-        "year": 2023,
-        "cited_by": 510,
-        "doi": "https://doi.org/10.1109/access.2023.3241628",
-        "source": "IEEE Access",
-        "openalex": "https://openalex.org/W4319986951"
-      },
-      {
-        "title": "Six Human-Centered Artificial Intelligence Grand Challenges",
-        "year": 2023,
-        "cited_by": 496,
-        "doi": "https://doi.org/10.1080/10447318.2022.2153320",
-        "source": "International Journal of Human-Computer Interaction",
-        "openalex": "https://openalex.org/W4313527987"
-      },
-      {
-        "title": "Patient Satisfaction with Healthcare Services and the Techniques Used for its Assessment: A Systematic Literature Review and a Bibliometric Analysis",
-        "year": 2023,
-        "cited_by": 408,
-        "doi": "https://doi.org/10.3390/healthcare11050639",
-        "source": "Healthcare",
-        "openalex": "https://openalex.org/W4321495698"
+        "cited_by": 2,
+        "doi": "https://doi.org/10.1007/978-3-031-60863-6_19",
+        "source": "Springer series in design and innovation",
+        "openalex": "https://openalex.org/W4399192402"
       }
     ]
   },
   "management-hr": {
-    "gemini_error": "Gemini lỗi trên mọi mô hình: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to",
+    "gemini_error": "Gemini lỗi trên mọi mô hình: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions ",
     "growth": [
       {
-        "query": "sales force management",
+        "query": "\"sales force management\" OR \"salesperson performance\"",
         "series": {
-          "2020": 21353,
-          "2021": 21868,
-          "2022": 23317,
-          "2023": 29668,
-          "2024": 29306,
-          "2025": 28523,
-          "2026": 19252
+          "2020": 48,
+          "2021": 35,
+          "2022": 35,
+          "2023": 29,
+          "2024": 32,
+          "2025": 44,
+          "2026": 35
         },
-        "cagr": 0.05961295734489336,
-        "rel_cagr": 0.009111448940247069,
+        "cagr": -0.017251730343853966,
+        "rel_cagr": -0.06408984199176315,
         "cagr_window": "2020-2025",
         "note": "Năm 2026 chưa trọn vẹn, không đưa vào CAGR."
       },
       {
-        "query": "AI human resource management",
+        "query": "\"artificial intelligence\" AND \"human resource management\"",
         "series": {
-          "2020": 17128,
-          "2021": 23446,
-          "2022": 31003,
-          "2023": 52292,
-          "2024": 80144,
-          "2025": 144287,
-          "2026": 131692
+          "2020": 74,
+          "2021": 139,
+          "2022": 120,
+          "2023": 320,
+          "2024": 686,
+          "2025": 1306,
+          "2026": 1710
         },
-        "cagr": 0.531454540820361,
-        "rel_cagr": 0.4584649045305518,
+        "cagr": 0.7755883687016449,
+        "rel_cagr": 0.6909632324161592,
         "cagr_window": "2020-2025",
         "note": "Năm 2026 chưa trọn vẹn, không đưa vào CAGR."
       },
       {
-        "query": "employee retention sales",
+        "query": "\"employee retention\" AND sales",
         "series": {
-          "2020": 4546,
-          "2021": 4190,
-          "2022": 4739,
-          "2023": 6661,
-          "2024": 7802,
-          "2025": 8687,
-          "2026": 5837
+          "2020": 13,
+          "2021": 10,
+          "2022": 5,
+          "2023": 5,
+          "2024": 6,
+          "2025": 15,
+          "2026": 18
         },
-        "cagr": 0.13827730778365077,
-        "rel_cagr": 0.08402663009290667,
+        "cagr": 0.029033661071187877,
+        "rel_cagr": -0.02001042783224316,
         "cagr_window": "2020-2025",
         "note": "Năm 2026 chưa trọn vẹn, không đưa vào CAGR."
       }
     ],
     "top_cited": [
       {
-        "title": "GPT-4 Technical Report",
+        "title": "SALES MANAGEMENT ANALYSIS AND DECISION MAKING",
         "year": 2023,
-        "cited_by": 2490,
-        "doi": "https://doi.org/10.4230/lipics.cosit.2024.11",
-        "source": "arXiv (Cornell University)",
-        "openalex": "https://openalex.org/W4327810158"
+        "cited_by": 127,
+        "doi": "https://doi.org/10.62394/projmb.v2i1.57",
+        "source": "PROCURATIO Jurnal Manajemen & Bisnis",
+        "openalex": "https://openalex.org/W4400084901"
       },
       {
-        "title": "Antimicrobial Resistance: A Growing Serious Threat for Global Public Health",
+        "title": "A desire for success: Exploring the roles of personal and job resources in determining the outcomes of salesperson social media use",
         "year": 2023,
-        "cited_by": 1955,
-        "doi": "https://doi.org/10.3390/healthcare11131946",
-        "source": "Healthcare",
-        "openalex": "https://openalex.org/W4383273076"
+        "cited_by": 32,
+        "doi": "https://doi.org/10.1016/j.indmarman.2023.06.005",
+        "source": "Industrial Marketing Management",
+        "openalex": "https://openalex.org/W4381429929"
       },
       {
-        "title": "Sparks of Artificial General Intelligence: Early experiments with GPT-4",
+        "title": "Alleviating the negative effects of salesperson depression on performance during a crisis: Examining the role of job resources",
         "year": 2023,
-        "cited_by": 1585,
-        "doi": "https://doi.org/10.48550/arxiv.2303.12712",
-        "source": "arXiv (Cornell University)",
-        "openalex": "https://openalex.org/W4360836968"
+        "cited_by": 30,
+        "doi": "https://doi.org/10.1016/j.indmarman.2023.02.009",
+        "source": "Industrial Marketing Management",
+        "openalex": "https://openalex.org/W4365816771"
       },
       {
-        "title": "Global Carbon Budget 2023",
-        "year": 2023,
-        "cited_by": 1485,
-        "doi": "https://doi.org/10.5194/essd-15-5301-2023",
-        "source": "Earth system science data",
-        "openalex": "https://openalex.org/W4389195056"
+        "title": "Sales Force Management",
+        "year": 2025,
+        "cited_by": 22,
+        "doi": "https://doi.org/10.4324/9781032692807",
+        "source": null,
+        "openalex": "https://openalex.org/W4407767003"
       },
       {
-        "title": "Technology Roadmap for Flexible Sensors",
+        "title": "How social media use enhances salesperson performance",
         "year": 2023,
-        "cited_by": 1368,
-        "doi": "https://doi.org/10.1021/acsnano.2c12606",
-        "source": "ACS Nano",
-        "openalex": "https://openalex.org/W4323653529"
+        "cited_by": 20,
+        "doi": "https://doi.org/10.1108/jbim-02-2022-0082",
+        "source": "Journal of Business and Industrial Marketing",
+        "openalex": "https://openalex.org/W4320475210"
       }
     ]
   },
   "tech-business-fashion": {
-    "gemini_error": "Gemini lỗi trên mọi mô hình: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to",
+    "gemini_error": "Gemini lỗi trên mọi mô hình: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions ",
     "growth": [
       {
-        "query": "consumer behavior social commerce",
+        "query": "\"social commerce\" AND \"consumer behavior\"",
         "series": {
-          "2020": 15003,
-          "2021": 18199,
-          "2022": 23379,
-          "2023": 32288,
-          "2024": 34020,
-          "2025": 42321,
-          "2026": 28584
+          "2020": 12,
+          "2021": 11,
+          "2022": 15,
+          "2023": 30,
+          "2024": 75,
+          "2025": 157,
+          "2026": 217
         },
-        "cagr": 0.23048284237480177,
-        "rel_cagr": 0.17183761802640074,
+        "cagr": 0.6724135642421625,
+        "rel_cagr": 0.5927057736897965,
         "cagr_window": "2020-2025",
         "note": "Năm 2026 chưa trọn vẹn, không đưa vào CAGR."
       },
       {
-        "query": "sustainable fashion consumption",
+        "query": "\"sustainable fashion\" AND consumption",
         "series": {
-          "2020": 13287,
-          "2021": 13616,
-          "2022": 14445,
-          "2023": 19674,
-          "2024": 19235,
-          "2025": 22411,
-          "2026": 15275
+          "2020": 51,
+          "2021": 72,
+          "2022": 82,
+          "2023": 95,
+          "2024": 195,
+          "2025": 303,
+          "2026": 320
         },
-        "cagr": 0.11021441043948887,
-        "rel_cagr": 0.05730121983425196,
+        "cagr": 0.4281521909827728,
+        "rel_cagr": 0.36008597928151787,
         "cagr_window": "2020-2025",
         "note": "Năm 2026 chưa trọn vẹn, không đưa vào CAGR."
       },
       {
-        "query": "agentic AI business",
+        "query": "\"agentic AI\"",
         "series": {
-          "2020": 9729,
-          "2021": 12335,
-          "2022": 15305,
-          "2023": 23599,
-          "2024": 30272,
-          "2025": 46084,
-          "2026": 44909
+          "2020": 14,
+          "2021": 15,
+          "2022": 21,
+          "2023": 76,
+          "2024": 203,
+          "2025": 2950,
+          "2026": 13071
         },
-        "cagr": 0.3648860433635106,
-        "rel_cagr": 0.29983511744521696,
+        "cagr": 1.9156728717195923,
+        "rel_cagr": 1.7767109262132776,
         "cagr_window": "2020-2025",
         "note": "Năm 2026 chưa trọn vẹn, không đưa vào CAGR."
       }
     ],
     "top_cited": [
       {
-        "title": "Generative AI",
+        "title": "Social commerce and buying intention post COVID-19: Evidence from a hybrid approach based on SEM – fsQCA",
         "year": 2023,
-        "cited_by": 1384,
-        "doi": "https://doi.org/10.1007/s12599-023-00834-7",
-        "source": "Business & Information Systems Engineering",
-        "openalex": "https://openalex.org/W4386693657"
+        "cited_by": 89,
+        "doi": "https://doi.org/10.1016/j.jretconser.2023.103548",
+        "source": "Journal of Retailing and Consumer Services",
+        "openalex": "https://openalex.org/W4386468616"
       },
       {
-        "title": "Artificial Intelligence Risk Management Framework (AI RMF 1.0)",
+        "title": "The effects of trust and platform innovation characteristics on consumer behaviors in social commerce: A social influence perspective",
         "year": 2023,
-        "cited_by": 1076,
-        "doi": "https://doi.org/10.6028/nist.ai.100-1",
-        "source": null,
-        "openalex": "https://openalex.org/W4317748910"
+        "cited_by": 65,
+        "doi": "https://doi.org/10.1016/j.elerap.2023.101284",
+        "source": "Electronic Commerce Research and Applications",
+        "openalex": "https://openalex.org/W4380757864"
       },
       {
-        "title": "Sustainable Fashion: Exploring the Concept of Greenwashing and New Trends in the Fashion Industry",
+        "title": "Developing trends in showrooming, webrooming, and omnichannel shopping behaviors: Performance analysis, conceptual mapping, and future directions",
+        "year": 2023,
+        "cited_by": 59,
+        "doi": "https://doi.org/10.1002/cb.2186",
+        "source": "Journal of Consumer Behaviour",
+        "openalex": "https://openalex.org/W4378905635"
+      },
+      {
+        "title": "The role of online interaction in user stickiness of social commerce: The shopping value perspective",
+        "year": 2023,
+        "cited_by": 52,
+        "doi": "https://doi.org/10.1016/j.digbus.2023.100061",
+        "source": "Digital Business",
+        "openalex": "https://openalex.org/W4367856182"
+      },
+      {
+        "title": "Beyond likes and comments: How social proof influences consumer impulse buying on short-form video platforms",
         "year": 2024,
-        "cited_by": 966,
-        "doi": "https://doi.org/10.38124/ijisrt/ijisrt24jul957",
-        "source": "International Journal of Innovative Science and Research Technology (IJISRT)",
-        "openalex": "https://openalex.org/W4401226312"
-      },
-      {
-        "title": "Metaverse as a disruptive technology revolutionising tourism management and marketing",
-        "year": 2023,
-        "cited_by": 901,
-        "doi": "https://doi.org/10.1016/j.tourman.2023.104724",
-        "source": "Tourism Management",
-        "openalex": "https://openalex.org/W4320527588"
-      },
-      {
-        "title": "Fake news, disinformation and misinformation in social media: a review",
-        "year": 2023,
-        "cited_by": 764,
-        "doi": "https://doi.org/10.1007/s13278-023-01028-5",
-        "source": "Social Network Analysis and Mining",
-        "openalex": "https://openalex.org/W4319983294"
+        "cited_by": 44,
+        "doi": "https://doi.org/10.1016/j.jretconser.2024.104199",
+        "source": "Journal of Retailing and Consumer Services",
+        "openalex": "https://openalex.org/W4405411743"
       }
     ]
   }
