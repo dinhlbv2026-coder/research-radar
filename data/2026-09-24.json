@@ -1,0 +1,382 @@
+{
+  "digital-banking": {
+    "gemini_error": "Gemini lỗi trên mọi mô hình: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to",
+    "growth": [
+      {
+        "query": "digital banking customer experience",
+        "series": {
+          "2020": 6942,
+          "2021": 8557,
+          "2022": 11226,
+          "2023": 17485,
+          "2024": 20930,
+          "2025": 26072,
+          "2026": 17371
+        },
+        "cagr": 0.3029805941438912,
+        "rel_cagr": 0.24088010266714277,
+        "cagr_window": "2020-2025",
+        "note": "Năm 2026 chưa trọn vẹn, không đưa vào CAGR."
+      },
+      {
+        "query": "mobile banking continuance intention",
+        "series": {
+          "2020": 646,
+          "2021": 917,
+          "2022": 1249,
+          "2023": 1618,
+          "2024": 1675,
+          "2025": 1860,
+          "2026": 1400
+        },
+        "cagr": 0.23553793801645684,
+        "rel_cagr": 0.17665178611685528,
+        "cagr_window": "2020-2025",
+        "note": "Năm 2026 chưa trọn vẹn, không đưa vào CAGR."
+      },
+      {
+        "query": "generative AI banking",
+        "series": {
+          "2020": 288,
+          "2021": 467,
+          "2022": 793,
+          "2023": 1854,
+          "2024": 4027,
+          "2025": 7779,
+          "2026": 8743
+        },
+        "cagr": 0.9333311871990011,
+        "rel_cagr": 0.8411879753568725,
+        "cagr_window": "2020-2025",
+        "note": "Năm 2026 chưa trọn vẹn, không đưa vào CAGR."
+      }
+    ],
+    "top_cited": [
+      {
+        "title": "Opinion Paper: “So what if ChatGPT wrote it?” Multidisciplinary perspectives on opportunities, challenges and implications of generative conversational AI for research, practice and policy",
+        "year": 2023,
+        "cited_by": 4372,
+        "doi": "https://doi.org/10.1016/j.ijinfomgt.2023.102642",
+        "source": "International Journal of Information Management",
+        "openalex": "https://openalex.org/W4360620450"
+      },
+      {
+        "title": "Beyond Mobile Payments: Exploring the Evolution and Future of Fintech (BY IJISRT)",
+        "year": 2024,
+        "cited_by": 1633,
+        "doi": "https://doi.org/10.38124/ijisrt/ijisrt24apr259",
+        "source": "International Journal of Innovative Science and Research Technology (IJISRT)",
+        "openalex": "https://openalex.org/W4395010520"
+      },
+      {
+        "title": "The 2023 report of the Lancet Countdown on health and climate change: the imperative for a health-centred response in a world facing irreversible harms",
+        "year": 2023,
+        "cited_by": 1254,
+        "doi": "https://doi.org/10.1016/s0140-6736(23)01859-7",
+        "source": "The Lancet",
+        "openalex": "https://openalex.org/W4388673199"
+      },
+      {
+        "title": "Metaverse as a disruptive technology revolutionising tourism management and marketing",
+        "year": 2023,
+        "cited_by": 901,
+        "doi": "https://doi.org/10.1016/j.tourman.2023.104724",
+        "source": "Tourism Management",
+        "openalex": "https://openalex.org/W4320527588"
+      },
+      {
+        "title": "Cyberfraud in the Nigerian Banking Sector: The Techniques and Preventive Measures",
+        "year": 2024,
+        "cited_by": 739,
+        "doi": "https://doi.org/10.38124/ijisrt/ijisrt24aug395",
+        "source": "International Journal of Innovative Science and Research Technology (IJISRT)",
+        "openalex": "https://openalex.org/W4401666902"
+      }
+    ]
+  },
+  "life-insurance": {
+    "gemini_error": "Gemini lỗi trên mọi mô hình: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to",
+    "growth": [
+      {
+        "query": "life insurance purchase intention",
+        "series": {
+          "2020": 4217,
+          "2021": 3815,
+          "2022": 4024,
+          "2023": 5309,
+          "2024": 4829,
+          "2025": 4328,
+          "2026": 2857
+        },
+        "cagr": 0.005209837607467183,
+        "rel_cagr": -0.04269879989123726,
+        "cagr_window": "2020-2025",
+        "note": "Năm 2026 chưa trọn vẹn, không đưa vào CAGR."
+      },
+      {
+        "query": "insurtech",
+        "series": {
+          "2020": 482,
+          "2021": 396,
+          "2022": 463,
+          "2023": 670,
+          "2024": 767,
+          "2025": 1217,
+          "2026": 975
+        },
+        "cagr": 0.20350724213887728,
+        "rel_cagr": 0.146147683931676,
+        "cagr_window": "2020-2025",
+        "note": "Năm 2026 chưa trọn vẹn, không đưa vào CAGR."
+      },
+      {
+        "query": "insurance agent performance",
+        "series": {
+          "2020": 12841,
+          "2021": 12882,
+          "2022": 13669,
+          "2023": 17346,
+          "2024": 16953,
+          "2025": 18503,
+          "2026": 14716
+        },
+        "cagr": 0.07579286746220348,
+        "rel_cagr": 0.024520219122817988,
+        "cagr_window": "2020-2025",
+        "note": "Năm 2026 chưa trọn vẹn, không đưa vào CAGR."
+      }
+    ],
+    "top_cited": [
+      {
+        "title": "The Lancet Commission on prostate cancer: planning for the surge in cases",
+        "year": 2024,
+        "cited_by": 724,
+        "doi": "https://doi.org/10.1016/s0140-6736(24)00651-2",
+        "source": "The Lancet",
+        "openalex": "https://openalex.org/W4393926609"
+      },
+      {
+        "title": "9. Pharmacologic Approaches to Glycemic Treatment: Standards of Care in Diabetes—2025",
+        "year": 2024,
+        "cited_by": 705,
+        "doi": "https://doi.org/10.2337/dc25-s009",
+        "source": "Diabetes Care",
+        "openalex": "https://openalex.org/W4405187712"
+      },
+      {
+        "title": "Metaverse for Healthcare: A Survey on Potential Applications, Challenges and Future Directions",
+        "year": 2023,
+        "cited_by": 510,
+        "doi": "https://doi.org/10.1109/access.2023.3241628",
+        "source": "IEEE Access",
+        "openalex": "https://openalex.org/W4319986951"
+      },
+      {
+        "title": "Six Human-Centered Artificial Intelligence Grand Challenges",
+        "year": 2023,
+        "cited_by": 496,
+        "doi": "https://doi.org/10.1080/10447318.2022.2153320",
+        "source": "International Journal of Human-Computer Interaction",
+        "openalex": "https://openalex.org/W4313527987"
+      },
+      {
+        "title": "Patient Satisfaction with Healthcare Services and the Techniques Used for its Assessment: A Systematic Literature Review and a Bibliometric Analysis",
+        "year": 2023,
+        "cited_by": 408,
+        "doi": "https://doi.org/10.3390/healthcare11050639",
+        "source": "Healthcare",
+        "openalex": "https://openalex.org/W4321495698"
+      }
+    ]
+  },
+  "management-hr": {
+    "gemini_error": "Gemini lỗi trên mọi mô hình: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to",
+    "growth": [
+      {
+        "query": "sales force management",
+        "series": {
+          "2020": 21353,
+          "2021": 21868,
+          "2022": 23317,
+          "2023": 29668,
+          "2024": 29306,
+          "2025": 28523,
+          "2026": 19252
+        },
+        "cagr": 0.05961295734489336,
+        "rel_cagr": 0.009111448940247069,
+        "cagr_window": "2020-2025",
+        "note": "Năm 2026 chưa trọn vẹn, không đưa vào CAGR."
+      },
+      {
+        "query": "AI human resource management",
+        "series": {
+          "2020": 17128,
+          "2021": 23446,
+          "2022": 31003,
+          "2023": 52292,
+          "2024": 80144,
+          "2025": 144287,
+          "2026": 131692
+        },
+        "cagr": 0.531454540820361,
+        "rel_cagr": 0.4584649045305518,
+        "cagr_window": "2020-2025",
+        "note": "Năm 2026 chưa trọn vẹn, không đưa vào CAGR."
+      },
+      {
+        "query": "employee retention sales",
+        "series": {
+          "2020": 4546,
+          "2021": 4190,
+          "2022": 4739,
+          "2023": 6661,
+          "2024": 7802,
+          "2025": 8687,
+          "2026": 5837
+        },
+        "cagr": 0.13827730778365077,
+        "rel_cagr": 0.08402663009290667,
+        "cagr_window": "2020-2025",
+        "note": "Năm 2026 chưa trọn vẹn, không đưa vào CAGR."
+      }
+    ],
+    "top_cited": [
+      {
+        "title": "GPT-4 Technical Report",
+        "year": 2023,
+        "cited_by": 2490,
+        "doi": "https://doi.org/10.4230/lipics.cosit.2024.11",
+        "source": "arXiv (Cornell University)",
+        "openalex": "https://openalex.org/W4327810158"
+      },
+      {
+        "title": "Antimicrobial Resistance: A Growing Serious Threat for Global Public Health",
+        "year": 2023,
+        "cited_by": 1955,
+        "doi": "https://doi.org/10.3390/healthcare11131946",
+        "source": "Healthcare",
+        "openalex": "https://openalex.org/W4383273076"
+      },
+      {
+        "title": "Sparks of Artificial General Intelligence: Early experiments with GPT-4",
+        "year": 2023,
+        "cited_by": 1585,
+        "doi": "https://doi.org/10.48550/arxiv.2303.12712",
+        "source": "arXiv (Cornell University)",
+        "openalex": "https://openalex.org/W4360836968"
+      },
+      {
+        "title": "Global Carbon Budget 2023",
+        "year": 2023,
+        "cited_by": 1485,
+        "doi": "https://doi.org/10.5194/essd-15-5301-2023",
+        "source": "Earth system science data",
+        "openalex": "https://openalex.org/W4389195056"
+      },
+      {
+        "title": "Technology Roadmap for Flexible Sensors",
+        "year": 2023,
+        "cited_by": 1368,
+        "doi": "https://doi.org/10.1021/acsnano.2c12606",
+        "source": "ACS Nano",
+        "openalex": "https://openalex.org/W4323653529"
+      }
+    ]
+  },
+  "tech-business-fashion": {
+    "gemini_error": "Gemini lỗi trên mọi mô hình: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to",
+    "growth": [
+      {
+        "query": "consumer behavior social commerce",
+        "series": {
+          "2020": 15003,
+          "2021": 18199,
+          "2022": 23379,
+          "2023": 32288,
+          "2024": 34020,
+          "2025": 42321,
+          "2026": 28584
+        },
+        "cagr": 0.23048284237480177,
+        "rel_cagr": 0.17183761802640074,
+        "cagr_window": "2020-2025",
+        "note": "Năm 2026 chưa trọn vẹn, không đưa vào CAGR."
+      },
+      {
+        "query": "sustainable fashion consumption",
+        "series": {
+          "2020": 13287,
+          "2021": 13616,
+          "2022": 14445,
+          "2023": 19674,
+          "2024": 19235,
+          "2025": 22411,
+          "2026": 15275
+        },
+        "cagr": 0.11021441043948887,
+        "rel_cagr": 0.05730121983425196,
+        "cagr_window": "2020-2025",
+        "note": "Năm 2026 chưa trọn vẹn, không đưa vào CAGR."
+      },
+      {
+        "query": "agentic AI business",
+        "series": {
+          "2020": 9729,
+          "2021": 12335,
+          "2022": 15305,
+          "2023": 23599,
+          "2024": 30272,
+          "2025": 46084,
+          "2026": 44909
+        },
+        "cagr": 0.3648860433635106,
+        "rel_cagr": 0.29983511744521696,
+        "cagr_window": "2020-2025",
+        "note": "Năm 2026 chưa trọn vẹn, không đưa vào CAGR."
+      }
+    ],
+    "top_cited": [
+      {
+        "title": "Generative AI",
+        "year": 2023,
+        "cited_by": 1384,
+        "doi": "https://doi.org/10.1007/s12599-023-00834-7",
+        "source": "Business & Information Systems Engineering",
+        "openalex": "https://openalex.org/W4386693657"
+      },
+      {
+        "title": "Artificial Intelligence Risk Management Framework (AI RMF 1.0)",
+        "year": 2023,
+        "cited_by": 1076,
+        "doi": "https://doi.org/10.6028/nist.ai.100-1",
+        "source": null,
+        "openalex": "https://openalex.org/W4317748910"
+      },
+      {
+        "title": "Sustainable Fashion: Exploring the Concept of Greenwashing and New Trends in the Fashion Industry",
+        "year": 2024,
+        "cited_by": 966,
+        "doi": "https://doi.org/10.38124/ijisrt/ijisrt24jul957",
+        "source": "International Journal of Innovative Science and Research Technology (IJISRT)",
+        "openalex": "https://openalex.org/W4401226312"
+      },
+      {
+        "title": "Metaverse as a disruptive technology revolutionising tourism management and marketing",
+        "year": 2023,
+        "cited_by": 901,
+        "doi": "https://doi.org/10.1016/j.tourman.2023.104724",
+        "source": "Tourism Management",
+        "openalex": "https://openalex.org/W4320527588"
+      },
+      {
+        "title": "Fake news, disinformation and misinformation in social media: a review",
+        "year": 2023,
+        "cited_by": 764,
+        "doi": "https://doi.org/10.1007/s13278-023-01028-5",
+        "source": "Social Network Analysis and Mining",
+        "openalex": "https://openalex.org/W4319983294"
+      }
+    ]
+  }
+}
