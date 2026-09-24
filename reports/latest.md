@@ -13,7 +13,56 @@ Cửa sổ quét tin: 30 ngày · Thị trường: Việt Nam, đặc biệt Đ�
 
 ## Ngân hàng số / Fintech
 
-> ⚠️ Không quét được bằng Gemini: Gemini lỗi trên mọi mô hình: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions 
+### Các xu hướng nổi bật (5–7 xu hướng)
+
+**1. Dữ liệu và AI là trụ cột chuyển đổi số ngành tài chính** — Mức tín hiệu: Mạnh
+- Diễn biến: Sự kiện Hội thảo và Triển lãm Tài chính số Việt Nam 2026 (VDF-2026) khai mạc sáng 24/9/2026 tập trung thảo luận về dữ liệu và trí tuệ nhân tạo (Vietnam.vn, 24/9/2026). Bộ Tài chính định hướng giai đoạn 2026-2030 phải lấy dữ liệu làm nguồn lực và nền tảng quản trị tài chính công (Báo Công Luận, 24/9/2026; Báo Kiểm toán, 24/9/2026). Các cơ quan báo chí và quản lý nhấn mạnh chuyển đổi số cần vượt ra ngoài phạm vi của một dự án công nghệ thông tin (Báo Dân Việt, 24/9/2026) và hướng tới quản trị dựa trên dữ liệu (Mekong ASEAN, 24/9/2026). Trên thế giới, các ngân hàng và tổ chức tài chính cũng đang đẩy mạnh ứng dụng AI, đơn cử như BNP Paribas mở rộng hợp tác với Google Cloud để hỗ trợ agentic AI (TradingView, 24/9/2026) hay TD Bank hợp tác AI trị giá 25 triệu USD qua Layer 6 (konsulteer.com, 24/9/2026).
+- Bằng chứng định lượng: Chưa tìm thấy nguồn xác nhận cụ thể về giá trị tổng vốn đầu tư toàn ngành.
+- Insight xã hội/khách hàng (diễn giải): Khách hàng ngày càng kỳ vọng các dịch vụ tài chính có độ cá nhân hóa cao nhờ AI, trong khi các tổ chức nhận thức được áp lực phải chuẩn hóa hạ tầng dữ liệu nội bộ để phục vụ các quyết định tự động hóa.
+- Câu hỏi nghiên cứu tiềm năng: Năng lực quản trị dữ liệu (biến độc lập) tác động như thế nào đến mức độ chấp nhận AI trong dịch vụ ngân hàng số của khách hàng (biến phụ thuộc)?
+- Hàm ý kinh doanh: Đội ngũ kinh doanh cần tận dụng các công cụ phân tích dữ liệu khách hàng do ngân hàng cung cấp để tư vấn đúng nhu cầu bảo hiểm vào thời điểm phù hợp.
+
+**2. Tài chính mở và hệ sinh thái bán lẻ mở rộng** — Mức tín hiệu: Mạnh
+- Diễn biến: Tạp chí Công Thương và Thời Báo Ngân Hàng ngày 23/9/2026 ghi nhận tài chính mở đang thúc đẩy đổi mới dịch vụ trong hệ sinh thái ngân hàng số và mở rộng theo hệ sinh thái bán lẻ tại Việt Nam. Đồng thời, ghi nhận các mô hình hợp tác như Điện Máy Xanh mở rộng mảng tài chính (Vietnam.vn, 24/9/2026) và hai doanh nghiệp bắt tay làm dịch vụ tài chính với mục tiêu nhắm doanh số giải ngân tỷ USD (diendandoanhnghiep.vn, 23/9/2026).
+- Bằng chứng định lượng: Mục tiêu doanh số giải ngân tỷ USD từ sự hợp tác giữa hai doanh nghiệp (diendandoanhnghiep.vn, 23/9/2026).
+- Insight xã hội/khách hàng (diễn giải): Người tiêu dùng có xu hướng ưu tiên các điểm chạm mua sắm quen thuộc (như chuỗi bán lẻ điện máy) tích hợp sẵn dịch vụ tài chính thay vì phải đến phòng giao dịch ngân hàng truyền thống.
+- Câu hỏi nghiên cứu tiềm năng: Việc tích hợp dịch vụ tài chính vào hệ sinh thái bán lẻ phi ngân hàng (biến độc lập) ảnh hưởng thế nào đến lòng trung thành thương hiệu của khách hàng (biến phụ thuộc)?
+- Hàm ý kinh doanh: Thiết lập kênh phân phối bảo hiểm lồng ghép trực tiếp tại các điểm bán lẻ ngoài ngân hàng để đón đầu dòng giao dịch của khách hàng.
+
+**3. Thanh toán xuyên biên giới và mã QR phát triển** — Mức tín hiệu: Trung bình
+- Diễn biến: VnEconomy ngày 24/9/2026 thông báo sắp diễn ra Hội thảo “Thúc đẩy thanh toán xuyên biên giới qua mã QR: Động lực mới cho bán lẻ và du lịch”. Tại Indonesia, Bank Indonesia đặt mục tiêu đạt 69,3 triệu người dùng QRIS vào cuối năm trong chiến dịch thanh toán số (InvestorTrust, 24/9/2026).
+- Bằng chứng định lượng: Mục tiêu 69,3 triệu người dùng QRIS tại Indonesia vào cuối năm do Bank Indonesia công bố (InvestorTrust, 24/9/2026).
+- Insight xã hội/khách hàng (diễn giải): Nhu cầu thanh toán nhanh chóng, không dùng tiền mặt và không bị rào cản ngoại tệ khi du lịch, mua sắm quốc tế đang thúc đẩy người dùng tiếp nhận mã QR xuyên biên giới.
+- Câu hỏi nghiên cứu tiềm năng: Sự tiện lợi của mã QR xuyên biên giới (biến độc lập) tác động như thế nào đến tần suất chi tiêu của khách hàng du lịch (biến phụ thuộc)?
+- Hàm ý kinh doanh: Nghiên cứu tích hợp các giải pháp thanh toán phí bảo hiểm qua QR code linh hoạt hỗ trợ đa dạng đối tượng khách hàng di chuyển xuyên biên giới.
+
+**4. Biến động lãi suất huy động và chiến lược kích cầu tiền gửi** — Mức tín hiệu: Mạnh
+- Diễn biến: Báo VietNamNet và Laodong.vn ngày 24/9/2026 đưa tin cảnh báo về lời chào lãi suất 14%/năm và ghi nhận lãi suất tiếp tục tăng, kỳ hạn 12 tháng lên đến 9,6%. Vnexpress.net và Laodong.vn ngày 23/9/2026 cũng cập nhật thêm nhiều ngân hàng trả lãi tiết kiệm trên 9% kèm theo các chương trình tặng nhà, tặng tiền cho khách gửi tiết kiệm. Song song đó, VTVgo ngày 24/9/2026 ghi nhận một số ngân hàng chủ động giảm lãi suất để hỗ trợ tăng trưởng.
+- Bằng chứng định lượng: Lãi suất kỳ hạn 12 tháng lên đến 9,6% (Laodong.vn, 24/9/2026); mức lãi suất tiết kiệm trên 9% (vnexpress.net, 23/9/2026).
+- Insight xã hội/khách hàng (diễn giải): Trong bối cảnh lãi suất biến động mạnh và các chương trình khuyến mại tiết kiệm cạnh tranh cao, người gửi tiền nhạy cảm hơn với lợi ích tài chính ngắn hạn nhưng cũng tỏ ra thận trọng trước các mức lãi suất phi lý (14%/năm).
+- Câu hỏi nghiên cứu tiềm năng: Biến động lãi suất tiết kiệm ngân hàng (biến độc lập) ảnh hưởng thế nào đến quyết định phân bổ dòng vốn sang các sản phẩm tài chính dài hạn như bảo hiểm nhân thọ (biến phụ thuộc)?
+- Hàm ý kinh doanh: Xây dựng các gói sản phẩm bảo hiểm kết hợp tích lũy an toàn để làm đối trọng với sự biến động của lãi suất tiết kiệm ngắn hạn trên thị trường.
+
+**5. Vị thế và thành tựu của các ngân hàng thương mại Việt Nam** — Mức tín hiệu: Trung bình
+- Diễn biến: Vnexpress.net và Baodautu.vn ngày 23-24/9/2026 đưa tin HDBank nhận giải thưởng 'Ngân hàng bán lẻ tốt nhất châu Á 2026', trở thành ngân hàng Việt Nam đầu tiên đạt danh hiệu này. Trong khi đó, Ngân hàng MB lần đầu vượt mốc 10.000 tỷ đồng nộp ngân sách (baoquankhu4.com.vn, 24/9/2026). Agribank đẩy mạnh chuyển đổi số và hiện đại hóa hệ thống (Agribank, 24/9/2026).
+- Bằng chứng định lượng: Ngân hàng MB vượt mốc 10.000 tỷ đồng nộp ngân sách (baoquankhu4.com.vn, 24/9/2026).
+- Insight xã hội/khách hàng (diễn giải): Uy tín và quy mô đóng góp ngân sách của các ngân hàng nội địa tạo ra niềm tin lớn cho người tiêu dùng trong việc tiếp cận các dịch vụ tài chính số phức tạp.
+- Câu hỏi nghiên cứu tiềm năng: Uy tín thương hiệu ngân hàng đạt giải thưởng quốc tế (biến độc lập) tác động ra sao đến mức độ tín nhiệm của khách hàng đối với dịch vụ tài chính số đi kèm (biến phụ thuộc)?
+- Hàm ý kinh doanh: Tăng cường liên kết phân phối bảo hiểm với các ngân hàng thương mại có uy tín hàng đầu và đạt nhiều giải thưởng lớn để củng cố lòng tin khách hàng.
+
+**6. Thách thức năng lực công nghệ và quản trị rủi ro bảo mật** — Mức tín hiệu: Trung bình
+- Diễn biến: VTVgo ngày 24/9/2026 phản ánh chủ đề "Tech Challenge: Khi nhân viên văn phòng đối mặt với câu hỏi công nghệ". Đồng thời, Vietnam.vn ngày 24/9/2026 đưa tin ngân hàng đang hoàn thiện ‘lá chắn’ từ chính sách đến công nghệ.
+- Bằng chứng định lượng: Chưa tìm thấy nguồn xác nhận số liệu cụ thể về tỷ lệ rủi ro công nghệ.
+- Insight xã hội/khách hàng (diễn giải): Nhân sự văn phòng và người dùng đại trà vẫn gặp áp lực và khoảng cách năng lực số khi phải đối mặt với các công nghệ ngân hàng mới, đòi hỏi sự an toàn và hỗ trợ trực quan hơn.
+- Câu hỏi nghiên cứu tiềm năng: Rào cản năng lực công nghệ của người dùng (biến độc lập) tác động như thế nào đến ý định sử dụng các ứng dụng ngân hàng số tự động hóa (biến phụ thuộc)?
+- Hàm ý kinh doanh: Đảm bảo giao diện mua bảo hiểm trực tuyến tích hợp cơ chế hướng dẫn đơn giản, trực quan để giảm bớt lo lắng công nghệ cho khách hàng văn phòng.
+
+---
+
+### Tín hiệu yếu cần theo dõi
+Sự phân hóa trong đầu tư AI giữa các liên minh ngân hàng lớn và tổ chức tín dụng nhỏ (như mô hình Credit Unions đầu tư AI tại Mỹ theo CUTimes, 24/9/2026) hay các tranh luận về đạo đức nghề nghiệp và tương lai việc làm dưới sự chi phối của AI (The Economic Times, 24/9/2026) đang manh nha xuất hiện, có thể tạo áp lực điều chỉnh khung pháp lý công nghệ tài chính tại Việt Nam trong trung hạn.
+
+<sub>Mô hình: gemini-3.5-flash-lite · Số tin đầu vào: 40 · Truy vấn: ngân hàng số; chuyển đổi số ngân hàng; fintech Việt Nam; digital banking Southeast Asia; generative AI banking</sub>
 
 ### Tín hiệu trắc lượng thư mục (OpenAlex)
 
@@ -47,7 +96,48 @@ Cửa sổ quét tin: 30 ngày · Thị trường: Việt Nam, đặc biệt Đ�
 
 ## Bảo hiểm nhân thọ / InsurTech
 
-> ⚠️ Không quét được bằng Gemini: Gemini lỗi trên mọi mô hình: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions 
+### Các xu hướng nổi bật (5–7 xu hướng)
+
+**1. Sức ép từ lạm phát, lãi suất và yếu tố địa chính trị đối với ngành bảo hiểm toàn cầu** — Mức tín hiệu: Trung bình
+- Diễn biến: Theo *thitruongtaichinhtiente.vn* ngày 2026-09-24, thị trường bảo hiểm toàn cầu năm 2026 đang phải đối mặt với áp lực lớn từ lạm phát, lãi suất và các yếu tố địa chính trị.
+- Bằng chứng định lượng: Chưa tìm thấy nguồn xác nhận về số liệu cụ thể.
+- Insight xã hội/khách hàng (diễn giải): Môi trường kinh tế vĩ mô biến động làm gia tăng sự thận trọng của khách hàng khi phân bổ ngân sách cho các sản phẩm tài chính dài hạn như bảo hiểm.
+- Câu hỏi nghiên cứu tiềm năng: Biến động vĩ mô (lạm phát, lãi suất) tác động như thế nào đến quyết định duy trì hợp đồng bảo hiểm nhân thọ của khách hàng cá nhân?
+- Hàm ý kinh doanh: Đội ngũ kinh doanh cần tập trung tư vấn các giải pháp bảo vệ cốt lõi có chi phí hợp lý thay vì các sản phẩm đầu tư phức tạp.
+
+**2. Cải cách khung pháp lý và giới hạn hoa hồng kênh phân phối bancassurance tại thị trường quốc tế** — Mức tín hiệu: Mạnh
+- Diễn biến: Hàng loạt cơ quan và hãng tin quốc tế (như *Reuters*, *TradingView*, *Bloomberg/CNBC TV18*, *Moneycontrol.com*) đưa tin ngày 2026-09-24 về việc cơ quan quản lý bảo hiểm Ấn Độ (IRDAI) đề xuất khung quy định mới thắt chặt việc gộp bảo hiểm vào khoản vay (loan-insurance bundling) và áp trần hoa hồng phân phối. Động thái này gây sụt giảm mạnh giá cổ phiếu tài chính, ngân hàng, NBFC và các công ty InsurTech/fintech (như PB Fintech, IndusInd Bank, IDFC First Bank, AU Small Finance Bank) với giá trị vốn hóa bị xóa sạch hàng trăm nghìn crore (ví dụ: thị trường Ấn Độ mất khoảng 1,12 lakh crore Rs theo *TradingView* và *NiftyTrader* ngày 2026-09-24; PB Fintech sụt giảm trong đợt sụt giảm trị giá 3 tỷ USD theo *Reuters* ngày 2026-09-24), trong khi các hãng như LIC, SBI Life ít chịu ảnh hưởng hơn (*NDTV Profit*, *Business Upturn* ngày 2026-09-24).
+- Bằng chứng định lượng: Vốn hóa thị trường tài chính Ấn Độ bốc hơi 1,12 lakh crore Rs (*TradingView*, *NiftyTrader*, 2026-09-24); cổ phiếu PB Fintech giảm trong đợt suy giảm 3 tỷ USD (*Reuters*, 2026-09-24); hoa hồng bảo hiểm gắn với khoản vay bị đề xuất áp trần dưới 5% (*Business Upturn*, 2026-09-24).
+- Insight xã hội/khách hàng (diễn giải): Khách hàng ngày càng phản ứng tiêu cực với việc bị ép mua bảo hiểm kèm theo các khoản vay ngân hàng, buộc cơ quan quản lý phải can thiệp mạnh mẽ để bảo vệ quyền lợi người tiêu dùng.
+- Câu hỏi nghiên cứu tiềm năng: Sự can thiệp của chính sách quản lý về trần hoa hồng ảnh hưởng thế nào đến hiệu suất hoạt động của kênh phân phối bancassurance?
+- Hàm ý kinh doanh: Đa dạng hóa danh mục kênh phân phối, giảm sự phụ thuộc quá mức vào các thỏa thuận độc quyền với ngân hàng.
+
+**3. Hoạt động M&A và chiến lược mở rộng nền tảng dịch vụ tài chính - bảo hiểm** — Mức tín hiệu: Yếu
+- Diễn biến: *Pulse 2.0* và *citybiz* ngày 2026-09-24 đưa tin Lendistry đã hoàn tất việc thâu tóm Windsor Life Insurance Company nhằm mở rộng nền tảng dịch vụ tài chính.
+- Bằng chứng định lượng: Chưa tìm thấy nguồn xác nhận về giá trị giao dịch.
+- Insight xã hội/khách hàng (diễn giải): Xu hướng tích hợp bảo hiểm vào các hệ sinh thái tài chính rộng lớn hơn giúp đáp ứng nhu cầu tiếp cận dịch vụ liền mạch của khách hàng số.
+- Câu hỏi nghiên cứu tiềm năng: Việc tích hợp bảo hiểm vào các nền tảng tài chính phi ngân hàng (Fintech/Lending) tác động thế nào đến tỷ lệ thâm nhập bảo hiểm?
+- Hàm ý kinh doanh: Thiết lập các liên minh chiến lược với các nền tảng công nghệ tài chính để tiếp cận tập khách hàng mới.
+
+**4. Chuyển dịch chiến lược phân phối và quản trị rủi ro của các công ty môi giới bảo hiểm** — Mức tín hiệu: Yếu
+- Diễn biến: Theo *InsuranceAsia News* ngày 2026-09-24, Miller Malaysia (vừa thành lập) đã bổ nhiệm Vinnisha Chandrasegar làm phó giám đốc phụ trách mảng tái bảo hiểm (treaty).
+- Bằng chứng định lượng: Chưa tìm thấy nguồn xác nhận về số liệu kinh doanh.
+- Insight xã hội/khách hàng (diễn giải): Thị trường môi giới và tái bảo hiểm đang chú trọng tăng cường năng lực nhân sự chuyên môn cao để quản lý các rủi ro phức tạp.
+- Câu hỏi nghiên cứu tiềm năng: Năng lực đội ngũ môi giới tái bảo hiểm tác động như thế nào đến khả năng hấp thụ rủi ro của doanh nghiệp bảo hiểm gốc?
+- Hàm ý kinh doanh: Nâng cao chất lượng đội ngũ chuyên gia quản trị rủi ro và tái bảo hiểm để tối ưu hóa chi phí giữ lại.
+
+**5. Hoạt động phát triển bền vững (ESG) và chiến lược quản trị tích hợp trong ngành tài chính - bảo hiểm** — Mức tín hiệu: Yếu
+- Diễn biến: *TipRanks* ngày 2026-09-24 ghi nhận điểm số ESG của Banco Desio tăng 21 điểm nhờ vào việc thúc đẩy chiến lược phát triển bền vững.
+- Bằng chứng định lượng: Điểm ESG tăng 21 điểm (*TipRanks*, 2026-09-24).
+- Insight xã hội/khách hàng (diễn giải): Khách hàng và nhà đầu tư ngày càng ưu tiên lựa chọn các tổ chức tài chính - bảo hiểm có cam kết mạnh mẽ về phát triển bền vững và trách nhiệm xã hội.
+- Câu hỏi nghiên cứu tiềm năng: Việc cải thiện chỉ số ESG ảnh hưởng như thế nào đến giá trị thương hiệu và lòng trung thành của khách hàng bảo hiểm?
+- Hàm ý kinh doanh: Lồng ghép các tiêu chí ESG vào sản phẩm bảo hiểm và các hoạt động cộng đồng để nâng cao uy tín thương hiệu.
+
+### Tín hiệu yếu cần theo dõi
+- *Asia Insurance Review* (2026-09-24) nhấn mạnh tầm quan trọng của nền tảng dữ liệu vững chắc đối với sự thành công của Trí tuệ nhân tạo (AI) trong ngành bảo hiểm, cùng với việc xác định 18 sân chơi kinh tế có tốc độ tăng trưởng cao tạo ra cơ hội bảo hiểm mới.
+- *InsuranceAsia News* (2026-09-24) cho biết tân Chủ tịch IUMI (Hiệp hội Bảo hiểm Hàng hải Quốc tế) Sean Dalton đặt trọng tâm vào các định hướng về đa dạng, hòa nhập, giáo dục, AI và phát triển bền vững.
+
+<sub>Mô hình: gemini-3.5-flash-lite · Số tin đầu vào: 40 · Truy vấn: bảo hiểm nhân thọ; thị trường bảo hiểm; bancassurance; insurtech Asia; life insurance distribution</sub>
 
 ### Tín hiệu trắc lượng thư mục (OpenAlex)
 
@@ -81,7 +171,86 @@ Cửa sổ quét tin: 30 ngày · Thị trường: Việt Nam, đặc biệt Đ�
 
 ## Quản trị kinh doanh & nhân sự
 
-> ⚠️ Không quét được bằng Gemini: Gemini lỗi trên mọi mô hình: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions 
+### Các xu hướng nổi bật (5–7 xu hướng)
+
+**1. Biến động nhân sự cấp cao và tái cấu trúc sở hữu tại các doanh nghiệp lớn** — Mức tín hiệu: Mạnh
+- Diễn biến: Hàng không Việt Nam ghi nhận biến động nhân sự cấp cao ([4], 24/09/2026, Báo Dân trí). Dịch vụ Hàng không Taseco (AST) có hai sếp ngoại rời Hội đồng quản trị sau thương vụ đổi chủ nghìn tỷ và nhà đầu tư Nhật thâu tóm vốn ([5], [7], 24/09/2026, Báo Pháp Luật Việt Nam & Cộng đồng Kinh doanh Việt Nam). Ford Việt Nam công bố nữ Tổng giám đốc mới nhậm chức từ tháng 12/2026 ([12], 24/09/2026, Baodautu.vn).
+- Bằng chứng định lượng: Chưa tìm thấy nguồn xác nhận (ngoài thông tin định tính về thời điểm và sự kiện đổi chủ nghìn tỷ).
+- Insight xã hội/khách hàng (diễn giải): Các thương vụ M&A lớn tạo ra áp lực thay đổi bộ máy lãnh đạo, phản ánh sự chuyển dịch quyền lực và chiến lược quản trị từ cổ đông mới sang ban điều hành địa phương.
+- Câu hỏi nghiên cứu tiềm năng: Sự biến động nhân sự cấp cao (biến độc lập) tác động như thế nào đến hiệu quả hoạt động tài chính của doanh nghiệp sau M&A (biến phụ thuộc)?
+- Hàm ý kinh doanh: Đội ngũ kinh doanh cần theo dõi sát sao các thay đổi trong thượng tầng của khách hàng doanh nghiệp để kịp thời điều chỉnh mối quan hệ đối tác chiến lược.
+
+**2. Ứng dụng AI trong quản trị nhân sự và rủi ro vận hành doanh nghiệp** — Mức tín hiệu: Mạnh
+- Diễn biến: AI xâm nhập vào phân khúc "tiểu ngạch" làm lộ các vùng tối quản trị doanh nghiệp theo ghi nhận của TheLEADER ([2], 24/09/2026). Google Việt Nam với Tân Giám đốc Quốc gia Khối Google Customer Solutions khuyến nghị không chờ kế hoạch chuyển đổi số hoàn hảo mới bắt đầu với AI ([11], 24/09/2026, CafeF). Tại Singapore, nhóm ba bên kêu gọi sử dụng AI có trách nhiệm trong nhân sự ([26], 24/09/2026, Staffing Industry Analysts). Các hãng công nghệ quốc tế liên tục ra mắt các giải pháp AI agent và tích hợp AI hỗ trợ nhân sự như Ema gọi vốn Series B 77 triệu USD ([34], 24/09/2026, HRTech Series), Workday ([35], 24/09/2026), Zellis ([37], 24/09/2026), và Kuailu với ứng dụng quản lý nhân sự AI từ tuyển dụng đến trả lương ([38], 24/09/2026, Macau Business). HR Dive cũng ghi nhận các báo cáo về việc nhân viên phản ánh sử dụng AI mang tính biểu trưng (performative AI) trong bối cảnh thay đổi vai trò ([27], 24/09/2026).
+- Bằng chứng định lượng: 77 triệu USD (Ema gọi vốn Series B, công bố bởi HRTech Series, 24/09/2026).
+- Insight xã hội/khách hàng (diễn giải): Doanh nghiệp và người lao động đang đối mặt với sự bất định và áp lực chuyển đổi khi AI thâm nhập sâu vào các quy trình nghiệp vụ, dẫn đến hiện tượng ứng dụng mang tính hình thức do chưa sẵn sàng về năng lực đạo đức và kỹ thuật.
+- Câu hỏi nghiên cứu tiềm năng: Mức độ ứng dụng AI trong quản trị nhân sự (biến độc lập) ảnh hưởng thế nào đến tỷ lệ giữ chân nhân tài và hiệu suất công việc (biến phụ thuộc)?
+- Hàm ý kinh doanh: Tích hợp ngay các công cụ AI vào quy trình hỗ trợ khách hàng và quản lý đại lý bán hàng để tối ưu hóa năng suất vận hành.
+
+**3. Thách thức tâm lý người lao động và bài toán định giá kỹ năng AI** — Mức tín hiệu: Mạnh
+- Diễn biến: Các tổ chức nghiên cứu quốc tế liên tục cảnh báo về áp lực của người lao động: HR Dive và HRTech Series bàn luận về việc người lao động có nên được trả lương dựa trên kỹ năng AI hay hiện tượng "vortex" kỹ năng AI làm phân mảnh chính sách trả lương ([28], [29], 24/09/2026); Gartner khuyến nghị các tổ chức phải thiết kế lại công việc theo thời gian thực trong kỷ nguyên AI ([30], 24/09/2026); Inc.com đặt câu hỏi liệu AI có đang thúc đẩy nhân viên nghỉ việc ([31], 24/09/2026); trong khi HR Brew ghi nhận mức độ lo lắng của người lao động về việc bị thay thế công việc liên quan đến AI gia tăng ([32], 24/09/2026). Tại Việt Nam, Laodong.vn phản ánh thực tế doanh nghiệp tăng tuyển dụng nhưng lao động trẻ vẫn chật vật tìm việc ([16], 24/09/2026).
+- Bằng chứng định lượng: 27% (tỷ lệ lo lắng của người lao động về việc mất việc liên quan đến AI, công bố bởi HR Brew, 24/09/2026).
+- Insight xã hội/khách hàng (diễn giải): Sự lệch pha giữa nhu cầu tuyển dụng của doanh nghiệp và năng lực thực tế của lao động trẻ, cộng với nỗi sợ bị AI thay thế, tạo ra rào cản tâm lý lớn trong lực lượng lao động hiện tại.
+- Câu hỏi nghiên cứu tiềm năng: Mức độ lo lắng về việc mất việc do AI (biến độc lập) tác động như thế nào đến mức độ gắn kết và ý định nghỉ việc của nhân sự (biến phụ thuộc)?
+- Hàm ý kinh doanh: Thiết kế các chương trình tư vấn tài chính và bảo hiểm nhân thọ tập trung vào việc bảo vệ thu nhập, an sinh trước rủi ro nghề nghiệp cho phân khúc lao động trẻ đang chịu áp lực việc làm.
+
+**4. Đào tạo phát triển kỹ năng và gắn kết nhà trường - doanh nghiệp - thị trường lao động** — Mức tín hiệu: Mạnh
+- Diễn biến: Việt Nam và Singapore thúc đẩy hợp tác đào tạo nhân lực bán dẫn theo ghi nhận của Vietnam+ và TTXVN ([9], [23], 24/09/2026). Các địa phương triển khai mạnh mẽ mô hình đào tạo gắn với doanh nghiệp: Báo Bắc Ninh và Vietnam.vn giới thiệu mô hình đào tạo 1+1+1 gắn nhà trường, doanh nghiệp và thị trường lao động ([18], [25], 24/09/2026); Báo Thanh Hóa đưa tin về việc giữ vững chất lượng giáo dục sau sắp xếp trường học ([6], 24/09/2026); Laodong.vn phản ánh đào tạo nghề gắn với nhu cầu thị trường ở Phú Thọ ([21], 24/09/2026). Bộ Nội vụ và Bộ Lao động và Phúc lợi xã hội Lào có các hội nghị trao đổi kỹ thuật và kinh nghiệm quản lý lao động tại Hà Nội ([17], [20], 24/09/2026).
+- Bằng chứng định lượng: Chưa tìm thấy nguồn xác nhận số liệu cụ thể về quy mô đào tạo.
+- Insight xã hội/khách hàng (diễn giải): Xã hội đang dịch chuyển mạnh mẽ từ đào tạo bằng cấp truyền thống sang mô hình đào tạo thực chiến, gắn chặt với đơn vị sử dụng lao động để giải quyết bài toán thiếu hụt kỹ năng chuyên môn cao.
+- Câu hỏi nghiên cứu tiềm năng: Việc áp dụng mô hình hợp tác đào tạo giữa doanh nghiệp và cơ sở giáo dục (biến độc lập) ảnh hưởng như thế nào đến chất lượng đầu vào và năng lực làm việc của nhân sự mới (biến phụ thuộc)?
+- Hàm ý kinh doanh: Xây dựng các học viện đào tạo nội bộ liên kết trực tiếp với các trường đại học/cao đẳng để chủ động nguồn nhân lực tư vấn tài chính trẻ, chất lượng cao.
+
+**5. Mở rộng tuyển dụng ngân hàng, chính sách an sinh lao động nền tảng số và hợp tác quốc tế** — Mức tín hiệu: Trung bình
+- Diễn biến: Ngân hàng bước vào đợt tuyển dụng lớn nhất từ đầu năm theo Vietnam.vn ([14], 24/09/2026). Vietnam.vn cũng đề cập đến việc mở rộng diện bao phủ bảo hiểm xã hội với lao động nền tảng số ([22], 24/09/2026). Báo Tin tức và Dân tộc đưa tin Hy Lạp mong muốn tiếp nhận thêm lao động Việt Nam ([24], 24/09/2026), trong khi Bưu điện Trung tâm Bình Dương phát triển sản phẩm tài chính bưu chính ([8], 24/09/2026).
+- Bằng chứng định lượng: Chưa tìm thấy nguồn xác nhận số lượng lao động cụ thể trong đợt tuyển dụng ngân hàng hay diện bao phủ bảo hiểm xã hội.
+- Insight xã hội/khách hàng (diễn giải): Sự phát triển của kinh tế nền tảng và nhu cầu mở rộng dịch vụ tài chính đòi hỏi hệ thống an sinh xã hội và bảo hiểm phải tự thích ứng để bảo vệ các nhóm lao động phi truyền thống.
+- Câu hỏi nghiên cứu tiềm năng: Sự mở rộng các gói an sinh xã hội đối với lao động nền tảng số (biến độc lập) tác động ra sao đến quyết định tham gia bảo hiểm thương mại tự nguyện của nhóm lao động này (biến phụ thuộc)?
+- Hàm ý kinh doanh: Thiết kế các sản phẩm bảo hiểm nhân thọ linh hoạt, ngắn hạn, phù hợp với dòng tiền và đặc thù rủi ro của lực lượng lao động nền tảng số.
+
+---
+
+### Tín hiệu yếu cần theo dõi
+- Các chương trình huấn luyện kỹ năng lãnh đạo bán hàng chuyên sâu quốc tế như việc MEDDICC ra mắt chương trình lãnh đạo bán hàng T5 ([40], 24/09/2026, PR Newswire) và các doanh nghiệp công nghiệp mở rộng thị trường toàn cầu sang Malaysia ([15], 24/09/2026, PR Newswire) cho thấy sự dịch chuyển trong tiêu chuẩn quản lý đội ngũ kinh doanh B2B.
+- Các vấn đề về đạo đức AI trong đánh giá hiệu suất nhân sự được các nhà lãnh đạo HR toàn cầu bắt đầu tranh luận sâu hơn tại các diễn đàn công nghệ nhân sự ([39], 24/09/2026, IT Brief UK).
+
+**Nguồn (Google News RSS — số trong [ ] khớp trích dẫn):**
+
+- [[2] AI xâm nhập 'tiểu ngạch', doanh nghiệp lộ vùng tối quản trị - TheLEADER (2026-09-24)](https://news.google.com/rss/articles/CBMikwFBVV95cUxORE9nLXhWaFJ2RjVKZENEVm9YNUNzblJmd05yckgwTExRdmJmeHBTenFYZVRJZFQ5NjBsWFdIa0FmZFVFdHQ3QlJ4Q0p6WDdLV1FoaE00RlVDOEowSEliMmlab3ZkOUdWQmc4bFo0QlJxMF9EU3JuV3N4cG9Fa2xnYk9iZ2dhdk1FT0U2Uy00QUlvWTg?oc=5)
+- [[4] Biến động nhân sự cấp cao ở hai hãng hàng không Việt - Báo Dân trí (2026-09-24)](https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQTNqYjRHTm5ENktOR1Awc28xOFNTUm5FaV9CX3cxOHhCaGdiSWZZR0U1b3VXVE80ZWtZd1FRdXpuRzhpdnNXOVF4Yy1jRDBndEZRbWRPQ1dmanJXRnZ0NkU4SWpvVXVEa2Y4bnotOUd5NDZfNy14UGY3TkpJaDN5dWppZXhsdGhUejlWc3Z0OVM2eU1nUW9mZzVsVjk4QzRjbTBqckVGMzJGRFk?oc=5)
+- [[5] Dịch vụ Hàng không Taseco (AST): Hai sếp ngoại rời Hội đồng quản trị sau thương vụ đổi chủ nghìn tỷ - Báo Pháp Luật Việt Nam (2026-09-24)](https://news.google.com/rss/articles/CBMizwFBVV95cUxOVE9Rc0cxZEhwbVpKNHFoLW94OFYteTBWNHZDRnBUYUNrY0xnWkZGVUc0VUVYQmVJTERFOXJQYnpXZk5nTmpIMmpNMW1OdFMxejFkYWFDWXhKdWs5Skp2dkszczZUNk03cVA4ZmpTQXlfZ2NYRFpwNTRkbmJYYkQ4Yk1sU0ZjRk9iYWVrSEJuX2thVGF2SE91SzFyQllScEdoTjY3amlnMnFJRE5PNFI2aHI5YnZXRDZESVBNMWFXVmJ3Rk5YWm1GdVVvOHlLUm8?oc=5)
+- [[6] Giữ vững chất lượng giáo dục sau sắp xếp trường học - Báo Thanh Hóa (2026-09-24)](https://news.google.com/rss/articles/CBMikwFBVV95cUxOTXowV3dMVFZSZ1ZXWkYxZmlkOE1OaEFLb0pmcUJHODFUdFFSM2w3SkV6UkJ0Sjd2T3pXVFlCUXJDNmtRcGRDMm9GN1dRbDZSS2VtTDBzUjRWWlNRelhmRVhtY2JyWE5DQXh3X2xTMjFRY05MdFZoLTVkaGVzcGlxbEdyWTZQNVdIaldBNjA0VC1pYU0?oc=5)
+- [[7] Taseco Airs có biến động nhân sự Hội đồng quản trị sau khi nhà đầu tư Nhật thâu tóm vốn - Cộng đồng Kinh doanh Việt Nam (2026-09-24)](https://news.google.com/rss/articles/CBMizgFBVV95cUxOTHlvTnd1OE4yYnJTYVIwVmY2WGZpMmw0WkViWXgwYnI3UEh2VDQzMm5RV0EybWhGS1J6X1V6N3J4TzBNVE9DWHR6ZlNJcXc5UkM5NW5rNWxFVUJSSjdib1JtNmZmMWZtcHJzdFhhcEY3cEJTSWRsS2tRQy1VeTc2VzN1Nk4tLXp4NzJtWkZNam1GLVFRR2h5TmJNdnJ4U1RBZFI5Mm1jR05IUkI3bE1Fd0FvRmFzRlRyR1dDZ0dXaEI3elNGYUlocDZmMm9wQQ?oc=5)
+- [[8] Bưu điện Trung tâm Bình Dương ra quân phát triển sản phẩm Tài chính bưu chính - Vietnam Post (2026-09-24)](https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRjZuWmlKMlZFZWxBbjNZU3kwcEFOQzFMNnBUOUJVdlJhNTltWGpGdXgwZThHblFJWUJ6SWhwNHhsUm5FOWQyQ0d5NUtOOGk4UmVNajVmR1JQbDBMazdCWEJGZ1pWS1hoYm5QTFlVTDg1QmgwU1JIajNMdWpiQW1pQXRLdVMzQV90QjB1RUVUN0J2NzhQSEFDemJ4dlZ5d0xoUk9fUGw0Nk5ZVU1INm01RXJqTDJBcWlqSUNV?oc=5)
+- [[9] Việt Nam-Singapore thúc đẩy hợp tác đào tạo nhân lực bán dẫn - Vietnam+ (VietnamPlus) (2026-09-24)](https://news.google.com/rss/articles/CBMipgFBVV95cUxQZm1XV29iaUhrQ2Y1OWdoZzJiWFR5TjEzVkJuSWRLX3lseENRd01EcHh1N2xvYTIyUUI1SWV1djRBSkRxS2NzOVRCc3JJSUdLZjlRZ3k2QkpYeDhJTFJnSlpGU1FqaGJOZFg0YWhneWZjTUZ1RGJEYzBiZXVlM0tmeEtmNFRmZ1NYakJqUGw3bzg0MXkxZk5wSXpnbkNEeC1wb0l3Zmt3?oc=5)
+- [[11] Tân Giám đốc Quốc gia Khối Google Customer Solutions Google Việt Nam: Đừng chờ đến khi có một kế hoạch chuyển đổi số hoàn hảo mới bắt đầu với AI! - CafeF (2026-09-24)](https://news.google.com/rss/articles/CBMikAJBVV95cUxQbi02UzBOUkZVaDRzbnRwTk42OTFUbHNUdVNjQy1DVWFDNXY5VGdOYzBEaUhOeWNhYTdQVl9haWZfMUtNYWJ1YkNVM1pmcHNzWVQ4NmtoSmU2VmNXalFtUVBIZVJPMU00SVNrRDNvZENVM1dld3JSU2F4cC10dlVQMldtcUl0SmYtREQwcFotNEJCajBpQ3FkRkN1aUhENF92SGlSbXlpaGpDOVdiaUtWcnF2b1YzTnczUnNVWXNqcF9FV0F3bWZzeW1aVTA3Mk5kTVpqYkdFUzNySmZRTGpBNmdhWWJtcEFqUUQ2QjYxekVuanNBZmF3SXdLWUkxV3lfNDNWNF9xTHBuUmx2cWNlbw?oc=5)
+- [[12] Ford Việt Nam có nữ Tổng giám đốc mới từ tháng 12/2026 - Baodautu.vn (2026-09-24)](https://news.google.com/rss/articles/CBMijwFBVV95cUxQVl9rMGJHWFY3S0oxbFNTYmxDcEUzenJaRU8zdDhIOTlmcnJlQWhXOXpBSEpBZnZsZFowdV9HdFdxMGhEQVQwUHU3ZFYzc1NFSy0waUJlMVhORHFyZ2l6Q2NkRGRtS0kzUzByaWVveEhKVTZmSE1RWTB1Vy1uMmhJSWFzdlRLYTRlUEJNODYySQ?oc=5)
+- [[14] Ngân hàng vào đợt tuyển dụng lớn nhất từ đầu năm - Vietnam.vn (2026-09-24)](https://news.google.com/rss/articles/CBMie0FVX3lxTE83Qmh2YV9PRmU1RDc2NHBrZ01OQnZRcnBQUEMyU1l1RDFIN3ZWREV2d3FheWRuZUtTUnB6YVlPZWFHbHBEUGlrOXJuUXJhOGhodWxHZlJPUVFxWFc3SHBvM29meDQwMUllajBzc2dVY0FrYlJYWk91ci1KZw?oc=5)
+- [[15] Rianlon đưa tham vọng toàn cầu tới Malaysia - PR Newswire (2026-09-24)](https://news.google.com/rss/articles/CBMipgJBVV95cUxOR1NaOTJBOXJJZ1BNQVgxbXlKWFZ1ZjZvTGNUaHBvdzdacmhFOWNsdVZiQmNSOUVkdWlVQ2xxLV90V1NyeElZeURSMzFzcm9aVU83ZVRRX2gtNFU4dzJLVVctX25PeU54TTVoTFdwYkJ4OXBzUk5Db3NIVE1XTG9qcGJWb2ZmbFdQMFJqREtjYVJNbjZFTy1pSUZBUVRVaGJ6cnhLcHZOanVpcUpfbGg4cjBpNE84Qi1LMEpNWHBZdlVSUHJYV1F1Z2JMQzBpNEZwM21mQkVuOVdIRldYMWhHWDBtdTNMcFNZaHNWTm5jM1c2MmRfcWZZV2NXalgwUzJ4bFUxTHh2NFJmQUgxUGJsdDlieUJVR042bF9ZRlpoTFZWQ3RpdkE?oc=5)
+- [[16] Doanh nghiệp tăng tuyển dụng, lao động trẻ vẫn chật vật tìm việc - Laodong.vn (2026-09-24)](https://news.google.com/rss/articles/CBMipwFBVV95cUxPYXQ2ZEVNNElLOXM0ZGgtVHg0cFJLNnNuN3g0My1OczgyZ3FfLTA5eXNqcWRIaFV3d2hGLUtXZGs0amhwLUVnZXVTV0VrbFlHNVN6Ym5DLVJWaE1UdmdPazBhSW5hdTZRejFnMlZKZldUMFZ6Rmw5Tm53d1oxc3Frb0lnenE5VHNCU1hUNEhoTWI3bV9IVXJKbTRBbWtnT0lGenIyZVc3OA?oc=5)
+- [[17] Hội nghị trao đổi kỹ thuật về quản lý lao động giữa Bộ Nội vụ với Bộ Lao động và Phúc lợi xã hội Lào - dangcongsan.vn (2026-09-24)](https://news.google.com/rss/articles/CBMi6gFBVV95cUxOcE1VNG5nN0dlQjNGSXlrY0poRkdER3dQSzRHeEE1X3VhREJVWDkxWnVUUkVEcS1wNzA1WGVWTE16Y1JST2x1ZlFFOW0wM2dnZkxZTVNobXY3YS05bmczc3Y0cWFrZHJ0Q2tQQlJIVkJNWlNOZVRMUmpSS3NPRVdkWlYtdUZEWng5U1c2YWpidXgzSl80NW1OQnBiNzBISzZjcVc0ckJHWEVyMTctV3dQaG90QlUxb0ZuS1dPT1E2NmhLcnJONU9LbkRUSHFOZXBYV0ZIeE4yMEZLcWpJakVlTVZoZnhOXy1Rc0E?oc=5)
+- [[18] Mô hình đào tạo 1+1+1, gắn nhà trường với doanh nghiệp và thị trường lao động - Báo Bắc Ninh (2026-09-24)](https://news.google.com/rss/articles/CBMiuAFBVV95cUxNLVFfOXJtWjBnam9aa3JjNlN4Q0VLamFwYkFJaExIYlZUMUxFVFIyOVpMWVdSUmhYbkdZdnBmb1RCN1lXS0JCV1BMMlRYRmV5UHNOcnVyYkhyVHBWYmhCaXRwb19Ebmk2ajVUYS16WnRnUWNKNUxJaUQxLVFKenN2Vjg0TXktLVpKdVZrSVZjUjF3M3B1SUFiMjBYZmV4R1A0V09ncWpTR3ZwTkc2TnVGRTRrcmJnbWts?oc=5)
+- [[20] Bộ Lao động và Phúc lợi xã hội Lào trao đổi kinh nghiệm tại Trung tâm Dịch vụ việc làm thành phố Hà Nội - Thời Đại (2026-09-24)](https://news.google.com/rss/articles/CBMi1AFBVV95cUxOV09JRlRiR3ZlRUVVUE5WV1hoeV85ZDgtempIX1puTG1ZNExhTEpnb2JmRHZMVW8wNldQelltYXRuampyNXljN1llMllad0dGcWZDd3pMOTZiaEY4cW1XandBV2F3VFpSM2FQR29oYlhUODhzdUUwblBPa3hLdHdZWlBBWC12TjR3c1A0RElPTXdxZkRJcmdWcTg0dE5reHNrWEhnUlc3Zm1KWWZCN3VjX21CTGRzV2NOc2xmZ1RKUVQ3N01EeUc0YVJoNEhFSHROR2dlZw?oc=5)
+- [[21] Đào tạo nghề gắn với nhu cầu thị trường ở Phú Thọ - Laodong.vn (2026-09-24)](https://news.google.com/rss/articles/CBMilgFBVV95cUxQUlRaMG81b3diemV6dTMteEtSYmUtQVROUG9RM1lzbUpyZnZjYmd0a2JSYlhwbXVMUlpsLV9wMk15eEtxUkZiVUEtZEYxakp4ZGFkTEM3allzcjlnaFRkcXBnMWZ2VDZFVF9nMDRSRVhpWFBBS0ZWWG5KMC10NkM3djR4eHNDWnlCWFlTLWthVW84OWZrNnc?oc=5)
+- [[22] Mở rộng diện bao phủ BHXH với lao động nền tảng số - Vietnam.vn (2026-09-24)](https://news.google.com/rss/articles/CBMifkFVX3lxTE9OVTVuZ1FJTFljbWpTNk1VT0ZibHBvMTZ2dVpSWXFZcEFnT3FPcVBKOWIxUjhPVndPaVkzWkhrMXBWS2I3WGZpVXJQMG5ZZWZBMmdJLS1kcnBnS3pUNzgyNmZXX2VjVkhKRHJYRDh1dUY3dlZvamRLNlF6YmI3Zw?oc=5)
+- [[23] Việt Nam - Singapore thúc đẩy hợp tác đào tạo nhân lực bán dẫn - Thông tấn xã Việt Nam (TTXVN) (2026-09-24)](https://news.google.com/rss/articles/CBMiuAFBVV95cUxONmNsUVJFQXIyN0Q1N1Q3RGYyU00zMUJsWEJBNFhOS1NvRXBPSmN5Z0hZbDBpaktEY2tSV255b0N6bS0tZ2NWUkRDQktxVjgwSVNhQmVtTk53aXY3UjhncC1qcWU0aHkyYWRTdlhnY1EyVTJKdTc2RTBfQVR4M213R3VVc2pCLXNOU25saG40bVhvRGVCcWY5OEJRQ2t2VE14cXhIeUZJcmllc2QtMUxoVEw2SnJiaFpR?oc=5)
+- [[24] Hy Lạp mong muốn tiếp nhận thêm lao động Việt Nam - Báo Tin tức và Dân tộc (2026-09-24)](https://news.google.com/rss/articles/CBMikAFBVV95cUxQWTVSSlNXMVRUZmNkbzBKc0tRdE9zRE9qTkYyUFphZE9aMmVtZXJ1WnpEeUxrMTBSM1UtNVpNc0x0VGZhQk15dU9xc0U5aUVPa1pPOWRGQ3BDVXBtWkNCS254cFRZV2RRSTdXRVMxTHRGazBuZE5Takg5OGcyWmx6LVJNYWN6SFFuZW01bWZGTC0?oc=5)
+- [[25] Mô hình đào tạo 1+1+1, gắn nhà trường với doanh nghiệp và thị trường lao động - Vietnam.vn (2026-09-24)](https://news.google.com/rss/articles/CBMioAFBVV95cUxPclpQTkdZN21raFhGTzUwSUltM281V1BobWQ2TE9wdUhDWDBmaC1xX0JFcnFJTHJHMGNXRTBtSE44OUhVS2VFS2EtZTB6YXNVWWxVZHRkdU9Ba28zcGNpVDRQUC03T0h1ME1qbG5TeWVQaEFjSmdkZ0dRTmFNZkZuS1JQSERJQjFnTG5ST3NteTFSVDdpNWVvaFcwRjJlcXgy?oc=5)
+- [[26] Singapore tripartite group calls for responsible AI use in HR - Staffing Industry Analysts (2026-09-24)](https://news.google.com/rss/articles/CBMiuAFBVV95cUxOV2QtcXg5Ri1zRkVtakRYem9BVFRWOHowUXFLRWVQRnRoV2NZd1RRcFlQWXdMdXNzSk5xUklNeDhTeXdKejV2QjZ2Q29DS1F0Q0ZQMHFBWVFNMl9uMS1HeVNQQ2ExTTBiUUZNbTFHQ3l6Rkw1ekNXRzZtLXNSdHRnUjRSTkZ6b2lCSGRINXdtVU8wMTU0cHR0UTMzY0s1c3o5bTFkWVd5dmR1QjJtN3VmUmxUNEVvODEy?oc=5)
+- [[27] Employees report performative AI use amid role changes - HR Dive (2026-09-24)](https://news.google.com/rss/articles/CBMiekFVX3lxTE1HM0Z6bkxocXIydV80bkZKdzNRTG92cVhNcldYODBkVkc0Z0NMdl9GdGN0c3h2Nk1jWkxUdkFuanJpN1cxWEhPYlhIZHRZSEZMUWRNMTB2My1Ec3U1QzRNNnhoVjN5TzRTY19Da1NOdklza1ZhSE4tMFN3?oc=5)
+- [[28] Should workers be paid for AI skills? - HR Dive (2026-09-24)](https://news.google.com/rss/articles/CBMifEFVX3lxTE9uLUd6SlNFQ3paTlphd2twT0VXbkEwSzItQmhheXhEdU5WcEZEV3FmdEtYMklSN3hOc09ROEpJRTNpdzhrdnYyeXRvM0xqalhMd2V1d3lzZ005THk1TG1qc2JOQzM1ZW14bTVaaFlSSUhCZUs2d0RlUERZU2E?oc=5)
+- [[29] The AI Skills Vortex is Remaking Work and Fragmenting Pay — and HR Isn’t Ready - HRTech Series (2026-09-24)](https://news.google.com/rss/articles/CBMivAFBVV95cUxPdmZEZnk5WkJBXzZqSzFEZENQZ2hyMnZSaFZIdUNRNXppb1FuUlRzbWF2ZEI5ZlpfTnFrYlJPaWNWTDdRenFJVmYza1dXNGJ1Wkk4RXNMeFAwRXYxTG1rM19JcVg0Ym9oc2VvcktJc3dkWEJNbG5MZXUybU95Y2FnOGdIV1dEUUdIekE3ekRfclBJanpyVDZRLUlNOXluNkVQeXBlellGNDFYa1oxcDBLc3ZDWlR2Mm45VkQzdw?oc=5)
+- [[30] In the AI era, organizations must redesign work in real time, Gartner says - HR Dive (2026-09-24)](https://news.google.com/rss/articles/CBMipgFBVV95cUxQY3ZIem1UZENRV3BfOG1FM05KbGZoTUFlWDlPbUxaUGxHSV81aTFrNWRsN0RyRFh6N2l5aV9lUXg1dHRCakRKN3c4NEpuaWtEeDZqZVY2TDQtSlRzdGt3SlgyZjU4dE9tV0V2SndMa0JIRTRaOUpoMnFNR1ByY2dFUzY0Vkt6bzlYWjg0M1pnT1BiMnN1RjhHZkdISzFBRi14RGRfa0ln?oc=5)
+- [[31] Is AI Telling Your Employees to Quit Their Jobs? - inc.com (2026-09-24)](https://news.google.com/rss/articles/CBMiugFBVV95cUxNNXNPbDVfdnB6LUVVQmNUTVdMY1FxOVM2djBYMWdsWVhqRm1Kd2pJcHFqbnFmbWV0dUlzeXdZU0Z1QnNMVDlfd1JMQ2JqWXR0UFllaGU3bUpPME4yVG1mMzAyVzllaml2RTd5WnItdXk1b0dOenZNSmtsSE5OTFhOUzJjR2NPY0tJVmJVcm8zazNkVU83Z01HWFduRUxBYlNpZC15dFg0OVJrd2VmdlZHT3BJamtnWFdYdkE?oc=5)
+- [[32] Worker anxiety increases to 27% over AI-related job displacement, report finds - HR Brew (2026-09-24)](https://news.google.com/rss/articles/CBMirAFBVV95cUxNOTVxRktWTzVKZFowRGs5T21ud2IzWW92Vm5NUFVHMmlTaUdmY0VTYm9wS1liWklKeDBwZzRISDdON0UzeGxUdGlDNXdRU0puQ1phRDNuRVl2dG54OUJDRVc0OWgxS1BuSUFRZ05zTWZERExRc3BIRjNIbzVEc090NXVad19ycDc2dy0zTTZsWVM3cTNka1pWV2tXS1pCaDRrTTEwblFxTFJnc2do?oc=5)
+- [[34] Ema Raises $77M Series B to Put AI Employees to Work Across the Enterprise - HRTech Series (2026-09-24)](https://news.google.com/rss/articles/CBMiugFBVV95cUxQcXNqLVZPLW53dURPV3B2SUpxY1M0XzFBNVR6NHFCNVllX2NOSnVEclVPRDVsU2Rsc0VNT1lPdUxzNGZHSnh1cUNEMW03REJQMGNqeUdrZUp4dmRtVHRJdWt4c3RmTTZrYzFGSURtUjhPUEpval9OZ1RRZWVHTVV1eHFxZFlKQm4yb18xdjlvdHMycFk5VTVTdGw1NEh3YldXalkzX21tZURFN20zSUMxbVczR0YwWDV2cHc?oc=5)
+- [[35] Workday Brings Employee Benefits Into The Agentic Era - Workday Blog (2026-09-24)](https://news.google.com/rss/articles/CBMiogFBVV95cUxNQVRNZkJXM05WUDFDMkF4T19FTFRVRnd2cy1TbVhzSjB2UTVVY20yYTh2SFNrdDFfZmpITGRDazVtV2FsNEdORHVjalJiZkpicnZoUFNzRTlyNm5MUjdpVVI5Y3RjczFFUVByZGRlOVN0a0NLRlZHSUJVYzFNT0FqT2lUMnMyZW44VXgzNElWTEpjYnlUQ3pJazZUUmVuRlpOZGc?oc=5)
+- [[37] Zellis integrates AI assistant with Copilot to provide employees with HR support - Technology Record (2026-09-24)](https://news.google.com/rss/articles/CBMivgFBVV95cUxPczVQMVQ5Z0ZieEhGZ2tMU1llWWNPYno1LVF0NmhGaWlxdGNPUExOVnQxSVJReUstSG5rQkhXaV9qNFdHbVNCRW9NS3oxUjdMYTFYRDhJUkJNbnJWVVltWDduU2JVYWNjT19Tdmh3Y0pDc19mdHFXYXFSdzRsSWRqU2Vvc3lhejJlMnkxSlE0Tlo2NUNWdTJBeTJLRDU1WjBQWWx4LXdyZmhYdGhEeFNvSC1rcnRaVktzS2RUWktB?oc=5)
+- [[38] Kuailu Launches AI HR Management App: A Seamless Pipeline from Recruitment to Payroll - Macau Business (2026-09-24)](https://news.google.com/rss/articles/CBMisAFBVV95cUxPMlhGdHNWWHVjY0F4QVAxRnh0REphdld5d1lvY2RramlIbWw3dEZQdm9nQlFOTVpkRWNIU0RaVWx4RkY0ZGZ0Tnp3TUxpbUlWQWs3Q2JiSkNyYVZCd3ZhYzQxOUFYOWNZOG90X3VUSVBCejBFeXhYMUVZMGNjSFhwTVVpalc1M2V5M09CckJMVnpUWVhHak8xVUdsVjZ3Q2Z4ekkyVTljNVBXX3lzTnVmOQ?oc=5)
+- [[39] HR leaders grapple with AI ethics & performance reviews - IT Brief UK (2026-09-24)](https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcUdoNTFiUW9XRG9WYlBta0p4aGo3N0ZKZkFFUk4zOVMwVm5VNzRPNXMtMXNmWnNBNDM4YjRLM3JDaVJLUzgzdHhsS0FVQlpXeUpxbmp1NDUwNG51akNBMlFpX0t0SVpWenFfUkhiTHlkTDhJazlubEZGNjdlX0tOMnpoQ3RNWEpm?oc=5)
+- [[40] MEDDICC Launches T5, Its Flagship Sales Leadership Program - PR Newswire (2026-09-24)](https://news.google.com/rss/articles/CBMiswFBVV95cUxOMV9wdndvcE9hTEQxcGs0YVUyYkxadnRJWi1weWJIdTBGTHBaR1ctOGhwQWtNRVE3a3JuQkl2ZUwwbmgwTi1xaVgwZ01NQllxdnlJSnBoODB1Y1hlZVpIVldYZDVRbm83dWVPVjhtTkg1aDBJZDJjYVpaTmNkaTl3cHNRbjVJWVNHanE4SDE0RkptYkdMM1F0a3JxX0J3cFV6dXNmaDdfUXVpY01pQXJfQ1g3TQ?oc=5)
+
+<sub>Mô hình: gemini-3.5-flash-lite · Số tin đầu vào: 40 · Truy vấn: quản trị nhân sự; đào tạo đội ngũ bán hàng; thị trường lao động Việt Nam; AI in HR; sales leadership</sub>
 
 ### Tín hiệu trắc lượng thư mục (OpenAlex)
 
@@ -115,7 +284,56 @@ Cửa sổ quét tin: 30 ngày · Thị trường: Việt Nam, đặc biệt Đ�
 
 ## Xu hướng công nghệ, kinh doanh, thời trang
 
-> ⚠️ Không quét được bằng Gemini: Gemini lỗi trên mọi mô hình: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions 
+### Các xu hướng nổi bật (5–7 xu hướng)
+
+**1. Sự bùng nổ của hạ tầng và ứng dụng Agentic AI trên toàn cầu** — Mức tín hiệu: Mạnh
+- Diễn biến: Hàng loạt tập đoàn và tổ chức công bố chiến lược, hợp tác và giải pháp về Agentic AI, cụ thể: Google Cloud mở rộng tại Brazil cho thế hệ Agentic AI tiếp theo (Google Cloud Press Corner, 2026-09-24); Avalara tích hợp Versori (PR Newswire, 2026-09-24); BNP Paribas hợp tác với Google Cloud về Agentic AI (PR Newswire, 2026-09-24); Diễn đàn Kinh tế Thế giới (WEF) công bố báo cáo về Agentic AI định hình lại chuỗi cung ứng (WEF, 2026-09-24); RELEX Solutions ứng dụng trong lập kế hoạch chuỗi cung ứng (RELEX Solutions, 2026-09-24); Hexnode giới thiệu Synapse cho MSP (Channel Insider, 2026-09-24); Amazon với chiến lược Agentic AI (TradingView, 2026-09-24); Silk huy động 45 triệu USD cho nền tảng dữ liệu Agentic AI (Beinsure, 2026-09-24); Tech Mahindra & AWS hợp tác quy mô lớn (Technology Magazine, 2026-09-24); Corpay mở rộng đội ngũ AI Agent (Yahoo Finance, 2026-09-24); Outerlimit huy động 16 triệu USD (FinTech Global, 2026-09-24); và UiPath công bố giải thưởng AI Breakthrough Awards vinh danh doanh nghiệp chạy Agentic AI ở quy mô sản xuất (Yahoo Finance Singapore, 2026-09-24).
+- Bằng chứng định lượng: Silk huy động 45 triệu USD cho quỹ phát triển (Beinsure, 2026-09-24); Outerlimit huy động 16 triệu USD (FinTech Global, 2026-09-24).
+- Insight xã hội/khách hàng (diễn giải): Doanh nghiệp toàn cầu đang chuyển dịch từ trợ lý ảo hỏi-đáp thụ động sang các hệ thống tự trị (AI agents) có khả năng tự ra quyết định và thực thi chuỗi công việc phức tạp nhằm tối ưu hóa chi phí vận hành.
+- Câu hỏi nghiên cứu tiềm năng: Mức độ ứng dụng Agentic AI (biến độc lập) tác động như thế nào đến hiệu suất vận hành chuỗi cung ứng (biến phụ thuộc) tại các doanh nghiệp tài chính-bảo hiểm?
+- Hàm ý kinh doanh: Tích hợp các AI agent tự động hóa quy trình nghiệp vụ bảo hiểm (từ khâu thẩm định đến bồi thường) để tăng tốc độ xử lý giao dịch.
+
+**2. Tăng trưởng mạnh mẽ của Thương mại điện tử và hành vi mua sắm theo mùa vụ tại Việt Nam** — Mức tín hiệu: Mạnh
+- Diễn biến: Các cơ quan truyền thông và nhà quản lý liên tục đề cập đến vai trò thương mại điện tử như thước đo chuyển đổi số và quản lý thương mại (vass.gov.vn, Báo Công Thương, 2026-09-24); Đồng Tháp phát triển "Xã thương mại điện tử" hỗ trợ nông sản (moit.gov.vn, 2026-09-23); và việc đưa TMĐT vào chỉ số đánh giá hiệu quả chuyển đổi số (VTV.vn, 2026-09-23). Người Việt chi mạnh tay cho các món ăn đặc biệt và dịp Trung thu trên sàn TMĐT (nguoiquansat.vn, doanhnghieptiepthi.vn, 2026-09-24).
+- Bằng chứng định lượng: Người Việt chi 160 tỷ đồng mua món ăn đặc biệt trong một tháng (nguoiquansat.vn, 2026-09-24); chi hơn 170 tỷ đồng mua bánh và đèn Trung thu trên sàn TMĐT (doanhnghieptiepthi.vn, 2026-09-24).
+- Insight xã hội/khách hàng (diễn giải): Người tiêu dùng Việt Nam ngày càng quen thuộc với việc mua sắm các mặt hàng theo mùa vụ, thực phẩm và quà lễ hội trực tuyến thay vì kênh truyền thống do tính tiện lợi và đa dạng lựa chọn.
+- Câu hỏi nghiên cứu tiềm năng: Tần suất mua sắm trực tuyến các sản phẩm mùa vụ (biến độc lập) ảnh hưởng thế nào đến lòng trung thành với thương hiệu của người tiêu dùng trẻ (biến phụ thuộc)?
+- Hàm ý kinh doanh: Đẩy mạnh các chiến dịch tiếp thị và phân phối sản phẩm bảo hiểm qua các nền tảng thương mại điện tử số hóa trong các dịp lễ, tết.
+
+**3. Tiêu dùng bền vững, xanh và minh bạch giá trị thực** — Mức tín hiệu: Mạnh
+- Diễn biến: Thị trường tiêu dùng thực phẩm chuyển dịch sang giá trị thực và tính minh bạch (thuonghieusanpham.vn, 2026-09-24); thổ cẩm bắt nhịp xu hướng xanh nhờ sợi tre, tơ tằm, củ nghệ (Dân tộc và Phát triển, 2026-09-24); Tạp chí Nông Thôn Việt công bố tỷ lệ người tiêu dùng ưu tiên thủy sản ít tác động môi trường (Tạp chí Nông Thôn Việt, 2026-09-23); VTVgo ghi nhận người tiêu dùng ưu tiên sản phẩm xanh, sạch (VTVgo, 2026-09-23).
+- Bằng chứng định lượng: 78% người tiêu dùng ưu tiên thủy sản ít tác động đến môi trường (Tạp chí Nông Thôn Việt, 2026-09-23).
+- Insight xã hội/khách hàng (diễn giải): Khách hàng ngày càng có ý thức cao về môi trường và đòi hỏi sự minh bạch tuyệt đối về nguồn gốc nguyên liệu trong các sản phẩm thời trang, thực phẩm họ tiêu dùng hàng ngày.
+- Câu hỏi nghiên cứu tiềm năng: Nhận thức về tính bền vững của sản phẩm (biến độc lập) tác động ra sao đến quyết định mua hàng của phân khúc tiêu dùng trẻ (biến phụ thuộc)?
+- Hàm ý kinh doanh: Xây dựng các gói sản phẩm bảo hiểm gắn liền với thông điệp ESG (Môi trường, Xã hội, Quản trị) hoặc các hoạt động thiện nguyện xanh để thu hút khách hàng có ý thức bảo vệ môi trường.
+
+**4. Á lực tài chính cá nhân và lối sống tự lập của giới trẻ** — Mức tín hiệu: Trung bình
+- Diễn biến: SOHA đăng tải bài viết phản ánh về việc người trẻ sống một mình, du lịch một mình và tự lo các hóa đơn hàng tháng (SOHA, 2026-09-24); VTVgo đưa tin về hình thức tiêu dùng thông minh mua trước, trả sau (VTVgo, 2026-09-24).
+- Bằng chứng định lượng: Chưa tìm thấy nguồn xác nhận số liệu cụ thể.
+- Insight xã hội/khách hàng (diễn giải): Xu hướng sống độc lập sớm khiến Gen Z và Millennials đối mặt với gánh nặng chi phí sinh hoạt lớn, dẫn đến việc họ tìm kiếm các giải pháp tài chính linh hoạt như mua trước trả sau để cân đối dòng tiền cá nhân.
+- Câu hỏi nghiên cứu tiềm năng: Áp lực chi phí sinh hoạt cá nhân (biến độc lập) ảnh hưởng thế nào đến nhu cầu sử dụng dịch vụ tài chính/tín dụng ngắn hạn của giới trẻ (biến phụ thuộc)?
+- Hàm ý kinh doanh: Thiết kế các sản phẩm bảo hiểm nhân thọ có mức phí đóng linh hoạt theo tháng hoặc tích hợp tính năng tài chính ngắn hạn phù hợp với ngân sách eo hẹp của người trẻ độc thân.
+
+**5. Chuyển đổi số chợ truyền thống và hỗ trợ thương mại địa phương** — Mức tín hiệu: Trung bình
+- Diễn biến: Cổng thông tin Vietnam.vn đăng tải bài viết về việc để chợ truyền thống bắt nhịp chuyển đổi số (Vietnam.vn, 2026-09-24); Quảng Trị thúc đẩy thương mại điện tử nâng giá trị sản phẩm địa phương (Vietnam.vn, 2026-09-24).
+- Bằng chứng định lượng: Chưa tìm thấy nguồn xác nhận số liệu cụ thể.
+- Insight xã hội/khách hàng (diễn giải): Các tiểu thương tại chợ truyền thống và nhà sản xuất địa phương buộc phải thích ứng với công nghệ số để duy trì sức cạnh tranh trước sự lấn át của thương mại điện tử hiện đại.
+- Câu hỏi nghiên cứu tiềm năng: Mức độ số hóa của tiểu thương chợ truyền thống (biến độc lập) tác động như thế nào đến doanh thu kinh doanh (biến phụ thuộc)?
+- Hàm ý kinh doanh: Khảo sát và triển khai các giải pháp bảo hiểm sức khỏe/tai nạn nhóm cho tiểu thương tại các chợ truyền thống đang trong quá trình số hóa.
+
+**6. Trào lưu phi tối ưu hóa sức khỏe (wellness) và kinh tế thú cưng** — Mức tín hiệu: Trung bình
+- Diễn biến: Khoa học và Đời sống đưa tin về trào lưu phi tối ưu hóa sức khỏe lên ngôi trong ngành wellness (Khoa học và Đời sống, 2026-09-23); VTVgo ghi nhận sự bùng nổ của nền kinh tế thú cưng (VTVgo, 2026-09-23).
+- Bằng chứng định lượng: Chưa tìm thấy nguồn xác nhận số liệu cụ thể.
+- Insight xã hội/khách hàng (diễn giải): Người trẻ hiện đại đang có xu hướng mệt mỏi với áp lực tự hoàn hảo hóa bản thân, tìm về sự cân bằng tâm lý tự nhiên, đồng thời chuyển hướng chăm sóc cảm xúc sang việc nuôi thú cưng như thành viên gia đình.
+- Câu hỏi nghiên cứu tiềm năng: Sự gia tăng mức độ gắn kết với thú cưng (biến độc lập) tác động ra sao đến chi tiêu cho các dịch vụ chăm sóc thú cưng và bảo hiểm thú cưng (biến phụ thuộc)?
+- Hàm ý kinh doanh: Nghiên cứu phát triển hoặc tích hợp các quyền lợi bảo hiểm chăm sóc thú cưng và bảo hiểm chăm sóc sức khỏe tinh thần không áp lực thành tích cho phân khúc khách hàng trẻ.
+
+---
+
+### Tín hiệu yếu cần theo dõi
+Cuộc đua công nghệ chip di động và máy tính cá nhân giữa các dòng Snapdragon 8 Elite Extreme Gen 6, A20 Pro, Tensor G6 và Surface Snapdragon X2 Plus (GenZ Việt, 2026-09-24); dự báo doanh số bán xe ô tô quý 3 năm 2026 từ Cox Automotive (Cox Automotive Inc., 2026-09-24); tâm lý người tiêu dùng Hàn Quốc (CCSI lên 106,6 điểm) (아시아투데이, 2026-09-23); và các nội dung về gia đình Gen Z làm kênh TikTok triệu view (aFamily, 2026-09-24).
+
+<sub>Mô hình: gemini-3.5-flash-lite · Số tin đầu vào: 40 · Truy vấn: xu hướng tiêu dùng; thương mại điện tử Việt Nam; thời trang Gen Z; consumer trends 2026; agentic AI business</sub>
 
 ### Tín hiệu trắc lượng thư mục (OpenAlex)
 
