@@ -2,8 +2,10 @@
 # Sửa file này trên GitHub để thêm/bớt chủ đề — lần chạy kế tiếp sẽ tự áp dụng.
 
 settings:
-  gemini_model: "gemini-3.8-flash"          # đổi sang "gemini-3.5-flash-lite" nếu muốn tiết kiệm
-  gemini_fallback_models: ["gemini-3.5-flash-lite", "gemini-3-flash-preview"]
+  # Gói miễn phí: Google Search grounding chỉ mở cho dòng Gemini 2.x/2.5 (1.500 lượt/ngày); dòng Gemini 3.x
+  # bị khoá grounding (hạn mức 0). Khi bật billing có thể đổi sang "gemini-3.8-flash".
+  gemini_model: "gemini-2.5-flash"
+  gemini_fallback_models: ["gemini-2.5-flash-lite"]
   lookback_days: 30                          # cửa sổ quét tin/xu hướng
   bibliometric_years: 6                      # số năm để tính tốc độ tăng công bố (OpenAlex)
   top_papers_per_topic: 5                    # số bài được trích dẫn nhiều nhất gần đây (chỉ làm tín hiệu)
