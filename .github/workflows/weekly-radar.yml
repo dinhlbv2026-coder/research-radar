@@ -38,6 +38,15 @@ jobs:
             python src/radar.py
           fi
 
+      - name: Xuất PDF khổ A4
+        run: |
+          sudo apt-get install -y -q fonts-liberation
+          python -m playwright install --with-deps chromium
+          D=$(date -u +%F)
+          mkdir -p reports/pdf
+          python src/make_pdf.py "reports/$D.md" "reports/pdf/$D.pdf"
+          cp "reports/pdf/$D.pdf" reports/latest.pdf
+
       - name: Lưu báo cáo vào kho
         run: |
           git config user.name  "research-radar-bot"
