@@ -232,8 +232,9 @@ def gemini_scan(topic: dict, settings: dict) -> dict:
     model, resp = _call_gemini(prompt, settings, None)
     text = resp.text or ""
     cited = sorted({int(x) for x in re.findall(r"\[(\d+)\]", text) if 1 <= int(x) <= len(news)})
-    sources = [{"title": f"[{i}] {news[i-1]['title']} ({news[i-1]['date']})", "uri": news[i-1]["uri"]}
-               for i in cited]
+    # Luôn liệt kê toàn bộ tin đầu vào để mọi nhận định đều truy vết được; đánh dấu ★ tin được trích [số].
+    sources = [{"title": f"{'★ ' if i in cited else ''}[{i}] {n['title']} ({n['date']})", "uri": n["uri"]}
+               for i, n in enumerate(news, 1)]
     return {"model": model, "mode": mode, "text": text, "sources": sources,
             "search_queries": topic.get("news_queries", []), "n_items": len(news)}
 
