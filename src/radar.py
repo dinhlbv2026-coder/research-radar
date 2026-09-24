@@ -398,7 +398,8 @@ def run(topic_filter: str | None, dry_run: bool) -> Path:
     header = ['<a id="top"></a>',
               f"# Research Radar · {_week_label()}",
               f"\n> **Ngày chạy:** {TODAY.strftime('%d/%m/%Y')} · **Cửa sổ tin:** {settings['lookback_days']} ngày · "
-              f"**Thị trường:** {settings['market_focus']}\n"]
+              f"**Thị trường:** {settings['market_focus']}\n",
+              f"**Bản PDF khổ A4:** [tải về](pdf/{stamp}.pdf)\n"]
     if summary:
         header += ["## Tóm tắt điều hành\n", summary, ""]
     header.append("## Mục lục\n")
