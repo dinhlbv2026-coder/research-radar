@@ -2,7 +2,7 @@
 
 Kho này tự chạy **mỗi sáng thứ Hai lúc 6h (giờ Việt Nam)** trên GitHub Actions:
 
-1. **Gemini + Google Search** quét tin 30 ngày gần nhất cho từng chủ đề → 5–7 xu hướng, mỗi xu hướng có bằng chứng, insight xã hội, câu hỏi nghiên cứu tiềm năng, hàm ý kinh doanh. Nguồn lấy từ *grounding metadata* của Google, không để mô hình tự viết URL.
+1. **Google News RSS + Gemini** quét tin 30 ngày gần nhất cho từng chủ đề → 5–7 xu hướng, mỗi xu hướng có bằng chứng, insight xã hội, câu hỏi nghiên cứu tiềm năng, hàm ý kinh doanh. Đường dẫn nguồn do hệ thống gắn từ RSS, không để mô hình tự viết URL.
 2. **OpenAlex** đo độ "nóng" học thuật: số công bố theo năm, CAGR thô và **CAGR chuẩn hoá theo tổng công bố toàn CSDL** (loại bỏ hiệu ứng CSDL tự phình to), cùng danh sách bài được trích dẫn nhiều 3 năm gần đây. Phần này chỉ là tín hiệu trắc lượng, không phải cơ sở nội dung lược khảo.
 3. Báo cáo được lưu vào `reports/YYYY-MM-DD.md` và `reports/latest.md`; dữ liệu thô ở `data/`. Lịch sử commit cho phép so sánh xu hướng theo thời gian.
 
@@ -26,8 +26,9 @@ Plugin Cowork **research-radar-vn** đọc `reports/latest.md` để phân tích
 
 ## Chi phí (theo bảng giá Google AI tại thời điểm tháng 9/2026)
 
-- **Gói miễn phí (đã kiểm tra trên AI Studio ngày 25/9/2026):** Google Search grounding chỉ mở cho dòng Gemini 2.x/2.5 (1.500 lượt/ngày); dòng Gemini 3.x có hạn mức grounding = 0, gọi sẽ báo lỗi 429. Vì vậy radar mặc định dùng `gemini-2.5-flash` (5 lượt/phút, 20 lượt/ngày) — đủ cho 4 chủ đề/tuần.
-- Nếu bật billing (Paid tier), có thể đổi sang `gemini-3.8-flash` trong `config/topics.yaml`; theo bảng giá Google, dòng 3.x có 5.000 lượt search/tháng miễn phí, sau đó 14 USD/1.000 lượt.
+- **Gói miễn phí (đã kiểm tra trên AI Studio ngày 25/9/2026):** Google Search grounding của dòng Gemini 3.x có hạn mức = 0 (gọi sẽ báo 429), còn dòng 2.5 không mở cho tài khoản mới (404). Vì vậy radar mặc định chạy chế độ `news_rss`: hệ thống tự lấy tin Google News RSS (miễn phí), rồi `gemini-3.8-flash` (dự phòng `gemini-3.5-flash-lite`) tổng hợp. Mỗi lần chạy dùng 4 lượt gọi, trong hạn mức 20 lượt/ngày.
+- Giới hạn của chế độ miễn phí: Gemini chỉ đọc tiêu đề + nguồn + ngày của tin, không đọc toàn văn; phải mở bài gốc trước khi dùng số liệu.
+- Nếu bật billing (Paid tier): đổi `search_mode: "google_search"` trong `config/topics.yaml` để Gemini tự tìm bằng Google Search; theo bảng giá Google, dòng 3.x có 5.000 lượt search/tháng miễn phí, sau đó 14 USD/1.000 lượt.
 - OpenAlex: khoá miễn phí có hạn mức 1 USD/ngày (khoảng 1.000 lượt search), radar dùng khoảng 20 lượt/lần.
 - GitHub Actions miễn phí cho kho Public.
 
