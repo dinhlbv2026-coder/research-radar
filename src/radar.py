@@ -149,11 +149,14 @@ RULES = """Yêu cầu bắt buộc:
 - Không dùng từ sáo rỗng ("then chốt", "toàn diện", "bức tranh toàn cảnh", "mở ra hướng đi mới").
 - Không viết URL (hệ thống tự gắn nguồn).{cite}
 
-Trình bày bằng tiếng Việt, Markdown, đúng cấu trúc:
+Trình bày bằng tiếng Việt, Markdown, đúng cấu trúc (không thêm lời chào hay kết luận):
 
-### Các xu hướng nổi bật (5–7 xu hướng)
-Với mỗi xu hướng:
-**Tên xu hướng** — Mức tín hiệu: Mạnh / Trung bình / Yếu
+| # | Xu hướng | Tín hiệu | Một câu vì sao đáng chú ý |
+|---|---|---|---|
+(5–7 dòng; cột Tín hiệu ghi đúng một trong ba: "●●● Mạnh", "●●○ Trung bình", "●○○ Yếu")
+
+Sau bảng, mỗi xu hướng một mục:
+#### <số>. <Tên xu hướng> · <●●● Mạnh | ●●○ Trung bình | ●○○ Yếu>
 - Diễn biến: (sự kiện cụ thể, ai, khi nào)
 - Bằng chứng định lượng: (số liệu + đơn vị công bố + thời điểm; không có thì ghi rõ)
 - Insight xã hội/khách hàng: (động cơ hoặc mâu thuẫn hành vi đằng sau — ghi rõ đây là diễn giải)
@@ -163,8 +166,8 @@ Với mỗi xu hướng:
 Tiêu chí mức tín hiệu: Mạnh = ≥2 nguồn độc lập uy tín + có số liệu; Trung bình = 1 nguồn uy tín hoặc nhiều tin chưa có số liệu;
 Yếu = tin đơn lẻ/ý kiến.
 
-### Tín hiệu yếu cần theo dõi
-(2–3 dòng)
+#### Tín hiệu yếu cần theo dõi
+(2–3 gạch đầu dòng)
 """
 
 HEAD = """Bạn là chuyên viên nghiên cứu xu hướng cho một nghiên cứu sinh Tiến sĩ Quản trị kinh doanh,
@@ -236,7 +239,37 @@ def gemini_scan(topic: dict, settings: dict) -> dict:
     sources = [{"title": f"{'★ ' if i in cited else ''}[{i}] {n['title']} ({n['date']})", "uri": n["uri"]}
                for i, n in enumerate(news, 1)]
     return {"model": model, "mode": mode, "text": text, "sources": sources,
-            "search_queries": topic.get("news_queries", []), "n_items": len(news)}
+            "search_queries": topic.get("news_queries", []), "n_items": len(news), "news": news}
+
+
+SUMMARY = """Dưới đây là phân tích xu hướng tuần của {n} chủ đề (đã kèm số tin [n] của từng chủ đề).
+Người đọc: nghiên cứu sinh Tiến sĩ QTKD, đồng thời phụ trách kinh doanh bảo hiểm nhân thọ khu vực Đồng Tháp.
+Viết bằng tiếng Việt, ngắn gọn, đúng cấu trúc Markdown sau, không lời chào, không từ sáo rỗng, không thêm số liệu mới.
+KHÔNG ghi số tin dạng [n] (vì số tin khác nhau giữa các chủ đề); thay bằng tên nguồn và ngày:
+
+**5 điểm đáng chú ý nhất tuần**
+1. <chủ đề> — <một câu, có ngày/nguồn nếu có>
+(đủ 5 dòng, ưu tiên tín hiệu Mạnh)
+
+**3 việc nên làm tuần này**
+- Cho luận án: <một hành động cụ thể>
+- Cho đội kinh doanh: <một hành động cụ thể>
+- Cần kiểm chứng thêm: <một nhận định cần mở nguồn gốc>
+
+NỘI DUNG:
+{body}
+"""
+
+
+def executive_summary(texts: dict[str, str], settings: dict) -> str:
+    body = "\n\n".join(f"## {k}\n{v[:6000]}" for k, v in texts.items() if v)
+    if not body:
+        return ""
+    try:
+        _, resp = _call_gemini(SUMMARY.format(n=len(texts), body=body), settings, None)
+        return (resp.text or "").strip()
+    except Exception as e:  # noqa: BLE001
+        return f"> Không tạo được tóm tắt: {str(e)[:200]}"
 
 
 # ------------------------------------------------------------------ Report ---
@@ -250,34 +283,48 @@ def fmt_growth(g: dict) -> str:
             f"| {years} |\n|{'---|' * len(g['series'])}\n| {vals} |\n")
 
 
-def build_topic_md(topic: dict, res: dict) -> str:
-    md = [f"## {topic['name']}\n"]
+def _week_label() -> str:
+    y, w, _ = TODAY.isocalendar()
+    return f"Tuần {w}/{y}"
+
+
+def build_topic_md(idx: int, topic: dict, res: dict, img: str | None) -> str:
+    md = [f'<a id="{topic["id"]}"></a>', f"## {idx}. {topic['name']}\n"]
     gem = res.get("gemini")
     if gem:
         md.append(gem["text"].strip() + "\n")
         if gem["sources"]:
-            label = "Google News RSS — số trong [ ] khớp trích dẫn" if gem.get("mode") != "google_search" \
-                else "Google Search grounding"
-            md.append(f"**Nguồn ({label}):**\n")
+            label = "Google News" if gem.get("mode") != "google_search" else "Google Search"
+            md.append(f"<details><summary><b>Nguồn tin ({len(gem['sources'])} tin, {label})</b> — "
+                      f"số trong [ ] khớp trích dẫn, ★ = được trích</summary>\n")
             md += [f"- [{s['title']}]({s['uri']})" for s in gem["sources"]]
-            md.append("")
-        extra = f" · Số tin đầu vào: {gem['n_items']}" if gem.get("n_items") else ""
-        md.append(f"<sub>Mô hình: {gem['model']}{extra} · Truy vấn: {'; '.join(gem['search_queries'][:6])}</sub>\n")
+            md.append("\n</details>\n")
+        md.append(f"<sub>Mô hình: {gem['model']} · Truy vấn: {'; '.join(gem['search_queries'][:6])}</sub>\n")
     elif res.get("gemini_error"):
-        md.append(f"> ⚠️ Không quét được bằng Gemini: {res['gemini_error']}\n")
+        md.append(f"> ⚠️ Không quét được tin: {res['gemini_error']}\n")
 
-    md.append("### Tín hiệu trắc lượng thư mục (OpenAlex)\n")
-    md.append("> Chỉ dùng để nhận diện độ 'nóng' của chủ đề trong học thuật; không dùng làm cơ sở nội dung lược khảo.\n")
-    for g in res.get("growth", []):
-        md.append(fmt_growth(g))
+    md.append("### Học thuật đang nói gì\n")
+    if img:
+        md.append(f"![Xu hướng công bố — {topic['name']}]({img})\n")
+    if res.get("growth"):
+        md.append("| Từ khoá | Công bố năm gần nhất trọn vẹn | CAGR thô | So với mặt bằng chung |\n|---|---:|---:|---:|")
+        for g in res["growth"]:
+            last = g["cagr_window"].split("-")[1]
+            raw = f"{g['cagr'] * 100:.0f}%" if g["cagr"] is not None else "n/a"
+            rel = f"**{g['rel_cagr'] * 100:+.0f}%**" if g.get("rel_cagr") is not None else "n/a"
+            md.append(f"| `{g['query']}` | {g['series'].get(int(last), 0)} ({last}) | {raw} | {rel} |")
+        md.append("\n<sub>OpenAlex, tìm trong tiêu đề + tóm tắt; chỉ là tín hiệu trắc lượng, "
+                  "không dùng làm cơ sở nội dung lược khảo.</sub>\n")
     if res.get("top_cited"):
-        md.append("**Bài được trích dẫn nhiều nhất 3 năm gần đây** (cần kiểm tra toàn văn, tạp chí, tình trạng rút bài):\n")
+        md.append("<details><summary><b>Bài được trích dẫn nhiều nhất 3 năm gần đây</b> "
+                  "(cần kiểm tra toàn văn, hạng tạp chí, tình trạng rút bài)</summary>\n")
         for p in res["top_cited"]:
             doi = p["doi"] or p["openalex"]
-            md.append(f"- {p['title']} ({p['year']}) — {p['source'] or 'n/a'} — {p['cited_by']} trích dẫn — {doi}")
-        md.append("")
+            md.append(f"- {p['title']} ({p['year']}) — *{p['source'] or 'n/a'}* — {p['cited_by']} trích dẫn — {doi}")
+        md.append("\n</details>\n")
     if res.get("openalex_error"):
         md.append(f"> ⚠️ OpenAlex lỗi: {res['openalex_error']}\n")
+    md.append("[↑ Về đầu trang](#top)\n")
     return "\n".join(md)
 
 
@@ -306,25 +353,72 @@ def run(topic_filter: str | None, dry_run: bool) -> Path:
             res["openalex_error"] = str(e)[:300]
         results[t["id"]] = res
 
-    # Bảng xếp hạng độ nóng học thuật (CAGR từ khoá chính)
+    # ----- Biểu đồ -----
+    import charts
+    from collections import Counter
+
+    stamp = TODAY.isoformat() + ("-dry" if dry_run else "")
+    IMG = REPORTS / "img"
+    IMG.mkdir(parents=True, exist_ok=True)
+    rows = []
+    for i, t in enumerate(topics):
+        for g in results[t["id"]].get("growth", []):
+            rows.append({"topic": t["name"], "topic_idx": i, "query": g["query"], "rel": g.get("rel_cagr")})
+    hot_img = None
+    if any(r["rel"] is not None for r in rows):
+        charts.hot_ranking(rows, IMG / f"{stamp}-hot.png",
+                           "Chủ đề học thuật nào đang tăng nhanh hơn mặt bằng chung?")
+        hot_img = f"img/{stamp}-hot.png"
+    topic_imgs = {}
+    for t in topics:
+        gr = results[t["id"]].get("growth")
+        if gr:
+            charts.topic_trend(gr, IMG / f"{stamp}-{t['id']}.png", f"Số công bố theo năm — {t['name']}",
+                               TODAY.year, color_idx=topics.index(t))
+            topic_imgs[t["id"]] = f"img/{stamp}-{t['id']}.png"
+    src_counter = Counter(n["source"] for t in topics
+                          for n in (results[t["id"]].get("gemini") or {}).get("news", []) if n["source"])
+    src_img = None
+    if src_counter:
+        charts.news_sources(src_counter.most_common(10), IMG / f"{stamp}-sources.png",
+                            "Nguồn tin xuất hiện nhiều nhất tuần này")
+        src_img = f"img/{stamp}-sources.png"
+
+    # ----- Tóm tắt điều hành -----
+    summary = "" if dry_run else executive_summary(
+        {t["name"]: (results[t["id"]].get("gemini") or {}).get("text", "") for t in topics}, settings)
+
     rank = []
     for t in topics:
         g = (results[t["id"]].get("growth") or [None])[0]
         if g and g.get("rel_cagr") is not None:
-            rank.append((g["rel_cagr"], t["name"], g["query"], g["cagr"]))
+            rank.append((g["rel_cagr"], t["name"], t["id"]))
     rank.sort(reverse=True)
 
-    header = [f"# Research Radar — {TODAY.isoformat()}\n",
-              f"Cửa sổ quét tin: {settings['lookback_days']} ngày · Thị trường: {settings['market_focus']}\n"]
-    if rank:
-        header.append("### Xếp hạng độ 'nóng' học thuật (CAGR chuẩn hoá, từ khoá chính)\n")
-        header.append("| Hạng | Chủ đề | Từ khoá | CAGR thô | CAGR chuẩn hoá |\n|---|---|---|---|---|")
-        header += [f"| {i} | {n} | `{q}` | {raw * 100:.1f}% | {c * 100:+.1f}% |"
-                   for i, (c, n, q, raw) in enumerate(rank, 1)]
-        header.append("")
-    body = [build_topic_md(t, results[t["id"]]) for t in topics]
-    footer = ["---", "*Báo cáo tự động. Mọi số liệu cần đối chiếu nguồn gốc trước khi đưa vào luận án/tài liệu chính thức.*"]
-    md = "\n".join(header + body + footer)
+    header = ['<a id="top"></a>',
+              f"# Research Radar · {_week_label()}",
+              f"\n> **Ngày chạy:** {TODAY.strftime('%d/%m/%Y')} · **Cửa sổ tin:** {settings['lookback_days']} ngày · "
+              f"**Thị trường:** {settings['market_focus']}\n"]
+    if summary:
+        header += ["## Tóm tắt điều hành\n", summary, ""]
+    header.append("## Mục lục\n")
+    header += [f"{i}. [{t['name']}](#{t['id']})" for i, t in enumerate(topics, 1)]
+    header.append("")
+    if hot_img:
+        header += ["## Bản đồ độ nóng học thuật\n", f"![Bản đồ độ nóng học thuật]({hot_img})\n"]
+        if rank:
+            header.append("| Hạng | Chủ đề (từ khoá chính) | So với mặt bằng chung |\n|---:|---|---:|")
+            header += [f"| {i} | [{n}](#{tid}) | **{c * 100:+.0f}%/năm** |" for i, (c, n, tid) in enumerate(rank, 1)]
+            header.append("\n<sub>CAGR chuẩn hoá = tốc độ tăng số công bố của từ khoá chia cho tốc độ tăng tổng công bố "
+                          "OpenAlex, giai đoạn các năm đã trọn vẹn.</sub>\n")
+    if src_img:
+        header += ["## Ai đang đưa tin nhiều nhất\n", f"![Nguồn tin]({src_img})\n"]
+    body = [build_topic_md(i, t, results[t["id"]], topic_imgs.get(t["id"])) for i, t in enumerate(topics, 1)]
+    footer = ["---", "*Báo cáo tự động từ Google News + Gemini + OpenAlex. Mọi số liệu cần mở nguồn gốc "
+              "trước khi đưa vào luận án hoặc tài liệu chính thức.*"]
+    md = "\n".join(header + ["---"] + body + footer)
+    for r in results.values():  # không lưu danh sách tin thô 2 lần trong JSON
+        (r.get("gemini") or {}).pop("news", None)
 
     REPORTS.mkdir(exist_ok=True)
     DATA.mkdir(exist_ok=True)
