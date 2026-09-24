@@ -2,3 +2,5 @@ google-genai>=1.0
 requests>=2.31
 pyyaml>=6.0
 matplotlib>=3.8
+markdown>=3.5
+playwright>=1.45
