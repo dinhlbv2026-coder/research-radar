@@ -1,0 +1,52 @@
+# Cấu hình chủ đề cho Research Radar
+# Sửa file này trên GitHub để thêm/bớt chủ đề — lần chạy kế tiếp sẽ tự áp dụng.
+
+settings:
+  gemini_model: "gemini-3.8-flash"          # đổi sang "gemini-3.5-flash-lite" nếu muốn tiết kiệm
+  gemini_fallback_models: ["gemini-3.5-flash-lite", "gemini-3-flash-preview"]
+  lookback_days: 30                          # cửa sổ quét tin/xu hướng
+  bibliometric_years: 6                      # số năm để tính tốc độ tăng công bố (OpenAlex)
+  top_papers_per_topic: 5                    # số bài được trích dẫn nhiều nhất gần đây (chỉ làm tín hiệu)
+  report_language: "vi"
+  market_focus: "Việt Nam, đặc biệt Đồng bằng sông Cửu Long; đối chiếu Đông Nam Á và thế giới"
+
+topics:
+  - id: digital-banking
+    name: "Ngân hàng số / Fintech"
+    gemini_query: >
+      Xu hướng mới về ngân hàng số, fintech, trải nghiệm khách hàng số, AI trong ngân hàng,
+      thanh toán số tại Việt Nam và Đông Nam Á
+    openalex_search: "digital banking customer experience"
+    openalex_extra:
+      - "mobile banking continuance intention"
+      - "generative AI banking"
+
+  - id: life-insurance
+    name: "Bảo hiểm nhân thọ / InsurTech"
+    gemini_query: >
+      Xu hướng thị trường bảo hiểm nhân thọ Việt Nam, InsurTech, kênh phân phối (đại lý, bancassurance,
+      số hoá), hành vi khách hàng và quy định mới của Bộ Tài chính
+    openalex_search: "life insurance purchase intention"
+    openalex_extra:
+      - "insurtech"
+      - "insurance agent performance"
+
+  - id: management-hr
+    name: "Quản trị kinh doanh & nhân sự"
+    gemini_query: >
+      Xu hướng mới trong quản trị kinh doanh và quản trị nhân sự: lãnh đạo đội ngũ bán hàng,
+      đào tạo, giữ chân nhân sự, AI trong HR, mô hình làm việc
+    openalex_search: "sales force management"
+    openalex_extra:
+      - "AI human resource management"
+      - "employee retention sales"
+
+  - id: tech-business-fashion
+    name: "Xu hướng công nghệ, kinh doanh, thời trang"
+    gemini_query: >
+      Xu hướng công nghệ, mô hình kinh doanh và thời trang/tiêu dùng mới nổi đáng chú ý toàn cầu và
+      tại Việt Nam; insight hành vi người tiêu dùng Gen Z và Millennials
+    openalex_search: "consumer behavior social commerce"
+    openalex_extra:
+      - "sustainable fashion consumption"
+      - "agentic AI business"
