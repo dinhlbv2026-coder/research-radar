@@ -29,6 +29,7 @@ CONFIG = ROOT / "config" / "topics.yaml"
 REPORTS = ROOT / "reports"
 DATA = ROOT / "data"
 OPENALEX = "https://api.openalex.org"
+# Tìm trong tiêu đề + tóm tắt (không phải toàn văn) để tránh kết quả lạc đề; từ khoá không được chứa dấu phẩy.
 
 TODAY = dt.date.today()
 
@@ -61,8 +62,7 @@ def openalex_growth(query: str, years: int) -> dict:
     last_full = TODAY.year - 1
     first = last_full - years + 1
     params = _oa_params({
-        "search": query,
-        "filter": f"publication_year:{first}-{TODAY.year}",
+        "filter": f"title_and_abstract.search:{query},publication_year:{first}-{TODAY.year}",
         "group_by": "publication_year",
     })
     r = requests.get(f"{OPENALEX}/works", params=params, timeout=60)
@@ -88,8 +88,7 @@ def openalex_growth(query: str, years: int) -> dict:
 def openalex_top_cited(query: str, n: int) -> list[dict]:
     """Bài được trích dẫn nhiều nhất trong 3 năm gần đây — chỉ là tín hiệu 'điểm nóng'."""
     params = _oa_params({
-        "search": query,
-        "filter": f"publication_year:{TODAY.year - 3}-{TODAY.year}",
+        "filter": f"title_and_abstract.search:{query},publication_year:{TODAY.year - 3}-{TODAY.year}",
         "sort": "cited_by_count:desc",
         "per_page": n,
         "select": "id,doi,title,publication_year,cited_by_count,primary_location",
