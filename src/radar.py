@@ -48,6 +48,16 @@ def _oa_params(extra: dict) -> dict:
     return p
 
 
+def _oa_get(params: dict, timeout: int = 60):
+    """GET OpenAlex, tự thử lại khi bị giới hạn lượt gọi (429) hoặc lỗi máy chủ (5xx)."""
+    for wait in (0, 10, 30, 60):
+        time.sleep(wait)
+        r = requests.get(f"{OPENALEX}/works", params=params, timeout=timeout)
+        if r.status_code not in (429, 500, 502, 503, 504):
+            return r
+    return r
+
+
 _TOTALS: dict[int, int] = {}
 
 
@@ -55,7 +65,7 @@ def openalex_totals(first: int) -> dict[int, int]:
     """Tổng số công bố toàn cơ sở dữ liệu theo năm — mẫu số để chuẩn hoá (tránh nhầm tăng trưởng
     chung của CSDL với tăng trưởng riêng của chủ đề)."""
     if not _TOTALS:
-        r = requests.get(f"{OPENALEX}/works", params=_oa_params({
+        r = _oa_get(params=_oa_params({
             "filter": f"publication_year:{first}-{TODAY.year}", "group_by": "publication_year"}), timeout=60)
         r.raise_for_status()
         _TOTALS.update({int(g["key"]): g["count"] for g in r.json().get("group_by", [])})
@@ -70,7 +80,7 @@ def openalex_growth(query: str, years: int) -> dict:
         "filter": f"title_and_abstract.search:{query},publication_year:{first}-{TODAY.year}",
         "group_by": "publication_year",
     })
-    r = requests.get(f"{OPENALEX}/works", params=params, timeout=60)
+    r = _oa_get(params=params, timeout=60)
     r.raise_for_status()
     counts = {int(g["key"]): g["count"] for g in r.json().get("group_by", [])}
     series = {y: counts.get(y, 0) for y in range(first, TODAY.year + 1)}
@@ -98,7 +108,7 @@ def openalex_top_cited(query: str, n: int) -> list[dict]:
         "per_page": n,
         "select": "id,doi,title,publication_year,cited_by_count,primary_location",
     })
-    r = requests.get(f"{OPENALEX}/works", params=params, timeout=60)
+    r = _oa_get(params=params, timeout=60)
     r.raise_for_status()
     out = []
     for w in r.json().get("results", []):
