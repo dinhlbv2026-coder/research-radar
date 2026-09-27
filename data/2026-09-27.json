@@ -1,0 +1,1078 @@
+{
+  "digital-banking": {
+    "gemini": {
+      "model": "gemini-3.8-flash",
+      "mode": "news_rss",
+      "text": "| # | Xu hướng | Tín hiệu | Một câu vì sao đáng chú ý |\n|---|---|---|---|\n| 1 | Siết chuẩn an ninh thiết bị và thanh lọc tài khoản ngân hàng số | ●●● Mạnh | Ngân hàng chặn thiết bị không đủ chuẩn và chuẩn bị đóng tài khoản không hoạt động lâu năm nhằm kiểm soát gian lận. |\n| 2 | Gia tăng quy mô tài sản số và tổn thất gian lận tài chính tại khu vực và toàn cầu | ●●● Mạnh | Lượng người dùng tiền mã hóa chạm mốc lớn tại Indonesia song hành với tổn thất khổng lồ do lừa đảo trực tuyến trên thế giới. |\n| 3 | Tích hợp dữ liệu thuế - tín dụng thúc đẩy số hóa hộ kinh doanh cá thể | ●●○ Trung bình | Dữ liệu giao dịch và thuế trở thành căn cứ cấp vốn cho tiểu thương và doanh nghiệp nhỏ thay thế thế chấp truyền thống. |\n| 4 | Kiểm soát thuật toán AI đi kèm cá nhân hóa trải nghiệm ngân hàng số | ●●○ Trung bình | Trải nghiệm số hướng tới cá nhân hóa nhưng đòi hỏi tăng cường giám sát dữ liệu và mô phỏng AI từ các tổ chức quản lý. |\n| 5 | Chuyển dịch thanh toán số nông thôn và tối ưu hóa QR xuyên biên giới | ●●○ Trung bình | Thanh toán phi tiền mặt mở rộng tới khu vực nông nghiệp thông qua thẻ nội địa và chuyển từ kết nối sang nâng cao hiệu quả dùng QR quốc tế. |\n\n---\n\n#### 1. Siết chuẩn an ninh thiết bị và thanh lọc tài khoản ngân hàng số · ●●● Mạnh\n- Diễn biến: Ngày 25/09/2026 và 26/09/2026, CafeF thông tin về việc một số dòng điện thoại không còn đủ điều kiện đăng nhập ứng dụng ngân hàng để chuyển khoản hay nạp/rút tiền [17][29]. Ngày 26/09/2026, VTVgo phản ánh quy định đóng các tài khoản ngân hàng không phát sinh giao dịch từ 03 năm trở lên [22]. Đồng thời, các yêu cầu an ninh bảo mật và an toàn hoạt động ngân hàng số liên tục được VTVgo nhấn mạnh ngày 27/09/2026 [3][5][6].\n- Bằng chứng định lượng: Thời gian tài khoản không phát sinh giao dịch dẫn đến việc bị đóng là \"03 năm trở lên\" (VTVgo công bố ngày 26/09/2026) [22]. Các thông số định lượng cụ thể về danh sách phiên bản hệ điều hành bị chặn chưa tìm thấy nguồn xác nhận ngoài tiêu đề bài viết [17][29].\n- Insight xã hội/khách hàng: (Diễn giải) Khách hàng gặp rào cản thao tác khi quy định bảo mật loại bỏ các dòng máy cũ, tạo mâu thuẫn giữa nhu cầu tiết kiệm chi phí phần cứng và yêu cầu tuân thủ an toàn số.\n- Câu hỏi nghiên cứu tiềm năng: Rào cản kỹ thuật thiết bị di động (biến độc lập) tác động như thế nào đến tỷ lệ duy trì dịch vụ ngân hàng số của nhóm khách hàng phổ thông (biến phụ thuộc)?\n- Hàm ý kinh doanh: Tư vấn viên bảo hiểm cần chủ động kiểm tra trạng thái tương thích ứng dụng ngân hàng số trên thiết bị của khách hàng trước kỳ thu phí định kỳ để ngăn ngừa phát sinh nợ phí do lỗi giao dịch.\n\n#### 2. Gia tăng quy mô tài sản số và tổn thất gian lận tài chính tại khu vực và toàn cầu · ●●● Mạnh\n- Diễn biến: Ngày 26/09/2026, InvestorTrust đưa tin Indonesia ghi nhận sự gia tăng nhanh chóng về lượng người tham gia tiền mã hóa nhờ nhóm Gen Z và stablecoin [24]. Ngày 27/09/2026, the420.in công bố quy mô tổn thất từ các vụ lừa đảo toàn cầu [14]. Tại Việt Nam, Tạp chí Kinh tế - Tài chính Online ngày 26/09/2026 đưa tin về việc khẩn trương triển khai luật sửa đổi các luật về ngân hàng và phòng chống rửa tiền [15].\n- Bằng chứng định lượng: Indonesia ghi nhận hơn 22 triệu người dùng tiền mã hóa (InvestorTrust công bố ngày 26/09/2026) [24]; thiệt hại do lừa đảo toàn cầu chạm mốc 42,35 lakh crore (the420.in công bố ngày 27/09/2026) [14].\n- Insight xã hội/khách hàng: (Diễn giải) Người tiêu dùng trẻ ưa chuộng các kênh tài sản số có tỷ suất sinh lời cao nhưng đối mặt rủi ro mất an toàn vốn nghiêm trọng trước các mô hình gian lận công nghệ cao.\n- Câu hỏi nghiên cứu tiềm năng: Nhận thức về rủi ro gian lận trực tuyến (biến độc lập) ảnh hưởng như thế nào đến quyết định phân bổ dòng tiền vào các sản phẩm tài chính phòng thủ (biến phụ thuộc)?\n- Hàm ý kinh doanh: Đội ngũ kinh doanh bảo hiểm định vị hợp đồng bảo hiểm nhân thọ là công cụ bảo vệ tài sản chắc chắn, đối chiếu trực tiếp với các rủi ro lừa đảo công nghệ cao và biến động tài sản ảo.\n\n#### 3. Tích hợp dữ liệu thuế - tín dụng thúc đẩy số hóa hộ kinh doanh cá thể · ●●○ Trung bình\n- Diễn biến: Ngày 27/09/2026, Vietcombank đẩy mạnh số hóa đồng hành cùng tiểu thương trên toàn quốc (Tin nhanh chứng khoán) [8]; diendandoanhnghiep.vn phân tích việc kết nối dữ liệu thuế - tín dụng phục vụ hiện đại hóa hệ thống ngân hàng [7]. Trước đó, VTVgo ngày 26/09/2026 đưa tin về việc dùng dữ liệu và công nghệ giải quyết bài toán cấp vốn cho doanh nghiệp nhỏ và vừa [19]; Agribank tăng khả năng tiếp cận vốn qua số hóa (CafeF, 25/09/2026) [30]; thoibaonganhang.vn ngày 25/09/2026 nhấn mạnh yêu cầu chuyển đổi số hộ kinh doanh đi vào thực chất [35].\n- Bằng chứng định lượng: Chưa tìm thấy nguồn xác nhận số liệu định lượng cụ thể trong tiêu đề các bài báo [7][8][19][30][35].\n- Insight xã hội/khách hàng: (Diễn giải) Tiểu thương có nhu cầu vay vốn số nhanh nhưng lo ngại việc tích hợp dữ liệu giao dịch bán lẻ với cơ quan thuế sẽ làm phát sinh chi phí nghĩa vụ tài chính.\n- Câu hỏi nghiên cứu tiềm năng: Mức độ sẵn sàng chia sẻ dữ liệu thuế - thanh toán (biến độc lập) tác động như thế nào đến khả năng tiếp cận vốn tín dụng số của hộ kinh doanh (biến phụ thuộc)?\n- Hàm ý kinh doanh: Thiết kế giải pháp bảo vệ tài chính cho chủ hộ kinh doanh và tiểu thương tại các chợ truyền thống (đặc biệt khu vực Đồng bằng sông Cửu Long) dựa trên dòng tiền thanh toán số được ghi nhận.\n\n#### 4. Kiểm soát thuật toán AI đi kèm cá nhân hóa trải nghiệm ngân hàng số · ●●○ Trung bình\n- Diễn biến: Ngày 27/09/2026, VTVgo phản ánh xu hướng \"cá nhân hóa\" trải nghiệm ngân hàng số [2] và hoạt động phát triển của Vietcombank với ứng dụng VCB Digibank [4]. Ngày 25/09/2026, VTVgo đưa tin về việc nâng cao kiểm soát ứng dụng A.I. trong quản trị dữ liệu ngân hàng [27]. Trước đó, Gartner đưa Whatfix vào 4 báo cáo Hype Cycle năm 2026 với điểm nhấn về mô phỏng AI (digital terminal, 26/09/2026) [25].\n- Bằng chứng định lượng: Gartner công bố sản phẩm được ghi nhận trên 4 báo cáo Hype Cycle năm 2026 (digital terminal ngày 26/09/2026) [25]. Các số liệu đo lường hiệu quả ứng dụng AI trong quản trị ngân hàng chưa tìm thấy nguồn xác nhận ngoài tiêu đề [2][27].\n- Insight xã hội/khách hàng: (Diễn giải) Khách hàng mong muốn dịch vụ được cấu hình riêng theo nhu cầu nhưng đồng thời hình thành tâm lý nghi ngại về mức độ an toàn của dữ liệu cá nhân khi ngân hàng ứng dụng AI xử lý thông tin tự động.\n- Câu hỏi nghiên cứu tiềm năng: Tính minh bạch trong kiểm soát AI quản trị dữ liệu (biến độc lập) tác động như thế nào đến sự tin tưởng của người dùng vào dịch vụ tài chính cá nhân hóa (biến phụ thuộc)?\n- Hàm ý kinh doanh: Đội ngũ kinh doanh bảo hiểm cần minh bạch hóa phương thức bảo mật thông tin khi ứng dụng các công cụ phân tích nhu cầu tài chính số để nâng cao tỷ lệ chốt hợp đồng.\n\n#### 5. Chuyển dịch thanh toán số nông thôn và tối ưu hóa QR xuyên biên giới · ●●○ Trung bình\n- Diễn biến: Ngày 25/09/2026, Mekong ASEAN phản ánh yêu cầu chuyển từ \"kết nối được\" sang \"dùng hiệu quả\" đối với thanh toán QR xuyên biên giới [36]. Báo Thanh Hóa ngày 25/09/2026 đưa tin về việc phát triển thẻ Lộc Việt gắn với thanh toán không dùng tiền mặt [40]. Ngày 26/09/2026, thitruongtaichinhtiente.vn thông tin Ngân hàng Nhà nước bổ sung quy định giám sát hệ thống thanh toán quan trọng và trung gian thanh toán [20].\n- Bằng chứng định lượng: Chưa tìm thấy nguồn xác nhận số liệu định lượng cụ thể trong tiêu đề các bài báo [20][36][40].\n- Insight xã hội/khách hàng: (Diễn giải) Khách hàng nông thôn chuyển dịch hành vi từ giữ tiền mặt sang dùng thẻ nội địa tiện ích thấp, trong khi nhóm khách hàng giao thương xuyên biên giới đòi hỏi chi phí giao dịch QR phải thực sự thấp hơn tỷ giá quy đổi truyền thống.\n- Câu hỏi nghiên cứu tiềm năng: Sự sẵn có của hạ tầng thanh toán số địa phương (biến độc lập) có mối quan hệ ra sao với tỷ lệ chấp nhận dịch vụ tài chính vi mô không tiền mặt của người dân khu vực nông thôn (biến phụ thuộc)?\n- Hàm ý kinh doanh: Tích hợp cổng thu phí bảo hiểm định kỳ qua thẻ Lộc Việt và mã QR chuẩn hóa nhằm tiếp cận phân khúc khách hàng nông thôn và nông nghiệp tại Đồng bằng sông Cửu Long.\n\n---\n\n#### Tín hiệu yếu cần theo dõi\n- Chiến lược tài chính chăm sóc người cao tuổi kết hợp quản lý tài sản và chăm sóc y tế (\"From Wealth Management to Dental Care\") của OCBC tại Đông Nam Á (아시아경제, 27/09/2026) [12].\n- Ngân hàng thương mại Philippines đối mặt yêu cầu tăng sàn vốn trước áp lực chuyển dịch số hóa nhanh (briefasia.com, 27/09/2026) [13].\n- Mô hình ngân hàng số kết hợp chương trình giải trí để định hình phong cách sống số cho giới trẻ từ TPBank (CafeF, 25/09/2026) [26].",
+      "sources": [
+        {
+          "title": "[1] Lãi suất ngân hàng hôm nay 27.9: Bảy ngân hàng có lãi suất trên 8% - Laodong.vn (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSlltSThtUmVvQ25kRE9yaGJGTTNWVzk0ZEhBaFp2VW1lLVJ1bWRIcTRFZXF2WTl1endDNjZVN2hsd3hNcTBTVHI0bzZ0YkxtRzRYTjlWYXJSYnhZeFpoR2RfYmEtYTVqWFpfcVIyXzJRVDlHTEtXRFRlMm9ubGQ0OEh6MGpPc3N6YVhlcW9ueVFuU3ctWVNCWkxOa21qemxwOTJHeWFUSW0?oc=5"
+        },
+        {
+          "title": "★ [2] “Cá nhân hóa” trải nghiệm ngân hàng số | Tài chính kinh doanh - VTVgo (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE80ZnprbU53dXlLOWlqbHpOTHVmMThVZmFfa19OODFrU1BKcHhiM09od2xTZTlLS21sc0FZSm9IemE?oc=5"
+        },
+        {
+          "title": "★ [3] Giao dịch ngân hàng số an toàn - VTVgo (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBBY0NDRlBpdU5LY0dyTFRzTFpid1FFak5pZjQwbTlCMS1uM0xqd3Y4ZllEMmdaRml0eHEzWGIzTnRBN0F3M2MtSA?oc=5"
+        },
+        {
+          "title": "★ [4] Ngân hàng số VCB Digibank – Dẫn lối tương lai - VTVgo (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9PTjUyVXRsdjUzMFZGcDI1RmkzR3FFRmxIWEZFS0F3THo2RnNKNE92ckhhNWpkbW9rR2Z6aC0wV3Q?oc=5"
+        },
+        {
+          "title": "★ [5] Tăng cường an ninh, bảo mật cho ngân hàng số - VTVgo (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1xZnNVZDJnd3R4U2FsMTVoUlhlTkFzcVBRMlh0YU8wZkJySi1QbERxUVh3V29KT29WbW5fdkVKUHA?oc=5"
+        },
+        {
+          "title": "★ [6] Chuyển đổi số ngân hàng gắn với an toàn hoạt động - VTVgo (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE05NHFjX3d6bDN6ZC1CYjhKQWRlX0l0b1VSVkxiVnRCUnZQSEFmZWZ6UEI5WjdFUnJ2X0lFZTdOZENad0dNalR5TQ?oc=5"
+        },
+        {
+          "title": "★ [7] Kết nối dữ liệu thuế - tín dụng: Bước tiến hiện đại hóa hệ thống ngân hàng - diendandoanhnghiep.vn (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWDFWRDd3Z2JmS3FnMk9Zc1dNUU5CcWZPT1BvMzN6XzF0WGNPR200Yld5ckkxVFgxTnpxVFpQa0ZzQnBlNHk4RlRzUzhsanZmYUR5WS0yQUpvLUk2bk1DWFd3U3FtNFFsZGZSLWZXZ19fUTROR3h4aGtPZTNUYkxmaDZzQmttc2s0NF9sakVPQXpCbFREb1JzUTJ4WU8xRjVNemkyYTd5QjYxcDVybUhMQzlVQkdGUQ?oc=5"
+        },
+        {
+          "title": "★ [8] Vietcombank nối dài hành trình chuyển đổi số cùng tiểu thương trên cả nước - Tin nhanh chứng khoán (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNUlNkM0hCTUJvWHBmY2xjMlhHSXd3Y2VPLXJYTmdQcFlraDNjQlQ5VldpQ1RSZVhjUXVBX015bUJ4eU1samZXYmNTZWoyZzNmZk1VbHdzcGhkRzhEaEowcGcxUkVfcnRNVWtoQzl2OWxrdEVlSE1WZjJvc1RYTlJHNEhUX1NLVGI5MC1heEFmR3d2ZGxXY3dZLTN4OEZDRnZHc1VXWUV4ZGZ0S2pEdjRKcnFvWlpSSjF0ZUhDLU9n0gG-AUFVX3lxTE1SU2QzSEJNQm9YcGZjbGMyWEdJd3djZU8tclhOZ1BwWWtoM2NCVDlWV2lDVFJlWGNRdUFfTXltQnh5TWxqZldiY1NlajJnM2ZmTVVsd3NwaGRHOERoSjBwZzFSRV9ydE1Va2hDOXY5bGt0RWVITVZmMm9zVFhOUkc0SFRfU0tUYjkwLWF4QWZHd3ZkbFdjd1ktM3g4RkNGdkdzVVdZRXhkZnRLakR2NEpycW9aWlJKMXRlSEMtT2c?oc=5"
+        },
+        {
+          "title": "[9] Kỳ vọng chỉ tiêu tăng trưởng tín dụng - VTVgo (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5zVnNLYXp0SGdBZlBxd3FmaVZ0VnhvZW5Yb05IQmN1WDg3V2JfQlhRTU9Ia2Z0cjNVZm1NeW0ycVM?oc=5"
+        },
+        {
+          "title": "[10] Tăng cường giải pháp ngăn ngừa nợ xấu - VTVgo (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFA0eGhyVnpjai1Ga01lSHNwWFg3SGZPRFJpZ2FHZnJaZFdWVERRc2ZlaHNtbVVZV2dpZ0JrZVdJcWo?oc=5"
+        },
+        {
+          "title": "[11] Chuyển đổi số trong lịch sử và di sản văn hoá - VTVgo (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5la2tEWDdYeHU4d3BrbGU0QXZYSXVHSUlVM3dkdGFoTFNGUmN2Nnh3X0ZZa28zdGdDTWZtdVQxUl8?oc=5"
+        },
+        {
+          "title": "★ [12] [Finance Embraces Seniors]② OCBC, Southeast Asia’s No. 2 Financial Group, Senior Strategy: \"From Wealth Management to Dental Care\" - 아시아경제 (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5qR3JGOVRobGctMDRId3ZraEt0bW9PR0xuTHVWR3NBcS1CWlNGQUZNVEM5amFYYTlaMTJNNnduLWowVHlkTDlrdl83Z3JZTExLT0I4ak1iY0lDUDZGdkdyYXVVOFI?oc=5"
+        },
+        {
+          "title": "★ [13] Philippine Banks Face Capital Floor as Digital Shift Accelerates - briefasia.com (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMG11REVnUjFOWnN3Z1h5MU9JZ0NUazhDdkRNSTBOcE5NaFlDZkNfWHJ2U3FhMXloY3ZuUENrR256YWV1OU9QcDZ0LWRXaUo0RDJ3LWF4MmVSUE9laW85SWx2TjJNSDBjWk1fS0pjS2ljYjF5V3ZMakd4Ull3V2V5WjBockM?oc=5"
+        },
+        {
+          "title": "★ [14] What 42.35 Lakh Crore in Fraud Losses Says About the Global Scam Economy - the420.in (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOb1drWVFheHdzRlNXTHJSZ0xVWDdTNmFSdnAxU3BGeVNKbHhPV3J5NFNhUmMwazVTRDdyU0xuc0ZKZVBPNlNyalR3VjI4Q2xiYWpCRDBUVjlNdjF0TnVrbXBOMlYzb2pzS2E0QXMtc01kbTRMTXN1dDM0SHVzYU5SNVdvcw?oc=5"
+        },
+        {
+          "title": "★ [15] Khẩn trương triển khai Luật sửa đổi các luật về ngân hàng, phòng chống rửa tiền - Tạp chí Kinh tế - Tài chính Online (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcWxZOFRDOHlQUGhuLXEwa2RFYmhfWk05blFfdzhrbzNHSzM4THppU2U0eXkxeGRiQnJpWjhDT1EyMTJkX1Q3NWJTMFE3dTZmR1lhdGs2TTRjcWtDb1d2YkFFdTdDcFlBUElBWFRyUlRJdFQwRC1KTUVhZzZTOEdkYzZHNFA0RDVKdjczZDU3d2pZS05vMzRtMi14blpPOHJ4Q3Zmb0UtUTZCT0VRSld4cjR0UzBYV3VXVlZTdEZKcw?oc=5"
+        },
+        {
+          "title": "[16] Hành trình công dân số - VTVgo (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1CaEQyZ0I1dXhzYm5Lc09RaDJGaWVFM1JhblhyMS0wWlJENGFmMXBuRGQwSENiLVQwRzJxcjQwNmxpX29DTU9nNQ?oc=5"
+        },
+        {
+          "title": "★ [17] Tất cả điện thoại thuộc nhóm này không thể đăng nhập ứng dụng ngân hàng, thực hiện giao dịch chuyển tiền - CafeF (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNLVN1aHZNMTZWVV9iSkxhMjhQME9oZjBLYUpjM21yakwwbFRjS050N3FaNG93SzN2UjhQd0t0UEJ6ZWdpSThxZ3F0ODJsaDVoME9WLUFRMTdoMW9oRkYzeXl6b2J2UkMxSFNJMzd4RWswTHVxRFdCcFhUT2dNbWFjV01IVU5YdnRuRlVGVzduSFlUWXk3emRKSHo3Y0xHQXIwZHlxWkNNYnpTS0dsVzY3M0tEYjZFX0ZfQ1dSNHAtckdmMzhSaHFUOF9qYlFrRi1pT3hzZWkwMHprUEU?oc=5"
+        },
+        {
+          "title": "[18] Chuyển đổi số trong giáo dục - VTVgo (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBuc3lNeHhWd3FqdlcxT1M0Vk45YXpSUEEyV3BHTHJUV3ZCdWoydDYxS19INUdid3BORGNtcnB5bGM?oc=5"
+        },
+        {
+          "title": "★ [19] Dữ liệu và công nghệ giải bài toán cho vay doanh nghiệp nhỏ và vừa - VTVgo (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1LTXVXZkdfOG5TdkFBVmZUVEVibFpaOXA2RVRjVFpNNmllb3dwd3NyN0FhM2FmbHZWbkxJOW9DcFNUMVpJdWpraQ?oc=5"
+        },
+        {
+          "title": "★ [20] Bổ sung quy định về giám sát và thực hiện giám sát các hệ thống thanh toán quan trọng, hoạt động cung ứng dịch vụ trung gian thanh toán - thitruongtaichinhtiente.vn (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPby1iSVlYRnliZnZnakJ2ZGo3ckNGTDRmbEVuU2E4NEpkeW1SbldyamRTeGZHRU9WVjJRdzBsTktlZS1mb3hMT05VaExicTA3QzdOYl9aUUNyT2ZLZHhRNzRyR0NNYm1YRExxWllxSVBZZXVHZFRxMldPdFdhd1M3OEVxYjVrbUo1dUtvNXFOWlFNUExxRS1aMWNCUlAtQXRhcm9HMTRCTjBoc2VUbTZLczRZWUtXcS15VDl3X3dPWEVUSzV1VXl1cTB5NFhUMk5KdDU1M1ZiZzJDaFZidFdFTjk1WjNmaEhBajdNLW9Ucm1oWUlTNmFmekJKa25yemtuT3N3UnVpc3U0Skhq?oc=5"
+        },
+        {
+          "title": "[21] Ngân hàng Nhà nước ban hành Chương trình hành động bảo vệ quyền lợi người tiêu dùng - CafeF (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOX3dSekxXTkdDTVl1eTI5YmR1MFBmTkRMNzdEOVJSVGZ2a2JwOHV6ZjFkeElJSjNiX0hiOWxJSFN5V1JlNk5Hc3k2VmFwZG9Bbk5oOERDei12Y19mQmFTOENnd014TmlqRzJMUUoxSnZmajV6Zm9FdXU1Q01rQzBsN0JpdUs4WFEtUENBVnpYTVpGTzlIQWxNV0JHNEN3WEVsdU1KWk5sOWJ1WDRfRHBvZURaSExOYTRQQlBBVDZKQ1Y?oc=5"
+        },
+        {
+          "title": "★ [22] Đóng tài khoản ngân hàng không giao dịch 03 năm trở lên - VTVgo (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9jVDA2cDQ2MUFpTlFfN1gzeWVDWXJJQ2Z3SGdSenlpR2JDcHM1T09jV0ZUZDFNdWR4SDZDM1JrNG8?oc=5"
+        },
+        {
+          "title": "[23] Tuổi trẻ Thanh Hóa chung tay tháo gỡ điểm nghẽn chuyển đổi số - Báo Thanh Hóa (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUU5sR2QwN0oxVy1KeVB0V2RsNjI3Sng1N3drZGZfQkRIMlhwY0luVVNGMjNFUDlyWWs0RUdzSXlJT2d6YURYTjJSQXpvNTFQSHE4bURSNHlubXgtellHTkZ0akVZbENib1Ytck5sakVUVEFKZkkwVnc1bVlTWGE3bjUtN0V3U29WQ29PU2hxOUZMYXA2NFQ1ZnE3ZEwteEJ1?oc=5"
+        },
+        {
+          "title": "★ [24] Gen Z and Stablecoins Propel Indonesia’s Crypto Army Past 22 Million as Grassroots Adoption Surges - InvestorTrust (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOZi1qajZqVU1qUE5TRHg4OV9YMWNmZ2FRUWxaS3R2TFZJdm9qQWVKR0VVQ2VGd0FHNjJoZWduNU1vY25qdzV2UzZWZi1ZejJ5LXdYN01pR1h3d1Z1b0lBUDNDY19DMXJVUG9pdkkwaUEwTUFCY1NUUEtMbXRZVE1jTWZOUjFKWGFFaUlOMExWZkZIZkpQbFN4OXRjcnd6azhqWjZLQ0ZXWWZ4MEZpYlNDbTgyLV9JQ3NwZDVQekpFd0w5MWVweW1YZDdsb0ZBUVBXYUE?oc=5"
+        },
+        {
+          "title": "★ [25] Gartner Names Whatfix Across Four 2026 Hype Cycle Reports, Spotlighting AI Simulation - digital terminal (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOSHFWWl9jdlA5aXM0WFBwY3dLSmdTSG1RckNiVEFrb29jOHJvTVh4SDczdVJtaElWN0hReGprQzBjYWt3RjFlWE9kMkhQNUFOeWNiZU82cGY3VWJremVwdHRBd0lwSHo3ZUZkYjlDUDVRYXF5dzNhU1NTNE4wdkdndDYtQXk3MWdya2VNZFc5dVVuSUplTFZEcnRTT0lLMDNnQU5wb1hWcTZOV1VQOFQwcVRFT3JYRGJoMkxLZl9vZnczU2RQUjhPbGxobGFSVGM1RXfSAdIBQVVfeXFMTkhxVlpfY3ZQOWlzNFhQcGN3S0pnU0htUXJDYlRBa29vYzhyb01YeEg3M3VSbWhJVjdIUXhqa0MwY2Frd0YxZVhPZDJIUDVBTnljYmVPNnBmN1Via3plcHR0QXdJcEh6N2VGZGI5Q1A1UWFxeXczYVNTUzROMHZHZ3Q2LUF5NzFncmtlTWRXOXVVbklKZUxWRHJ0U09JSzAzZ0FOcG9YVnE2TldVUDhUMHFURU9yWERiaDJMS2Zfb2Z3M1NkUFI4T2xsaGxhUlRjNUV3?oc=5"
+        },
+        {
+          "title": "★ [26] TPBank và Tinh Hà 'Say Hi': Khi ngân hàng số trở thành phong cách sống người trẻ - CafeF (2026-09-25)",
+          "uri": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNN0FQd0lUaldiY1QtaTlQZ1gzdjhaSGVJWUhFdWlObXo3ZGtUVUJKSG5LTzd5Y3ZFWkVRNWpaV3p2NGhFR3l6djZuX3dPQWF5WmZRV0pud0FQdkxMTlA1MXRkakx0UF95T0MwMnk5NGluQ2gyVlNUYmd1d2Jpa1hiSFNHQU11LTFHazBZaXNNUXRqODlyTWNTVVVJVHFPSVk5eE5INHpfeGY1UUdkZFRfRGVKNjV0d2Nh?oc=5"
+        },
+        {
+          "title": "★ [27] Nâng cao kiểm soát ứng dụng A.I. trong quản trị dữ liệu ngân hàng - VTVgo (2026-09-25)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9sSGc1andtV0lnTG5iTnV0VG9IZS1XOHdKUEVpTGgwc1JGVFd3VGxHYkQ2VTMyTHV1UGt4cjg0ZkI?oc=5"
+        },
+        {
+          "title": "[28] Ngân hàng tăng lãi tiền gửi, bao giờ giảm lãi suất cho vay? - Báo Dân trí (2026-09-25)",
+          "uri": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNWQ5OGppcjhQdy1WR1FSVkoxby1RMm5xTzN3MkhEd0F4RmRhLXQ4Sjk0UWZ0STdyVjdOTG1TUW44Q3czWG1TU3JLWldUaXY3U0F0NEdFck5vUndEUUlsZkE1WE5wcU1hd19LNndoSVNGWUk0TGlMUE5oTk5LOGhDM0l1RWp5Wk44eVBiYlhnbUR4emxGajFhVGtqaV9ydnpndW94LVpCcHFHNzI2aHJhU2Nn?oc=5"
+        },
+        {
+          "title": "★ [29] Từ nay, loạt điện thoại sau sẽ không thể đăng nhập ứng dụng ngân hàng để chuyển khoản, nạp/rút tiền - CafeF (2026-09-25)",
+          "uri": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNaUNyWnYzR2pmMndrTkZLSDNvSE1lcnhqSmVheVlXdW5pQnRZdUZYdlI4ZmlQX0lUY2RzdWtmWVllSG05bmF4ZEJNbDhwSVQxQkNtc1k1S0J4Z3Nka29tbGhGd2pUZDVtTE53MzJEXzAzMU8wZTFiQ2REa1JzcGdBaGRwVzV3cC1hRXo5OHd5ZWhnN2xmcWNueENfVGRURE1vWThrdmJ6c3NkY3hoQkVKd3ZRX2hKSmVBWE1qT1lGOGR0b2d6Zndvc1NJZ0pJWGNPb0hr?oc=5"
+        },
+        {
+          "title": "★ [30] Agribank chuyển đổi số, hiện đại hóa hệ thống, tăng khả năng tiếp cận vốn và phụng sự khách hàng - CafeF (2026-09-25)",
+          "uri": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPT0QtMW00NWx1a0ozbmpaUVZhc0x2QW9NZVFTbGJaaXp5b2F4eTBhNS0tRzZpSnJyLXpLc2tuYlBWaW14YXhsUU9OWW1NbEFJUHFjeERiUlJKcG9NU0p0Q1BCUG93QVp6SHRzZTROQ1hZWS1JMUZ5T3JpUjVyZGFHTEF5bFVyaktZdmFZN1ZEelU4cFRBSjFoNHpkOWZmOTZ4QmdQMnhBc0FJT01IZFYwQjRPbkh5UlZRWjNYOTJxQ0RzNWNyLXNET0E2MmJBOEk?oc=5"
+        },
+        {
+          "title": "[31] Bộ Quốc phòng kiểm tra cải cách hành chính, chuyển đổi số tại MB - VnExpress (2026-09-25)",
+          "uri": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNXE3MFhOaXdYSGlLc3AzVDVJcFZnaGl6MlVmaXpGUHB1Q3Y3WFFQbGdvNnpnRDBMXzhLcHJWd2c2aV8xZndpQUczR2RwaFpaa1dqSVY5ZFhKeXVuZVltSUtzVEhKNzhGM1FESUsycHBlRUNQRXp2ZU9aRWI3aVNubk9IN09DaDRFTlZaX0RWX0s0SnVOM01PaGRPUXVYU2M?oc=5"
+        },
+        {
+          "title": "[32] Kỳ vọng sớm giảm lãi suất cho vay - VTVgo (2026-09-25)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5ucjM1enE1M3RoVE1aWTdzR0o1Y204LV8xU0UxdFh6YlN4cGE1bkNYWWZKalR2OVhlekxvSkVxRy0?oc=5"
+        },
+        {
+          "title": "[33] Các ngân hàng cam kết đồng thuận giảm lãi suất - VTVgo (2026-09-25)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1LY0hhYU5xNHQtWHJ4VnotM0hVZ1NjOWFHTjZxUEV4UUdDNFJjMktxOURRTUdtRnJvRUFTT1lzVks?oc=5"
+        },
+        {
+          "title": "[34] Nới trần vốn, tăng dư địa cho nền kinh tế - VTVgo (2026-09-25)",
+          "uri": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBIcVNXazVtUHg3aldjYjlaaTZjZE16dm9HQWM4SXlTd0QzdXNaZGpaSmVNYzhUYUE3c2JmU3Vfa3lBVHNONHhnYg?oc=5"
+        },
+        {
+          "title": "★ [35] Chuyển đổi số hộ kinh doanh cần đi vào thực chất - thoibaonganhang.vn (2026-09-25)",
+          "uri": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObjVidFpPbGN4SEJIblRjNkM0Z3hLV2xxQVRRNjRYRjh6T25BUkhsVnY5SFVnMm1Mb2pxYjFQdmhUNkFGS25obnJ0MW5SWmxjWmtJYzdqU1FuTWhoYW9QdUZRaVVsMTNwdldhQnlRdUlrbjVzVjl5eVhhNWZnaFdkNDRyM0RJRHRUdGtnMnJxU1k?oc=5"
+        },
+        {
+          "title": "★ [36] Thanh toán QR xuyên biên giới: Chuyển từ 'kết nối được' sang 'dùng hiệu quả' - Mekong ASEAN (2026-09-25)",
+          "uri": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRnNyVzlTb3FUZDlTSktHLXhsdTZldnk3dEZldjBwR0ZtaGE4ZF96Ylcxc0s2OHB1Ylp2bGo0bkZuWHhUY2NDajkwUG9OQWx6NDdhZkYtYkNDcU9mNWg4QjN5RHRON1pCQlVEbW5BVnJucHBfaXNwUndWRDBoOFBJLXdsRWhNUDA3bWxkWFlkMEZhX3pzRGJId2MxSDNzQ1NOQjUyMUxQZlo?oc=5"
+        },
+        {
+          "title": "[37] Bộ Quốc phòng kiểm tra chuyên đề về cải cách hành chính và chuyển đổi số tại MB - Báo Tuyên Quang (2026-09-25)",
+          "uri": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOUkxmTFVyZDNLSEczRmVBbzVxQkc3elY4dnVDUHRQclRQaUlkR2h0RUk0aHJNUWx2Y01SMTZoekR3S0luOTlVMl9TOFdOYklRRVZia1Q1bkdzXzFFM2Fadmpab1R0UHZqdjh4TlJ5U293M1k4SjFpU1JrQVJvaENrZmlWT21yZXJVUzNFTzNBcnRScG1obGdleU9WU0lDVnhfZFhjaHJ0X1otOTBCZWRXVFdMN2o1RjBncmR5NjlJdXJ2aXdrNE1TeVFKWUFyd3NHMWR1WFJBVFA0d2Zj?oc=5"
+        },
+        {
+          "title": "[38] MB tiếp đoàn kiểm tra về cải cách hành chính và chuyển đổi số của Bộ Quốc phòng - Báo Thanh Hóa (2026-09-25)",
+          "uri": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPS0NzWkVhRzlXa1ZCbEQySm92cTM3UGs3TjJ0MFVsTjRSb3hhMDN4TV9XdWxMX2dVYWFiVnAwV2E4Y002OGRJUU5aZTd2VXc1aUJMb0paRHM5LTdHWWFlR211MkRxYzBRekZwSUF2MFRGdHNVekFJRG9FYW81RFc4TlRTMUpOd1UwVWZlNE4zTE5PejNsT1lLa1MzaGlTSVoxOXlYSGIyTERVWDNablphMEFHaw?oc=5"
+        },
+        {
+          "title": "[39] Sẽ giảm lãi suất cho vay mới - VTVgo (2026-09-25)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE8zNUlKRnE4MjhRcTJhU1cwLWdVY2c1RHVBV0tKZzhlX2hmR1JRUHF6OVl0YUVDRVdCTUs2THc3TzQ?oc=5"
+        },
+        {
+          "title": "★ [40] Phát triển thẻ Lộc Việt gắn với chuyển đổi số, thúc đẩy thanh toán không dùng tiền mặt - Báo Thanh Hóa (2026-09-25)",
+          "uri": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONU5NV2VqUWM4bHhuZWhJeHlDZ3Y5Q1o2eG5MbXdSdFpCOXN1U2Nub1gwS3hWa19ranhGNl9XUHpyWWVrQ1g0RGZaY3pXZlhrZ2xSY3dwcm9wSkNqYzhBZHh5V24zczQyUGpoRnNXOFdrS3pORTBtdFhhQXZ6Y2FwT0Z2UTdWaXJKc1ZNWmVLck44OVc2QUtwbkdyaks0Q1lSMm4zSV9jWDhhazV4T3lURlJqRWEycFhZZzdz?oc=5"
+        }
+      ],
+      "search_queries": [
+        "ngân hàng số",
+        "chuyển đổi số ngân hàng",
+        "fintech Việt Nam",
+        "digital banking Southeast Asia",
+        "generative AI banking"
+      ],
+      "n_items": 40
+    },
+    "growth": [
+      {
+        "query": "\"digital banking\" AND \"customer experience\"",
+        "series": {
+          "2020": 10,
+          "2021": 17,
+          "2022": 23,
+          "2023": 44,
+          "2024": 80,
+          "2025": 190,
+          "2026": 235
+        },
+        "cagr": 0.8019831273171423,
+        "rel_cagr": 0.7159172398914129,
+        "cagr_window": "2020-2025",
+        "note": "Năm 2026 chưa trọn vẹn, không đưa vào CAGR."
+      },
+      {
+        "query": "\"mobile banking\" AND \"continuance intention\"",
+        "series": {
+          "2020": 5,
+          "2021": 10,
+          "2022": 9,
+          "2023": 17,
+          "2024": 17,
+          "2025": 24,
+          "2026": 34
+        },
+        "cagr": 0.36851085783726334,
+        "rel_cagr": 0.3031483693400103,
+        "cagr_window": "2020-2025",
+        "note": "Năm 2026 chưa trọn vẹn, không đưa vào CAGR."
+      },
+      {
+        "query": "\"generative AI\" AND banking",
+        "series": {
+          "2020": 4,
+          "2021": 2,
+          "2022": 1,
+          "2023": 22,
+          "2024": 79,
+          "2025": 150,
+          "2026": 248
+        },
+        "cagr": 1.064458958666684,
+        "rel_cagr": 0.9658567633197268,
+        "cagr_window": "2020-2025",
+        "note": "Năm 2026 chưa trọn vẹn, không đưa vào CAGR."
+      }
+    ],
+    "top_cited": [
+      {
+        "title": "Impacts of digitization on operational efficiency in the banking sector: Thematic analysis and research agenda proposal",
+        "year": 2024,
+        "cited_by": 109,
+        "doi": "https://doi.org/10.1016/j.jjimei.2024.100230",
+        "source": "International Journal of Information Management Data Insights",
+        "openalex": "https://openalex.org/W4393333713"
+      },
+      {
+        "title": "Continuous intention usage of artificial intelligence enabled digital banks: a review of expectation confirmation model",
+        "year": 2024,
+        "cited_by": 57,
+        "doi": "https://doi.org/10.1108/jeim-11-2023-0617",
+        "source": "Journal of Enterprise Information Management",
+        "openalex": "https://openalex.org/W4401035822"
+      },
+      {
+        "title": "Green Finance and Fintech Adoption Services among Croatian Online Users: How Digital Transformation and Digital Awareness Increase Banking Sustainability",
+        "year": 2024,
+        "cited_by": 44,
+        "doi": "https://doi.org/10.3390/economies12030054",
+        "source": "Economies",
+        "openalex": "https://openalex.org/W4392058746"
+      },
+      {
+        "title": "Augmented reality is the new digital banking – AR brand experience impact on brand loyalty",
+        "year": 2024,
+        "cited_by": 30,
+        "doi": "https://doi.org/10.1108/ijbm-11-2022-0522",
+        "source": "International Journal of Bank Marketing",
+        "openalex": "https://openalex.org/W4390696014"
+      },
+      {
+        "title": "Unraveling Digital Transformation in Banking: Evidence from Romania",
+        "year": 2023,
+        "cited_by": 30,
+        "doi": "https://doi.org/10.3390/systems11110534",
+        "source": "Systems",
+        "openalex": "https://openalex.org/W4388221482"
+      }
+    ]
+  },
+  "life-insurance": {
+    "gemini": {
+      "model": "gemini-3.8-flash",
+      "mode": "news_rss",
+      "text": "| # | Xu hướng | Tín hiệu | Một câu vì sao đáng chú ý |\n|---|---|---|---|\n| 1 | Khủng hoảng niềm tin và tranh chấp giá trị hoàn lại khi chấm dứt hợp đồng sớm | ●●● Mạnh | Tranh chấp giá trị hoàn lại sau 2 năm đầu tiếp tục xuất hiện trên truyền thông, gia tăng sức ép giải trình lên đại lý và doanh nghiệp [8][19][20]. |\n| 2 | Cơ quan quản lý siết trần hoa hồng và yêu cầu minh bạch thù lao phân phối | ●●● Mạnh | Tốc độ chi trả cho kênh phân phối tăng vượt mức tăng trưởng phí, thúc đẩy yêu cầu pháp lý về áp trần và công khai hoa hồng [37][38][39][40]. |\n| 3 | Tái cơ cấu danh mục và mô hình sở hữu bảo hiểm trong hệ sinh thái ngân hàng | ●●○ Trung bình | Hoạt động chuyển nhượng sở hữu công ty bảo hiểm nội bộ phản ánh sự điều chỉnh chiến lược phân phối tài chính của khối ngân hàng [22]. |\n| 4 | Gia tăng chế tài xử phạt vi phạm tuân thủ phòng chống rửa tiền | ●●○ Trung bình | Cơ quan chức năng xử phạt các thiếu sót về kiểm soát dòng tiền, đặt ra yêu cầu tuân thủ nghiêm ngặt hơn cho hoạt động bảo hiểm [12]. |\n| 5 | Tình trạng bất an tài chính cá nhân định hình lại nhu cầu sản phẩm tại khu vực | ●●○ Trung bình | Áp lực tài chính của người lao động trong khu vực Đông Nam Á phản ánh sự thay đổi căn bản trong khả năng duy trì hợp đồng bảo vệ [15]. |\n\n---\n\n#### 1. Khủng hoảng niềm tin và tranh chấp giá trị hoàn lại khi chấm dứt hợp đồng sớm · ●●● Mạnh\n- Diễn biến: Báo VietNamNet ngày 26/09/2026 và nguoiquansat.vn ngày 27/09/2026 phản ánh vụ việc khách hàng nhận về số tiền rất thấp khi hủy hợp đồng bảo hiểm; cùng thời điểm ngày 26/09/2026, VTVgo trong chương trình Chuyển động 24h phát sóng chuyên mục Điểm tuần về vấn đề niềm tin trong ngành bảo hiểm nhân thọ [8][19][20].\n- Bằng chứng định lượng: Khách hàng đóng số tiền 150 triệu đồng sau hơn 2 năm nhưng chỉ nhận về gần 21 triệu đồng khi hủy hợp đồng, do Báo VietNamNet và nguoiquansat.vn công bố ngày 26-27/09/2026 [8][20].\n- Insight xã hội/khách hàng: (Diễn giải) Khách hàng thường giữ kỳ vọng bảo hiểm là kênh tích lũy sinh lời ngắn hạn và không nắm rõ tỷ lệ chi phí ban đầu bị khấu trừ trong 3 năm đầu, dẫn đến cảm giác bị thiệt hại khi phát sinh nhu cầu tất toán sớm.\n- Câu hỏi nghiên cứu tiềm năng: Mức độ minh bạch thông tin về cấu trúc chi phí ban đầu (biến độc lập) tác động như thế nào đến tỷ lệ duy trì hợp đồng bảo hiểm nhân thọ năm thứ hai và năm thứ ba (biến phụ thuộc)?\n- Hàm ý kinh doanh: Thiết lập quy định bắt buộc đại lý tư vấn phải cho khách hàng ký biên bản xác nhận riêng về bảng minh họa giá trị hoàn lại trong 3 năm đầu trước khi nộp hồ sơ yêu cầu bảo hiểm.\n\n#### 2. Cơ quan quản lý siết trần hoa hồng và yêu cầu minh bạch thù lao phân phối · ●●● Mạnh\n- Diễn biến: Cơ quan Quản lý và Phát triển Bảo hiểm Ấn Độ (IRDAI) thúc đẩy cải cách phân phối bảo hiểm thông qua việc áp trần chi trả cho đại lý và ngân hàng phân phối, tạo phản ứng từ các hiệp hội môi giới và ảnh hưởng đến thu nhập phí của ngân hàng, theo BusinessLine, The Indian Express, Asia Insurance Post, outlookbusiness.com và Investment Guru India công bố ngày 26-27/09/2026 [16][17][35][36][40].\n- Bằng chứng định lượng: Theo Business Today (26/09/2026), tốc độ tăng trưởng hoa hồng cho kênh phân phối cao gấp tới 6 lần tốc độ tăng trưởng doanh thu phí bảo hiểm [39]. Khảo sát của tổ chức LocalCircles do Moneylife công bố ngày 26/09/2026 cho thấy 7/10 (70%) người mua ủng hộ áp trần hoa hồng và 8/10 (80%) người mua muốn thù lao chi trả cho đại lý phải được công khai trước khi giao kết hợp đồng [37].\n- Insight xã hội/khách hàng: (Diễn giải) Khách hàng nghi ngờ tính khách quan của tư vấn viên khi cho rằng động lực bán hàng bị chi phối bởi tỷ lệ hoa hồng cao hơn là nhu cầu bảo vệ thực tế của người tham gia.\n- Câu hỏi nghiên cứu tiềm năng: Việc công khai mức thù lao của kênh phân phối (biến độc lập) ảnh hưởng như thế nào đến mức độ tin tưởng của người tiêu dùng đối với kênh bancassurance (biến phụ thuộc)?\n- Hàm ý kinh doanh: Chuyển dịch cơ cấu chỉ tiêu kinh doanh của đội ngũ quản lý từ tập trung doanh số khai thác mới sang chỉ tiêu tỷ lệ duy trì hợp đồng (K2) và mức độ hài lòng của khách hàng.\n\n#### 3. Tái cơ cấu danh mục và mô hình sở hữu bảo hiểm trong hệ sinh thái ngân hàng · ●●○ Trung bình\n- Diễn biến: Ngân hàng Thương mại Cổ phần Quân đội (MB) thực hiện chuyển nhượng toàn bộ số cổ phần đang sở hữu tại Bảo hiểm AAA cho công ty con của mình, theo Thời báo Tài chính Việt Nam ngày 26/09/2026 [22].\n- Bằng chứng định lượng: MB chuyển nhượng \"toàn bộ cổ phần\"; giá trị thương vụ chưa tìm thấy nguồn xác nhận trong danh mục tin [22].\n- Insight xã hội/khách hàng: (Diễn giải) Khối ngân hàng điều chỉnh lại cơ cấu sở hữu để phân định rõ vai trò quản lý tài sản và tối ưu hóa mô hình cung ứng dịch vụ bảo hiểm qua hệ sinh thái thành viên.\n- Câu hỏi nghiên cứu tiềm năng: Sự thay đổi cấu trúc sở hữu của định chế ngân hàng mẹ đối với công ty bảo hiểm liên kết (biến độc lập) tác động ra sao đến hiệu quả bán chéo sản phẩm bảo hiểm phi nhân thọ và nhân thọ (biến phụ thuộc)?\n- Hàm ý kinh doanh: Đội ngũ kinh doanh bảo hiểm liên kết ngân hàng cần chuẩn hóa lại quy trình giới thiệu khách hàng giữa các công ty con để tránh chồng chéo phân khúc phục vụ.\n\n#### 4. Gia tăng chế tài xử phạt vi phạm tuân thủ phòng chống rửa tiền · ●●○ Trung bình\n- Diễn biến: Doanh nghiệp bảo hiểm FWD bị cơ quan có thẩm quyền xử phạt do các thiếu sót liên quan đến quy trình phòng chống rửa tiền (AML), theo Insurance Asia ngày 27/09/2026 [12].\n- Bằng chứng định lượng: FWD nộp khoản tiền phạt là 2,5 triệu USD, do Insurance Asia công bố ngày 27/09/2026 [12].\n- Insight xã hội/khách hàng: (Diễn giải) Các cơ quan quản lý ngày càng siết chặt yêu cầu xác minh danh tính và kiểm soát tính hợp pháp của dòng tiền tham gia vào các sản phẩm tài chính - bảo hiểm có giá trị lớn.\n- Câu hỏi nghiên cứu tiềm năng: Mức độ nghiêm ngặt của quy trình xác minh tính hợp pháp của nguồn tiền (biến độc lập) ảnh hưởng như thế nào đến tỷ lệ từ bỏ giao dịch của khách hàng cá nhân có giá trị tài sản cao (biến phụ thuộc)?\n- Hàm ý kinh doanh: Triển khai kiểm tra chéo nguồn tiền đối với các hợp đồng phí lớn ngay từ khâu thu thập hồ sơ ban đầu tại cấp quản lý kinh doanh khu vực để giảm rủi ro hủy hợp đồng sau thẩm định.\n\n#### 5. Tình trạng bất an tài chính cá nhân định hình lại nhu cầu sản phẩm tại khu vực · ●●○ Trung bình\n- Diễn biến: Khảo sát tại thị trường Malaysia cho thấy tỷ lệ đáng kể người lao động đang đối mặt với tình trạng bất an về tài chính, theo Insurance Asia ngày 27/09/2026 [15].\n- Bằng chứng định lượng: 39% người lao động Malaysia gặp phải tình trạng bất an tài chính, do Insurance Asia công bố ngày 27/09/2026 [15].\n- Insight xã hội/khách hàng: (Diễn giải) Áp lực chi phí sinh hoạt khiến người lao động có tâm lý e ngại các cam kết tài chính dài hạn nhưng vẫn có nhu cầu tự bảo vệ trước rủi ro y tế và tai nạn bất ngờ.\n- Câu hỏi nghiên cứu tiềm năng: Cảm nhận bất an tài chính cá nhân (biến độc lập) tác động như thế nào đến xu hướng lựa chọn sản phẩm bảo hiểm thuần bảo vệ so với sản phẩm bảo hiểm liên kết đầu tư (biến phụ thuộc)?\n- Hàm ý kinh doanh: Tập trung đẩy mạnh các gói bảo hiểm thuần bảo vệ với mức phí định kỳ vừa phải, phù hợp với nhóm lao động và hộ kinh doanh có thu nhập biến động tại các thị trường địa phương như Đồng bằng sông Cửu Long.\n\n---\n\n#### Tín hiệu yếu cần theo dõi\n- Sự trỗi dậy của các kênh phân phối thay thế ngoài mô hình truyền thống nhằm duy trì đà tăng trưởng cho thị trường bảo hiểm (theo monitor.co.ug ngày 26/09/2026) [32].\n- Ứng dụng trí tuệ nhân tạo (A.I) trong hoạt động đầu tư tài chính được đề cập trên truyền hình (theo VTVgo ngày 26/09/2026) [31].\n- Biến động nhân sự cấp cao tại doanh nghiệp bảo hiểm đa quốc gia khi CEO Prudential Singapore chuyển sang vị trí tại Eastspring và Prudential bổ nhiệm CEO khu vực mới (theo Insurance Asia ngày 27/09/2026) [13][14].",
+      "sources": [
+        {
+          "title": "[1] Chuyển động thị trường: Triển vọng thị trường chứng khoán cuối năm khởi sắc | 12/06/2026 - VTVgo (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9Cblh2QUJ4cU01a1piSDg3OE5fVDNKLURiXzhrOTByM3BXT3EzR1VHR21FNTdRaFNBSDFneGM3V2c?oc=5"
+        },
+        {
+          "title": "[2] Chuyển động thị trường: FED kiên quyết mục tiêu ổn định lạm phát - VTVgo (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9Da2YxemZmWTEwbnNZWVBDYVpMVW01MTdMX0xjYXFVMGF3SXJrWXZnRFk2TkthdHpzTEM1SXQ0Zko?oc=5"
+        },
+        {
+          "title": "[3] Chuyển động thị trường: Đảm bảo giữ ổn định mặt bằng lãi suất | 25/05/2026 - VTVgo (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9XTkxaTnZzRHl3WERlRTAwc0hqVWF2eFhocDdEZ2FpdWhrdklGYXdlN0c4cm1aSnQyR3pYeTY1dDA?oc=5"
+        },
+        {
+          "title": "[4] Chuyển động thị trường: Quỹ mở: mảnh ghép còn thiếu của thị trường vốn | 19/08/2026 - VTVgo (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBGM29tZ1JmbENZU1BNVU1qVTdQa0F4QkRKRTIzMGpOVkJEUnZndUNtbEdyNWlJX1RUclVySFVnZ3I?oc=5"
+        },
+        {
+          "title": "[5] Chuyển động thị trường: Nâng cao vai trò điều tiết của địa phương | 21/07/2026 - VTVgo (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9aSEFtT1NtYTE0end3bXFPYjN4aFl6Y19jcUwxX0lrdVdvNk91MWJDWXVhcFpMdU01d0RNcEk2cF8?oc=5"
+        },
+        {
+          "title": "[6] CHUYỂN ĐỘNG THỊ TRƯỜNG 04/03: Bức tranh thị trường vốn trong nước trước biến động Trung Đông - VTVgo (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1NelhFNHVWeWxxZklDSXBNQVFwbUZoLUx4NE52OV83amNRaTEwRXlHSFZ1VTY3U3VYY0d6d05DNXQ?oc=5"
+        },
+        {
+          "title": "[7] Chuyển động thị trường: Mở tài khoản chứng khoán và mở cả tư duy | 14/04/2026 - VTVgo (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9vV0xDUGs3alhQRDUwTXQ4SjkyV0ZudUppUWE4dHI3S2dqRlpmdDVPSVM0cUoyMUV1M1dhSm1wSng?oc=5"
+        },
+        {
+          "title": "★ [8] Hủy hợp đồng bảo hiểm sau hơn 2 năm đóng 150 triệu, người mua nhận về gần 21 triệu - nguoiquansat.vn (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQOEtlT1FOZWdOay1zQlNQYnU4ME1aQnZlQnctTmNUVGkwcWtxbDI2V2ZLaWZvMUV5b0FQdTJRNVNiRFNMTnQwT29MOVNsY09udEJPcFU4d3BNTWVVX293Tk96NHpSaVRoXzJteU1fVUhESXJzSjRhdzhIR3lHbFJJbTVlRzJvLWJYcGs4OE02VGV5SXZDakNBUlVDY1RjXzE3dzVlbHJ5eVIwM1gxeDlPV3JpZ1A0aUpD?oc=5"
+        },
+        {
+          "title": "[9] StanChart, ICAB unveil exclusive priority banking for chartered accountants - Bangladesh Sangbad Sangstha (BSS) (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1QeHV6akdCM1FRU3E3QmUtS0tDbXhGajZMVm1ydHA2VUhKU0sxUkRNVi1XUnZKT055RmNISnM4Y2pzODIzWWxyY1YxeDR2RHNj?oc=5"
+        },
+        {
+          "title": "[10] Bank unions defer 3-day nationwide strike following assurance from IBA - Asia Insurance Post (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ySHZjVzJldzBvckV2OXJQVzY5MGd6aFNVMWxNdkJtdG1uOHp2cTg3RTZub0E1S0RDblhMeDJyYlRGODNnenNNVzNKR2lLdU1zeGJnVjhXdw?oc=5"
+        },
+        {
+          "title": "[11] Banco Desio’s ESG Score Jumps 21 Points as Sustainability Strategy Advances - TipRanks (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMEJiUXl2eVhHRV84d2JYNm4tX0JVNndPNlNJZDZZM0hFMUl3NkxxbW1KNkdpRHhXcXNzbnlxZzdwb2xkWmlJWTFvX2pGS0NkZExKdE9UT3ZIOFRwYkc1d1FwcnEzWHh0LUpGdFBzenZ0cEpUSFBZc3RRUG56Q211SmtKM0xiZjJhZVFJcmY5OEEwakljVmNEVm9TS3JzWGhpQjVPS09ITUU1VVlRTmlaaV9ScU1TVDRJWUpRUTdPa1VNVWpx?oc=5"
+        },
+        {
+          "title": "★ [12] FWD pays $2.5m penalty over anti-money laundering failures - Insurance Asia (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMingFBVV95cUxPYlo1N1RDYUFERi1vZ3ZIUFFsQUtzTzRIZDNCMDhOeUVWeEdVQWtsQl9HeDZFNndKMkR6azNiQXkyRGRSdTVMckpCVFhkT2ZkX25wY2FqYmIyMU1OdjRhQm42TlBiUGk2QUpCUGNReUc4OVhKcUlUbjdJNmJOVXZydlFaNTNyXzRFYm1yaE12THFGa1g5TjRVSWpYeEVydw?oc=5"
+        },
+        {
+          "title": "★ [13] Prudential names Irshad regional CEO for three markets - Insurance Asia (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQa0pOVnZPNWp6Wk45WG02Q3F2OUlOcEV1aDEwbUtqcUVGUEJVdGllNmp0X0pVcGRNcWxoZEcxQ0dfcGg3MS1QZF9jRFhEWU5KTjhvN1NhanMxandhTW9KMVN6TFZaRV9lT2VlMmx1M1JSNS13TUM0U2htQUJMRmRCdmQ5c2hNVUJWMU5LZ3FpeFNWaWFmelE?oc=5"
+        },
+        {
+          "title": "★ [14] Prudential Singapore CEO exits for Eastspring role - Insurance Asia (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQTFRnbk9od2NESWlKUDljOFB2MFJxTG9ueUhFaFhJZmdSTzFJcV90UDZ1UldpRUlNRFQzbnNDSEoxaGhqVUNvU0dSYkpMUElablRsSTBvdmFtMHU5NnVnQWcwU3NYVmpyblhkUWp1U2V3SzctQXlGekltSlVrdk9XZ3hhT2NkMDFyMUt2V0I3cWo?oc=5"
+        },
+        {
+          "title": "★ [15] Financial insecurity hits 39% of Malaysian workers - Insurance Asia (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObGlabXh4NS1sN0UtdWs3cHdLdWpJRFhIWHp6YnNzWHhNRG4zODJFZERLRjNEWlRTd2lFR3RHWnVtaGl1NXp0UzhJMFZiRlp1YlVDTEZubDlqSHRjaEc5R3pmMWtOVG13T1B4MHdfV1pFRzhhNXRhM2hTd19rNVA4U3FDbnpKSUhfcjFnT0pzdW8?oc=5"
+        },
+        {
+          "title": "★ [16] What IRDAI's Distribution Reforms Mean For Bank Fee Income - outlookbusiness.com (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPb0ZhRDdWTlJ1V1pJbTQwak9zaGdnbnRMdDFzTXp0eGxZQUxnLXdOVUlGeTJ5RjVwemZfLURSd3RuRUZHSmVtandTT3gzZndvaml2NEJxNDdELVdNUXJud3lmV1NUcDN2LU1GUWFGS0JjcExGMXUtTklIQjhaYjlzeGFiLU5RMmdsNjlqcWhCX0U3S0V1LWdsbXBDME1uZEh40gGuAUFVX3lxTFA3UnFZZGxOeHRueEhfb29YMlZhSWpCZDJOcUdCOVNHemFkYWR0M3ZzMm14emtTQkFJY1NYRmw0UFIwYktiWkJwUmRkYkQ1a2JNcDRrQlQ4ck04SWV3RWNZQ2g5WlNTU3d3NVZnOW0zc2phY1hHb1JZQ2U2TlJQNDN5TGUtak1nZ3JhX0txWXZWNWh1MkFMMVpGS2VCbDhFR2JuVmZMN1BvVkFVNGQyZw?oc=5"
+        },
+        {
+          "title": "★ [17] Insurance brokers body to engage IRDAI soon over proposed distribution reforms - Asia Insurance Post (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1LUnE3QTRuRmZMcFhkNkU1QlNfRjI3blFiU3N6bkpHOUVQdUlHNHZrWElSd3hDZHMycEowcnFQZVhqWFlLM1JRakhBU1NYRzc3RG1nR0dNSQ?oc=5"
+        },
+        {
+          "title": "[18] Containing costs - Business Standard (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObGdWc3pHdzhHdEhpVnA2cEFOdXhMa3ltWl9kSFBKY0lzaFlSdVVsaUxaV0FuR2x5aDVTQVhtdzZJakFuZnRPeXVUSUlVaXNNSmt4V283ZWtPNWl1UjRQQ1RNU3ZfcmlyM1hUdkQ5bUhCUXk1Y1oySGNkTUNMOTRXNEhCY29mLTkwZXVSNXlHNEoxUdIBlwFBVV95cUxPcmVJZU93TWZWOHBLVGhSTmUtbUNiQ3ZLMnBzU0dhOXRoNjNlSjR1Y24zVE9GbTBGTExXeWh0UVBiZmJGYlJ1R2NTckc2WC1mcWRNRXRzY0N5VnFRc0Zwbm5Vb0hsTjZTZHN3VzlqeVBXa1kzQXdHTWNYT2dzMjZiNklLQVBKTTM3U2dVMlVIeVRtTi1zRzEw?oc=5"
+        },
+        {
+          "title": "★ [19] Điểm tuần: Bảo hiểm nhân thọ và câu chuyện niềm tin | Chuyển động 24h - VTVgo (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5hdnU2dDlDMjhpbXJUazFGNHdHZnc3b0ZmOXRhWnRLaEFsZlFXWXAtQVE4bm1rVXdzNkxpU2hJaGU?oc=5"
+        },
+        {
+          "title": "★ [20] Hủy hợp đồng bảo hiểm sau hơn 2 năm đóng 150 triệu, người mua nhận về gần 21 triệu - Báo VietNamNet (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaFJDOE9XUWhJOEZYMXM0Z2hQNVg1aWRFaUdZZUhrZEVZZ2U4cWkxbkRVV0c3bU9UT0p4YnRudlFuZDFhUERYVnlLdzNkOWNoMEk0ei1KUGd4ZXB6cU5pVkpjUzRfeDByUjNoX2NWYkY2T0ktaDhkQzNkNjdYMGlZRTN1djF6QkVqOWZYQ1BqTi0xRklGWlVveUhXQWJRQkRfWS0xNDZDLXZ3Sk12SjdEdF9B?oc=5"
+        },
+        {
+          "title": "[21] Chuyển động thị trường: Nâng chuẩn doanh nghiệp nâng chất thị trường | 10/09/2026 - VTVgo (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1zRDB4c2lfWm1GNmxhbVdLMXB0QzM0WHRxWFlZLUxaOWNTR25NRkdDeS1UWm1YSVE0QloycWhCa0s?oc=5"
+        },
+        {
+          "title": "★ [22] MB “sang tay” toàn bộ cổ phần Bảo hiểm AAA cho công ty con - Thời báo Tài chính Việt Nam (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVnMyWkNGZG1Cd2FaTkFEal9uSEw2S3o4aEFwVDZUVWJJbXFHM29Xc09kUkdvcXRWNWxnNG1abl80NkY2clVGMmdHTEducVVoMGVZeVFES2NvRU1hUzkzeEhiQkNoVDVfSUh3VkppMWJRSkFaRjVOSzlnR0NpTk1WZ1g1bV9rT2FXY3dpTk1CYU51OG55UjJmRmJZYTdiTC1nNFRvOQ?oc=5"
+        },
+        {
+          "title": "[23] Chuyển động thị trường: 26 năm phát triển thị trường chứng khoán Việt Nam | 28/07/2026 - VTVgo (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9BMXFlTWNEczZiWm51Z3FORHZEX2dIT3p3MHUzajkxTzBmX0NGSURqd3Fpd3M0aUE1aUt0VHBGUWw?oc=5"
+        },
+        {
+          "title": "[24] Chuyển động thị trường: Kỳ vọng nhà đầu tư khi thị trường nâng hạng | 08/04/2026 - VTVgo (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE54clQ1bDBoVmxIQXZLaGhIanZJczNCVHZuRDl4VlBBaGozYUFkSE5aZlotd0dsRXFfYnh1eWNZME4?oc=5"
+        },
+        {
+          "title": "[25] Chuyển động thị trường: Hoàn thiện chính sách, đẩy mạnh cổ phần hóa, thoái vốn | 10/08/2026 - VTVgo (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE91RTZHa0NjR1NwdnpLMHRlUDRsTmZ0SjBsbi1LeWZ1VUgzLWlQbW5Ic1QzTGxuVTR5VVRMNTRMU0Y?oc=5"
+        },
+        {
+          "title": "[26] Chuyển động thị trường: Giao dịch thận trọng tại vùng trũng thông tin | 01/05/2026 - VTVgo (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBpSDhwbml2QjhMX0RWQTNmcDVkSkpNbDRmTXdzR08yblkzVlNKanlFYmJKM0RHX0h1dndacHdTeHU?oc=5"
+        },
+        {
+          "title": "[27] Chuyển động thị trường: Kỳ vọng mùa đại hội cổ đông | 01/04/2026 - VTVgo (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9VLUNQMFNSck1Hajl4VjZMdHhNSF9uNWdBTHVWRnktRHZ1UnFCNjhGdFlLdmdDSmVDeXJzanNCNDE?oc=5"
+        },
+        {
+          "title": "[28] Chuyển động thị trường: Việt Nam có thể được MSCI nâng hạng trước 2030 | 15/06/2026 - VTVgo (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9lUUh4ZWpRcTh6VldLVFF5R1poZ0xxUzQxZHFfTk55STJESDFjNnNkR2ZDNXNfS0w5NWVtQTBvVEE?oc=5"
+        },
+        {
+          "title": "[29] Chuyển động thị trường: Tích lũy cho chu kỳ đầu tư cuối năm 2026 | 18/08/2026 - VTVgo (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFB6VzI0SFdxVkl3M2htaW1zR1A1VkVuM1JsVHhzbEdkcXdPbTd1WVFGY0xJNmxnYkVSV1JMbV9tdjJuR1BETmJ6Uw?oc=5"
+        },
+        {
+          "title": "[30] Chuyển động thị trường: Cổ tức bằng cổ phiếu: Củng cố năng lực tài chính dài hạn | 06/05/2026 - VTVgo (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9DaXlWZFRlRUtSaVN1aHU5YUZxWS1yT29GdE9Nb0VPVUE5WTN4ZmdQaGVPZVJjMVVNLWhrVkdKQXk?oc=5"
+        },
+        {
+          "title": "★ [31] Chuyển động thị trường: Vai trò của A.I trong đầu tư tài chính | 25/06/2026 - VTVgo (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5wVTZ2Rl9iTFJ4bjVkcEZGRGRsUHJadXRjYVJPcmlwdVlDajQyRWRzb3o4MWJaWVVJWklETV83M2Q?oc=5"
+        },
+        {
+          "title": "★ [32] How alternative channels fuelled insurance growth - monitor.co.ug (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeDdibk1XWl9hcmhNUVFLZS1vcThLLUFPWkdzQUJkNVJVeW1oNXZvM1hMUUNmMmxhNHlfa3NiZVJ4d214LXVNSDEtMWtERlM5UXNPbEFjZEdGMTRuNTN2ZENNVlQyU3lMdF9lcHNIQnVKUjRubktCWldOZTJheVRkaUh5R29VMlhob1FlWllKSmZSQ2NVODdBRlNJVW9yRG5oWVBrUHBrc3U3QzhWN2c?oc=5"
+        },
+        {
+          "title": "[33] Sun Life CEO Kevin Strain On The Opportunities in Asset Management Business - The Economic Times (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNazBYNldIbkVIT0tMOUxlaV9lemdhczdwWEx4U003eWE0SFVMWHF2UlQzbERSQzJvUkJvYjJSMHVueE05UjlBM01MMk1lZ3g0Ry1TSmdwQWUxUDBIVExoLXBvWG1KYjNHWGtzajhBYTNLNktiR0JzUUo5aG1xVWp3cTJfam9FMjN6WThpU0tLNzNITXE1TV9ZMTVHNFRwM0Q0RlI5eWRPUWJGV0dpWHpHQTNTZUV2UUM4TjJhLWQ1YkxiSHdIQkg1NW5WcUUzUlhuTmc0SEx0dm1SOXd3VllfYTAwTdIB4wFBVV95cUxNazBYNldIbkVIT0tMOUxlaV9lemdhczdwWEx4U003eWE0SFVMWHF2UlQzbERSQzJvUkJvYjJSMHVueE05UjlBM01MMk1lZ3g0Ry1TSmdwQWUxUDBIVExoLXBvWG1KYjNHWGtzajhBYTNLNktiR0JzUUo5aG1xVWp3cTJfam9FMjN6WThpU0tLNzNITXE1TV9ZMTVHNFRwM0Q0RlI5eWRPUWJGV0dpWHpHQTNTZUV2UUM4TjJhLWQ1YkxiSHdIQkg1NW5WcUUzUlhuTmc0SEx0dm1SOXd3VllfYTAwTQ?oc=5"
+        },
+        {
+          "title": "[34] Full Capacity: Hong Kong’s regional ambitions and the PCC bet - InsuranceAsia News (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMiggFBVV95cUxORzR6SjRXS1d6RlNyYVkyVGpnbnJxaDd5MWU2VUptQ0dkeElRcU1vZEEzTU5la1cybUxYdFBzS0J1QU9NblRJQ19XOGZfVjFoa1NPNGRxU3REX0JXc1dCQXljZEJKeEJfd2NjVXBHNHpUcDRZbHJVZzJ5S0hvT19zX0tR?oc=5"
+        },
+        {
+          "title": "★ [35] What are IRDAI’s proposed insurance reforms, why have they hit insurance stocks? - The Indian Express (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQQWJFZ19Ic3RJbUR5dTNmVGZDN3p5MXVsNzlveGRuemdZUnltMVJGZEZhM05McmZxOWlOcXNLRzkxV29Pcmdkb1BEdU02RC1IZVhWdDh1SkcyNTRORi1mMHdseTdOdWxkdVdIdXZpeXBROENWUFJIRnphSTN2QVlYRTNuR0FmcENzT05XVF9NYVMteG9BQzh2NV9jUmJ6QUNJVjI5cEZxYXo3ZTBuLWx5Qm1hQ3E3Q0NRM0djVzVNM2tFZXdGVEp6MC0yV25MZFNXQm4xQmM1N0Y4a2vSAeIBQVVfeXFMUFY3WXpkLWQxdUpyWGtrbEZ1Q3pobWlEM0tZVWRFWW1pZ0F5NFRQaGh3VjBJSXlsTFJFbmgxWWZGNW14NnhsVHZXWmVKcGJ6QVdCamFDRUdVNnVXS29fRkRiYmJBYVJqdU5pYjk4bVZsNjJjR0FBaGFJSHJSaG4zT1Uyc2FKOUFLaTBRV3hJYUUyUXVHajdqeVFNNkhWb1MwMDVPek1lSW5jSFZ2OW1yWFZ2QlFyeHFSVUk2ejRMcm5lWkRJbEgwVHRNQnpiaFp0Vy1hYjdjZm9KTFE2WWVHM2Fwdw?oc=5"
+        },
+        {
+          "title": "★ [36] Prioritise insurance distribution reforms - BusinessLine (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVmx4VjRkZmo2Tk5objR3a1hmcHptS0xtOHNYMW9MTTV5dHEtLUZEcU1NT3VheENNOUlvZFFGQkpVemlZcUFDOUR2dDhZVlNybTZsdFdJdjlnTGp4M0ZrT0paTTFuN1Y5dWtPbXJLUnJCSVNGd3pmX0tKTUdqWlBUWEVqdEpVNGtNMVhhYWhaYmJQYlRRakwxUzJLNTRveDU0a2o3QlBPVFduQdIBsAFBVV95cUxQdXdkNGJ5ZVhHYlR3R1ZsMDZZZ2NTTkpIUTFpTGtkUFdKR0hQaEprbmlCeWZabUJIVC0zZVpjMk02dVJrMWhPMWw4SWR1amFBQ2Vud091VDhwdTBTU3V0Yk85SF9ZLV85N2J2dTdfUGd3RXJLNHcwdGhtRmFKMkEzTko4cEJlZmJfV00zOFRxRzZFM0hTSzBMazBBMjUyclN5UGY0YXFkcHJiUVkyQXctMQ?oc=5"
+        },
+        {
+          "title": "★ [37] 7 in 10 Insurance Buyers Back Commission Caps; 8 in 10 Want Agent Payouts Disclosed Before Policy Purchase: LocalCircles - Moneylife (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNT3YyV0dIV2lSVm95RjFvczBNQ3p3d1dTWmNXd1pQMlgzRGtZbEllcGp5dUdoMkpEbURkOGxJWWxfMU9fZG9GZ21BY2IyclB3NXlwQ2dmWDhOdTc0OW0yM2MwdGxra0NTa0xmTzVOQV9VTnMydVF1SFBxQWYyY0prelBjb0JSQ3BKMUtVYlNvaEI3N1hxQjNnMWl6MThYQzNNWERCMnV2eFk3Q25saVdKRHJBQ0xVbHJQVFF3QjF6azgyX1VndzZlaHpUX1h6djVZdC01LXRNcWpJWUc2dGpxVnRnLWFJMFNrUXk2eGtBTDNpVkJN?oc=5"
+        },
+        {
+          "title": "★ [38] Insurance commissions vs premiums: Why distributor payouts are rising much faster - Business Today (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNNnZuM1BpLU54QkpyN1hweDVRNEFKMVRkVmZ2NzEtaW1RWk03d0RoaVFyQWI1VFFadk1mQmNDajZiT0F6aVBnZzZHR1pCa1ByODluNVJBbHk5UzFVYjRYLU9vQWdScVNPTGJoakZ6alJEejlZdW1LdUM2bG1zbE1ZdHZtLTAwaF9pNDc0eUMwREJCT2VGV1h6V2pvTHRIaW90OFFLbFdIczJPVXVIaTE5WWJCQk52dWNJcXMzMzJCLTY4czRuT2c1NzQzaDU3eDR3Y3h3RE1rOS1TdzZSNUliM1RtMjfSAeoBQVVfeXFMTzJCLTV3YWFSY3Q5RjZ0LWx5eGtjLVh0d1hmX2Z3ZTU5ek1FMWFBbVpLS182VC0yaldtY0FoNE5OMEhnTTNOTjcyQ3VTeEF5dVZKQXlMcENjam1JZDl3b3BIR0RpNElQcXFqZVBaSEt4QWJQdzEyYXFZcU5WeVpMMTlvWE1odGQ1eGw1eGRRSzlxaVF3bXlGMDNiVEZ6Vmt1T3lDdXlJSGppNzFHekRMSk5SZVF3bEpKcTlPNDY4bGx0bGJ4SFU0eG5Zc2JOY1BfZmdLVUFZQkxURmh5N0t3bDNoUzV4aUh0bHZR?oc=5"
+        },
+        {
+          "title": "★ [39] Insurance commissions grew up to 6 times faster than premiums: What IRDAI wants to change - Business Today (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNZWFwZ1FQZmxiQ3pHZDVVeGMwUUQxOE9LTzNyRVpnTFAzX0RsbDZsY0RDVERKbERSU0V2am9DMmREN1J5Y2N6c3g0OGtMNmZhRmc4WnlSckZKbXFrYmFXUG1LVFJKSmh1czgwMW5Nd1JrUjlxWFF2d0FHc08wS2hpdXdaazNxb1R3MzlWd3hweGYxRk1BWUE5dGx0bHI3ZXM3cnU2WU4wTnJUOXM4TmFzVjd2RGJhY2FxLUNBcGpfMjhzSE1oNWoyYVBrdU9GTFZYRXFVTGE2U3NlV3daLXFUeHlmS1FBUGE5RU1tRWRuWdIB9AFBVV95cUxQYmxXSFZTWllVX1hKSUppVFhtcUdwam13LU1pVDJXbmR1M1JuWEd5RjBra3BnQlhRNDljZ3dUVXdqcjBtSFoxY1ZMTjRxb1k5dmlwS3N6NkZ3NFZteV9TS01ucWN1di0xWklpcExPYkN0WmlydWFoczJlbUxMTEFraFhSLU14QXRXVmRobkl0UFMyRjZrektTWkZBYW5HbXNBeTZ2V3JHQ2hYSGNGSjNfNFluS085dVg1Z3V4c1hLQ2hVc0ZzdklJVG54MlpXOWVqNk44enRnSkpOZDRhRVkwQnFQOHBDZ0JoZUxuUFlRQmtBbUk0?oc=5"
+        },
+        {
+          "title": "★ [40] Insurance Distribution Reset: IRDAI Caps Distributor Pay-outs by CareEdge Ratings - Investment Guru India (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOY1dVNjBMdzdoME9WSDZtUnVBczBHaUQwRFZMR2dEeEdXQVVMdEJwMHd1dkg4MWpaa3BHN1pIYnlBeWhuZTc1V1hlTDRDekNZWlVRZ25XWnljVkhZUm1nWTNOYWw1a3FyZzVuUlBvSURnMkJsN0FWdERRcXI0TXdCRkp2SU5tMlU1SGtCV3dKZDN3NUJ1Sm5ZMG9YZkV3R1hLTW1UUF9sQUEyZ2NwZE1vczZkTU91SHJkY1ZjVm82SFNJWS1ZR3RjNg?oc=5"
+        }
+      ],
+      "search_queries": [
+        "bảo hiểm nhân thọ",
+        "thị trường bảo hiểm",
+        "bancassurance",
+        "insurtech Asia",
+        "life insurance distribution"
+      ],
+      "n_items": 40
+    },
+    "growth": [
+      {
+        "query": "\"life insurance\" AND \"purchase intention\"",
+        "series": {
+          "2020": 12,
+          "2021": 4,
+          "2022": 3,
+          "2023": 4,
+          "2024": 11,
+          "2025": 18,
+          "2026": 11
+        },
+        "cagr": 0.08447177119769855,
+        "rel_cagr": 0.03267548966689171,
+        "cagr_window": "2020-2025",
+        "note": "Năm 2026 chưa trọn vẹn, không đưa vào CAGR."
+      },
+      {
+        "query": "insurtech",
+        "series": {
+          "2020": 206,
+          "2021": 85,
+          "2022": 76,
+          "2023": 120,
+          "2024": 147,
+          "2025": 257,
+          "2026": 264
+        },
+        "cagr": 0.04523316321368265,
+        "rel_cagr": -0.004689013301211742,
+        "cagr_window": "2020-2025",
+        "note": "Năm 2026 chưa trọn vẹn, không đưa vào CAGR."
+      },
+      {
+        "query": "\"insurance agent\" AND performance",
+        "series": {
+          "2020": 9,
+          "2021": 13,
+          "2022": 5,
+          "2023": 21,
+          "2024": 14,
+          "2025": 18,
+          "2026": 11
+        },
+        "cagr": 0.1486983549970351,
+        "rel_cagr": 0.09383449872192795,
+        "cagr_window": "2020-2025",
+        "note": "Năm 2026 chưa trọn vẹn, không đưa vào CAGR."
+      }
+    ],
+    "top_cited": [
+      {
+        "title": "Determinants of Online Purchase Intention Toward Life Insurance in Malaysia: Moderating Role of Trust",
+        "year": 2023,
+        "cited_by": 7,
+        "doi": "https://doi.org/10.1177/22786821231189377",
+        "source": "Jindal Journal of Business Research",
+        "openalex": "https://openalex.org/W4386249735"
+      },
+      {
+        "title": "The impact of enterprise brand equity on customer purchase intention through brand preference",
+        "year": 2025,
+        "cited_by": 3,
+        "doi": "https://doi.org/10.21833/ijaas.2025.08.019",
+        "source": "International Journal of ADVANCED AND APPLIED SCIENCES",
+        "openalex": "https://openalex.org/W7128238068"
+      },
+      {
+        "title": "Exploring the mediating role of risk aversion in the relationship between personality traits and life insurance purchase intention",
+        "year": 2025,
+        "cited_by": 3,
+        "doi": "https://doi.org/10.1504/ijbex.2025.146552",
+        "source": "International Journal of Business Excellence",
+        "openalex": "https://openalex.org/W4411032837"
+      },
+      {
+        "title": "Determinants of Life Insurance Purchase Intention using Structured Equation Modelling with Focus on Saving Motive and Financial Literacy",
+        "year": 2024,
+        "cited_by": 3,
+        "doi": "https://doi.org/10.21863/ijbri/2024.12.2.009",
+        "source": "International Journal of Banking Risk and Insurance",
+        "openalex": "https://openalex.org/W4399410915"
+      },
+      {
+        "title": "Predictors of Life Insurance Purchase Intention Among Filipino Adults: A Structural Equation Modeling Approach",
+        "year": 2024,
+        "cited_by": 2,
+        "doi": "https://doi.org/10.1007/978-3-031-60863-6_19",
+        "source": "Springer series in design and innovation",
+        "openalex": "https://openalex.org/W4399192402"
+      }
+    ]
+  },
+  "management-hr": {
+    "gemini": {
+      "model": "gemini-3.5-flash-lite",
+      "mode": "news_rss",
+      "text": "| # | Xu hướng | Tín hiệu | Một câu vì sao đáng chú ý |\n|---|---|---|---|\n| 1 | AI tự động hóa và định hình lại quản trị nhân sự (HR Tech & AI Agent) | ●●● Mạnh | Các giải pháp tự động hóa nhân sự tích hợp AI và AI Agent đang thu hút vốn đầu tư lớn và thay đổi trực tiếp quy trình tuyển dụng lẫn quản lý lao động. |\n| 2 | Chuyển dịch mô hình đào tạo kỹ năng thực chiến và nội bộ doanh nghiệp | ●●● Mạnh | Các doanh nghiệp và cơ sở giáo dục lớn đang chủ động làm chủ công nghệ huấn luyện, mô phỏng và hợp tác đào tạo thực tế để giải quyết bài toán thiếu hụt nhân lực. |\n| 3 | Cạnh tranh tuyển dụng và chiến lược giữ chân, \"chiêu hiền đãi sĩ\" | ●●○ Trung bình | Thị trường lao động ghi nhận sự cạnh tranh gay gắt tại nhiều địa phương, buộc các cơ quan quản lý và doanh nghiệp phải đẩy mạnh chính sách thu hút nhân sự. |\n\n#### 1. AI tự động hóa và định hình lại quản trị nhân sự (HR Tech & AI Agent) · ●●● Mạnh\n- Diễn biến: Các công nghệ tự động hóa nhân sự bằng AI đang phát triển mạnh mẽ trên thế giới. Cụ thể, vào ngày 27/09/2026 (Dealroom), công ty Warp đã huy động thành công 85 triệu USD để tự động hóa HR bằng AI agent. Cùng ngày, trang Inc.com đưa tin về việc một cá nhân đã tự xây dựng AI agent để tìm việc thành công [16]. Trong nước, vào ngày 25/09/2026 (CafeF), hệ thống AI đã đưa ra cảnh báo ngay lập tức khi phát hiện một nhân sự làm việc trung bình 10 giờ/ngày trong 10 ngày liên tiếp [38]. Ngoài ra, vào ngày 26/09/2026 (Portal ERP), Workday đã ra mắt giải pháp AI nhằm hợp nhất việc quản lý phúc lợi nhân viên [33].\n- Bằng chứng định lượng: Warp huy động được 85 triệu USD (Dealroom, 2026-09-27); nhân sự làm việc 10 giờ/ngày trong 10 ngày liên tiếp được AI cảnh báo (CafeF, 2026-09-25) [17][38].\n- Insight xã hội/khách hàng (diễn giải): Người lao động và bộ phận quản lý đang dịch chuyển sang việc ứng dụng công nghệ tự động hóa (AI agent) để tối ưu hóa hiệu suất cá nhân và quy trình vận hành nhân sự, đồng thời áp lực công việc cao đòi hỏi các công cụ giám sát sức khỏe lao động tự động.\n- Câu hỏi nghiên cứu tiềm năng: Việc ứng dụng AI agent trong giám sát khối lượng công việc (Biến độc lập) tác động như thế nào đến mức độ gắn kết và tỷ lệ giữ chân nhân sự (Biến phụ thuộc)?\n- Hàm ý kinh doanh: Đội ngũ quản lý kinh doanh cần ứng dụng các công cụ công nghệ và AI để theo dõi sát sao thời gian làm việc và năng suất của đại lý, tránh tình trạng kiệt sức dẫn đến nghỉ việc.\n\n#### 2. Chuyển dịch mô hình đào tạo kỹ năng thực chiến và nội bộ doanh nghiệp · ●●● Mạnh\n- Diễn biến: Các tổ chức và doanh nghiệp lớn đang chủ động đầu tư vào công nghệ và mô hình huấn luyện chuyên sâu. Cụ thể, vào ngày 26/09/2026 (Vietnam+), Vietnam Airlines đã làm chủ công nghệ huấn luyện cho chiến lược đội bay mới [23], đồng thời hợp tác với CAE để đào tạo nhân lực và phát triển hệ thống mô phỏng (VOH, 2026-09-26) [25]. Trước đó, vào ngày 25/09/2026 (vietnam.vn), mô hình khách sạn 5 sao đã được chuyển đổi thành giảng đường đào tạo nguồn nhân lực [37].\n- Bằng chứng định lượng: Chưa tìm thấy nguồn xác nhận về số liệu tài chính cụ thể cho các thương vụ hợp tác đào tạo này.\n- Insight xã hội/khách hàng (diễn giải): Sự thiếu hụt kỹ năng thực tế và yêu cầu đổi mới công nghệ buộc các doanh nghiệp không thể phụ thuộc vào nguồn cung bên ngoài mà phải trực tiếp tham gia vào khâu đào tạo và chuyển giao công nghệ huấn luyện.\n- Câu hỏi nghiên cứu tiềm năng: Mức độ đầu tư vào hệ thống mô phỏng và đào tạo nội bộ (Biến độc lập) ảnh hưởng thế nào đến năng lực cạnh tranh của đội ngũ nhân sự vận hành (Biến phụ thuộc)?\n- Hàm ý kinh doanh: Xây dựng trung tâm huấn luyện nội bộ chuẩn hóa với các kịch bản mô phỏng thực chiến để nâng cao năng lực cho đội ngũ tư vấn viên trước khi ra thị trường.\n\n#### 3. Cạnh tranh tuyển dụng và chiến lược giữ chân, \"chiêu hiền đãi sĩ\" · ●●○ Trung bình\n- Diễn biến: Thị trường lao động ghi nhận nhiều biến động về nhu cầu tuyển dụng và chính sách thu hút nhân tài. Vào ngày 27/09/2026 (Laodong.vn), doanh nghiệp tại Quảng Ninh tuyển dụng tới 4.000 lái xe ben, khiến thị trường lao động cạnh tranh gay gắt [8]. Cùng ngày, các cơ quan chức năng và địa phương liên tục đẩy mạnh các hoạt động kết nối cung - cầu lao động như tại Lâm Đồng, phía Nam Hà Nội, và Ngày hội giới thiệu việc làm với gần 400 đoàn viên tham gia (vietnam.vn, 2026-09-27) [11][12][14]. Đặc biệt, vào ngày 26/09/2026 (Báo Đại biểu Nhân dân), Báo cáo về chính sách \"chiêu hiền, đãi sĩ\" tại xứ Huế đã đưa ra những mũi đột phá nâng cao chất lượng cán bộ [19].\n- Bằng chứng định lượng: 4.000 lái xe ben được tuyển dụng tại Quảng Ninh (Laodong.vn, 2026-09-27); gần 400 đoàn viên tham gia Ngày hội giới thiệu việc làm (vietnam.vn, 2026-09-27) [8][14].\n- Insight xã hội/khách hàng (diễn giải): Sự phát triển kinh tế tại các vùng kinh tế trọng điểm tạo ra áp lực thiếu hụt nhân lực cục bộ (lao động phổ thông có kỹ thuật), đòi hỏi địa phương và doanh nghiệp phải có cơ chế đãi ngộ vượt trội để thu hút và giữ chân nhân tài.\n- Câu hỏi nghiên cứu tiềm năng: Tính cạnh tranh của chính sách \"chiêu hiền, đãi sĩ\" và chế độ đãi ngộ địa phương (Biến độc lập) tác động ra sao đến tỷ lệ thu hút nhân sự chất lượng cao (Biến phụ thuộc)?\n- Hàm ý kinh doanh: Thiết kế các gói chính sách tài chính và lộ trình thăng tiến hấp dẫn để thu hút các quản lý kinh doanh giỏi từ các ngành khác gia nhập hệ thống phân phối bảo hiểm.\n\n#### Tín hiệu yếu cần theo dõi\n- Xu hướng Amazon tuyển dụng lại 30.000 nhân viên cũ sau các đợt sa thải lớn (vietnam.vn, 2026-09-27) [3].\n- Các hoạt động ngoại giao và hợp tác quốc tế của Tổng LĐLĐ Việt Nam tại Liên bang Nga nhằm học hỏi kinh nghiệm quản lý lao động (Laodong.vn, 2026-09-26) [29].\n- Đề xuất lập Quỹ khoa học song phương và mở rộng hợp tác AI, bán dẫn của mạng lưới chuyên gia Việt Nam tại Canada (nguoiquansat.vn, 2026-09-26) [24].",
+      "sources": [
+        {
+          "title": "[1] Khẩn trương tuyển dụng, sắp xếp giáo viên; bố trí nhân sự dôi dư; sắp xếp, giảm đầu mối cơ sở đào tạo sư phạm - xaydungchinhsach.chinhphu.vn (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNVGVEaWpVTVRlVkdVZUgtTlhBQ1NQVWJFVkRCeDV1dEczUUpHOF90Mm9DSzg0NHN1dW1wQzJvNkhVNl9KQklmLWhpZ2JVTDd0Z1RjMDZ1dnU3dTQ1NUw2UENmX0hYcXhzX3dYbHB5ME1NaXRISVotOVFkOUppQi1hTnh6ZXlwdHdRbTU2MlRkeWl5V1RKbUlZdzQ4MUh5dlZpZENsZTQ1OThzeS16dmpKRFFVYzY3REpoUGZjejN4ME5jU0FtSWpyS0dfbDN6RjNINW56REJQY2p0TmowMWtjQmk1TUZWZkE5T2E3SWoxOXRCR2ZFbHZqZ1dxRU1oSkNrVlhR?oc=5"
+        },
+        {
+          "title": "[2] Nghị định số 350/2026/NĐ-CP quy định chế độ phụ cấp ưu đãi nghề đối với nhân viên y tế - xaydungchinhsach.chinhphu.vn (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQWU1uMWJ0UkRXTjlVN1pUT1F1RE1Fci1lNWNadTJGcXpyYmZpTnp0LWJ4SVZCWHVJREdOYTJ4aEx5QVc2NWxvQWZLN1hQM3M4M2cta0NocDdjeVdibDVDbDlOYS1WeDh0NVNkWXc5eUh6VjNHR1RaeTgtM29maTVnQm52aVhXVUIzQWZqUlRwTWpnMWVZX1A4U1E5blpCaGFvYUtzRWpFSi1JQ0xmbUVZUy1pdjVhdnA4Q0dPYlZ1ckM3OGU0bDh3cGhfWGw1QzJSeUtVaFJ2WmpyaXN6YVk0?oc=5"
+        },
+        {
+          "title": "★ [3] Amazon tuyển lại nhân viên cũ hậu sa thải 30.000 người - vietnam.vn (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUFNJd0ppWURVaGppaEVDZXRwX1ZETngyQ3lweWNtWDJUejUtY2NXV2dWZnFJcU1HTnNaNVRyWG5KSGdiTlNOLWpaNUxZOEV4Q2RidVhtWXE0X2FYdG5qalQxMUI5ZVFzTGpPdzg0UzNLZmZXak56N3hRUkprYXM0SF9YVQ?oc=5"
+        },
+        {
+          "title": "[4] Khởi tố, bắt tạm giam một loạt cán bộ trật tự đô thị; lãnh đạo, nhân viên điện lực, cấp nước... - xaydungchinhsach.chinhphu.vn (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQY3RGM1RtQmdJeUUwUFpRZW5TSzltZm40d09YZEF4d3Y1SHlHLWlzS0tiSG1pNzZnQWZrQ2ZIOUlSQmROUW9ZN0pwdnhlWU1nTVBiNE11bXlhZTNwSnlULV9mczVncGhhSGwxWnhZakZ2S05WdFlZNGVFMkttRkNIdjBLNV81NXZURDBUNUtkZlV3eUI3WnpEVFo1WENOVFRkZVBrSlFEVUlVbXhRbVhTWUJqSWFleFo1WXM3bFVGWUE1QWhCSVFSMnEwbUFkYXJuaEh6NzVYZDF2ZkRWNERTSzVR?oc=5"
+        },
+        {
+          "title": "[5] Vi mạch bán dẫn - Trái tim của kỷ nguyên số - VTVgo (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1Ed2F0NDJZRHlNQWV5dl9YdmF5WEJVWWVYd3VoWl9fSmE1NXAzeGZZdURRUUdMNmFSb084ZUVOck4?oc=5"
+        },
+        {
+          "title": "[6] Trường Đại học Y khoa Phạm Ngọc Thạch hợp tác đào tạo y tế với Hệ thống Y tế GEMs - vietnam.vn (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVWZlaERMWTBFd3BnWmZtQ3B6Yl8xWV9oaHgyNkRReWt1Um9yZHM5TFNJRGtfRHpid0puQ1dWRDVzWFBYME9pQ3JYQzY0U2laTzR0TnFhZFRaS2xBNW93ODV0U2FLdFRYaDBBT21Xbmd5Z2lBRGNXTHFmOTZkLXUzWFlnYjJVNThOUFZTQnNiYk5DamtsSndpS2FPS21EdXpvRlJfVVdnQQ?oc=5"
+        },
+        {
+          "title": "[7] Sorotan peristiwa minggu 21-26 September - vietnam.vn (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1hbllEUnlnVW56di1GVWVveHZCNnpfVEpHcU5sdTZ0Qnp2d2xJS242LUVlZVJPdlhtQTZkNlU1bnZUYUhpbTlLOUpIUDNKY0tQa2ZIYUdKT2lGb21pR1k5Qm1pUE9EcnZo?oc=5"
+        },
+        {
+          "title": "★ [8] Doanh nghiệp tuyển 4.000 lái xe ben, thị trường lao động ở Quảng Ninh cạnh tranh gay gắt - Laodong.vn (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPY0ZmeWFTaDdsRU1Td0VBZ3BYRFpqcEdtb0ZkZUhfalROcW5zbXAwYlRMUXFkTU40RVlaYkZ2OFU3a3ItTnE5aWN5dks4ZUlzZHVGZHpPMTk5LUVCUnMyVk5rQ3U2bXJ4MG5RcVc1VWJDZ1UyMDdNRURzdGRmeTloZlFLOHR3UU9ELWlrVmdQaTNlQlp6OUs4d3VxZnMyeFhtRVRxMzBiRGNfUFJwdEZvOVlIV25ldFlSUVpkZTZJWjdYQQ?oc=5"
+        },
+        {
+          "title": "[9] MINISTRY OF HOME AFFAIRS OF THE SOCIALIST REPUBLIC OF VIETNAM - moha.gov.vn (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaURaYkJHbEY3NUZHUl84RkRpMFdjYjhQdXBCNGNkbTVEa0h4Y3BKd3FFYnZSVXdRZEZmYlZJeUVrUThVRW9KbGZ6UmQ1Yl9HdHl1N05lbE1YRXozQ19hb2QyTjFud0dTQ3gtUExpRkJqbVJyNkhLTEFVeTdvNEo2ck9mdjhsSVdIRUQ0a0VrcUI4d3Y4Q2JTMUl2eUphWXhPQzlHU3ZranRnSjNSX2FCMWdZNU43N1dud0swZDdmQUt3NndlWVE?oc=5"
+        },
+        {
+          "title": "[10] Lao động trẻ cần nâng cao kỹ năng, rèn kỷ luật và thái độ làm việc - Laodong.vn (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOT2I4MHd1WDNaNFUyRzV4ajdWY3FrdlpfOG8wdnBDak5OYWVXWl9WOFVFWFE5ZzFwTFp0cVlwZV9KRUpiaW9aNGlpcGRJenBuNEU5ZnVxSXhWQlpDWkZGeE56TWN5Tjh4NTFqS2VUWU10WFlkbWtkZ3o0dGZXRGRlcVFoaWs0NDhmUjl4WE9PUndKalRzNmxOZlhfbUc1MnYtb2pMbjk3LW5pakNZQlE?oc=5"
+        },
+        {
+          "title": "★ [11] Kết nối việc làm cho người lao động ở Lâm Đồng - vietnam.vn (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9raF84S2FOOFpaa0dOR2d6Mi1aRzBnVmF4Z2pzVXY2QWFnd0dMQmdfTUJBYzd1OG94QVJqOFFyc0ZhYi0taW11czJRRnd2MFFOSHk2UkN3andmaW1JQUZLbDdyZXFlVHhxUTJ0Qkl6Vl9PNTlqSUtrMg?oc=5"
+        },
+        {
+          "title": "★ [12] Kết nối cung - cầu lao động tại khu vực phía Nam Hà Nội - vietnam.vn (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObkd2V2Jsd1FEdlFPdEdXYWJKYTBrb0lzYk11aVR5U3pXUXJfXzBlSFhZNzlWaEpMeEFRejUzcXRFOGpiTklvSE0xX3Jpd1lON2g3UFVMRjNMQTY0dVVMV2NlN3FOTnRWeDE2SFBCV2FBdjVQaXVGcjhNR25DakY0SkhB?oc=5"
+        },
+        {
+          "title": "[13] Đoàn đại biểu Tổng Liên đoàn Lao động Việt Nam kết thúc tốt đẹp chuyến thăm và làm việc tại Liên bang Nga - Báo Vĩnh Long (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQRFpwTC1MbThJYU5qdGpST1hVSkllNkd2SEhWbHc4OEg2dDFhUjVzallTS1ZkUno4ZjVHcGM2Zmc4VTRoRVN2Zlh2VllpaEFEbFBBVmp3MnptaDJncFNScmdwUzNIeGZ1SEtXTEpVS2NVaWVvN0RlSFdwYzF2YjFCU0s1eGtmUHo0ZHRGYjh6MDBSazlNcU9DR3k3Uk0wQXNZTjVvZW5iY1ZLSXdoQ0xwVUw5dVVVSmp1dGdjbW9mQkdrcWpyWTRzYnJFTjFPTjhUeVY1OXUtUGxNZ0hXTlZNN1JIclVDdW1YVlk4YQ?oc=5"
+        },
+        {
+          "title": "★ [14] Gần 400 đoàn viên, thanh niên tham gia Ngày hội giới thiệu việc làm năm 2026 - vietnam.vn (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcnNNYnBVVVp2R1B3WWtZWElzc3lLU0hOelh0Q0RkdDhOYnhDVW9ZeHhGUDBiQUY4OWFGb0FETGNvS1BaMDUwbXZsQW56UWI1WWtydVR1UDRxQk1EVjFraE1JM0tRS0N4RVZ1aTRlUlctZ01YazR4S3pUNktXVG1rTHB6V3hvRS1aTUNWRnRXMXJtRWVaM0x1R1R1VDhkdWs?oc=5"
+        },
+        {
+          "title": "[15] Việt Nam nổi lên như điểm sáng tăng trưởng của Đông Nam Á - Tạp chí Kinh tế - Tài chính Online (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaTdGN1NUa18tN3kxa1ZUYzU2US1iTFVDOVpjdDVPSWRHaG1qcDA4T0s0b1l0eGpkbU52YnhvMGJ2UWM3blptVE5PUFlzdmdIWVFZY0x5ZjFOYU9ZeFpkR2x6N3pGZ2FJbktsejFrYk1MWHRvTE1hb1JGUXREMU10T3lQcnpyQzdQY3MzZGZvci1aeEJ0TzZPS1hhTWV1SU5kUTF3?oc=5"
+        },
+        {
+          "title": "★ [16] She Built an AI Agent to Get Her Next Job. It Worked - inc.com (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQm1mT3JoWEQ4bzN4SUVSMjlidzk4V053TW5zWjJtajFtTkhkelBNVzNJdl9QeFpwdjliUS1KNGxjU282YVM4TDJEcGpmNlBWTDFtc0laUm9zOFFic3hMelVGdXRsRlZsdHBJRkV1M1R5V09jb0x3WkRxUVItalozQlNqTnFwLW56bExFdUJJWmhfRW1nSXpOTUFn?oc=5"
+        },
+        {
+          "title": "★ [17] Warp raises $85M to automate HR with new AI agent - Dealroom (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONjlFOGZzelRRQWdlRU0wWV9ha0ZhVXROVmVzWnFBZ1NBYTRtbUMtUlBPdFEzblR1UENGZ19jcmJUbVBidTQ1MTliRUlmZFFvdUVsQVA5ZXdKYmRiU2NsMUZFd0tRdE9kdHlkQVYtY1Z0MWpOU1Y0UUU5akVuMzFYWk0zVzl5ZHQxaFE?oc=5"
+        },
+        {
+          "title": "[18] Talent trends for the AI-native C-suite - bvp.com (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9nX08xWWlwSWNtQm5Ld2ZKcVBDYmVYOVN1eGNhS19qWHJncnFjYVcyVGlvVzI2ZWlfaUdYZmZyRDdhenBqVTlYTW92M19ycG80OXp4cko3Z083Q3d1WlZxd3ZFLU5QUk4wVWlnZlFBS2VJelk?oc=5"
+        },
+        {
+          "title": "★ [19] Tạo nguồn cán bộ từ chính sách “chiêu hiền, đãi sĩ” ở xứ Huế Bài 2: Những mũi đột phá nâng cao chất lượng cán bộ - Báo Đại biểu Nhân dân (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQOUhsei1KczVqbFFUcWZZcUZDQmE3SWxlQm9vNWpId0hQOU1FaHY3b3Q0RWJkMThNV0xQSGU0R1lvekNJd1JCUHhVUkd2YVNlTUNTUWxhbXpvVV81MlBPT053ekdsdVNYOTZGMjJudVd3aVhhOTFHd2czWnJOUkFLblBsdEpxcVNKakdXLWRwaEJPdkJXUnpaY3dLZXd2UVQtcHV0Tk9zdEpFb3VRNjhzaGN0VmdhbFgyaXFSNHhDSG5JVlE3N1lOLWJkMzN4YnpuTXZIdTdzQl9RTG5NSGlNX2h3?oc=5"
+        },
+        {
+          "title": "[20] Bưu điện tỉnh Bắc Ninh “gỡ điểm nghẽn” bán hàng từ việc thấu hiểu đúng nhu cầu khách hàng - vietnam.vn (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNREd5aGN2ZGJrNk9qblBDOHkzWk9VMm5tSlpWRjZNZWZ4T2FPZ25WS2owa3JncWEyZDBHc2xiWjB1WmpHaVpZZkk4Zy1US2RZZldJTUEwUHcwVmxhdFpiWER3ZlJldWNSZklNWGk0MEw3WTl3ZGp2NkxSdHFETjFweUpxeE0xY1VfYVY0VEZqa2E4UHBtamxWWjViZkJjSXJjTlpBUmJwQUVDUUVkQXJJ?oc=5"
+        },
+        {
+          "title": "[21] Tổng Bí thư, Chủ tịch nước Tô Lâm gặp Mạng lưới Chuyên gia và Nhà khoa học Việt Nam tại Canada - Thông tấn xã Việt Nam (TTXVN) (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPNmpWX0tGTm1ON0QtLWhsdEo0d0J3UkVCY2JuMjE2dHZCSzdZdUZ2Umw0WXNfYXAyb0RadEpRN1dJOGxDVlpLZVFYVUhmZlMzekJzamdYMnJHT2kxaG5aZFBnVy02Y0d2YXV4ZEhrdV9scjRhT3hnX05PbF9vRW5WWnpvTVJ0WE1icmtERUlMSS1pMEZhb21Wa29vQnA2U3IzbEtfZWNyODlWN05sYzRWVVJOcXdvVUFDT0doaGN0eXNuNFdIU3ZYekJhemtTbldjaUJnNmxaZ2NDMkpHVFlqa19rTHQ?oc=5"
+        },
+        {
+          "title": "[22] Tổng Bí thư, Chủ tịch nước Tô Lâm mong các chuyên gia Việt Nam tại Canada hiến kế cho đất nước - Cổng thông tin đài tiếng nói Việt Nam (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWFdUTGpMbVA0MFpNSG1Da2dSVDQ3N0swTzFWcEY1UFI2SEk0RjM1MWJ2MHZCMlFMaERsVUhtbmRIZmd2MEFrMU82ZG55a1I3Qjh3TU11b3VHaWgzRU1mYlJQYkptX0Y4RmpsLTNSblVObllQbi00QWw1VlRZTlY0YWFYMVZtQnIxUjhjOHFQV2F1MWNhVm4zRGNvMEZsSkZaSjJhWUlHNGhraHRBR290NENYOC1CUG0xRVE?oc=5"
+        },
+        {
+          "title": "★ [23] Vietnam Airlines làm chủ công nghệ huấn luyện cho chiến lược đội bay mới - Vietnam+ (VietnamPlus) (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZjNEaFFHMDA2ZVFQbFRrbV9RVHVQcjY1QjZaUnA4MzliUjdlY2ZlYmFrN2tJVlNZdXJUc1gxWkU1dTRLVHo5a3ZsN20ySlBtcnYxMXYyNnk3SXBXTURENWxUNURhZjFqdDlpV0VJVEZ3ai13RzJQZ2xLalJ4QWtVV2lXY0Zqeno3RUtGaU16VS1wbHZxenB0VXR6dTJPZVRWaC1hRmFPWGtQci13MEFQckdtbFhxQQ?oc=5"
+        },
+        {
+          "title": "★ [24] Chuyên gia Việt tại Canada đề xuất lập Quỹ khoa học song phương, mở rộng hợp tác AI, bán dẫn và đất hiếm - nguoiquansat.vn (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMnplZ1BIZl9TVVRMLTBHOFduUWd3M2FhS3VRYzZTSjktdzhhMk4zQ0s3TktSMkQ4R1B1SFBwd3RRNHdDNWlwY3JueEFuZHQ1NFVrNmlXaGhUVVlnZldsalhNMG00aXp1UWpXMWp6V0RKTUNUa0dLVWNLckpzR3ZkQ1E3bzJYelhOU0xoREloYzRfU3VyQ3dpZUs2dlBQVllFYmplTHNib0Zlanc1NXkwUGVUWkEyZ1hNaWVLbEFsTmxJSFdvWXl4dG1CX3VzQkVtUmJwMg?oc=5"
+        },
+        {
+          "title": "★ [25] Vietnam Airlines hợp tác CAE đào tạo nhân lực, phát triển hệ thống mô phỏng - VOH (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQjFqaldYa2VFbVVBdERmaXhXRGdNcjJpWnI0anZDYWZMTnhNbTJrR3hLR0VSeDF1emhmYnMxbnBMWmpqYmwzOTR6aHgyRURNNmNiU1lTSXVMazB0cDAtZVVTM1lINklhOEQ4U05wQXdSSlVOWVpmZFJLcE1VVE1DWkliVkFMVlNLRjN5UmxtWUNiWEVHVWMwU1JvMWdPQTEwV3BTbnFOWFVvdjJWVHQxUDBSSQ?oc=5"
+        },
+        {
+          "title": "[26] Sôi động thị trường việc làm | Việt Nam hôm nay - VTVgo (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5JYVRBd3VxUlNYaXp3RmI4dHpSOHFPWklhdjU3Smg4SUg3US0yWjJkbFE1U1E2dEhYc0VkbUU3SkI?oc=5"
+        },
+        {
+          "title": "[27] Dự báo Việt Nam dẫn đầu tăng trưởng khu vực Đông Nam Á - Báo Thanh Niên (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbXFoRkF0YjBxZmp1NXRpMGFTd3V5RGlPNzZOZTB2NmZ3T1FxY2RaT0hBZDQ5RjJTNUpIbHJHUHBodVVYZVd2cnYxc213aXZndnBiaVhwZ0ZlM0NsczVrOFFWd3MxU2ZjTUwzSVpSTXhtODZrZWRHQ3lkSDBGWXRfdlhiM2VwZzY5SHROOExDNDA0SVhKLS0weEJBUzlXR1k?oc=5"
+        },
+        {
+          "title": "[28] AI ngày càng phổ biến, sinh viên cần gì để không bị thay thế? - vietnam.vn (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNQVFPaHd1bzdKblNTa1RkZHEtYkFGTEJNSm1heHNZZkZHUERFRkxial9iR2o1NFRrMmdnVTFSRi1la2MwN3F0Z3VvWmZqbzQ0TXVXV2FzMW9HMC1JNTJrcGNxaWJGRkN5WHVrSUVobGtGRnczam9qYVUxUlRnblh1V1Z4b01UTk1Rd2c?oc=5"
+        },
+        {
+          "title": "★ [29] Đoàn đại biểu Tổng LĐLĐVN kết thúc tốt đẹp chuyến thăm và làm việc tại Liên bang Nga - Laodong.vn (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMkRKTUZaa2V3amdZdXFuQWlhT1ZmZXFiY1pGdm1GclBMV2lQcXd6SGxqLUY1YUd5MzVRUWFmQy1DX3d3Rml3cWY5cVk3NG5WSVV5NkRNUG0xVEstUWhwbjdMdWtXZjBoOXJsMk00WUJFT3BWU0Q4eDBud0R0dk1kcHlPS2pMTEhqUHprb21ad0RaeVc0Q3VHUE5scVlseHlUVDBwaHQzOHRlVWZXdmh0eDdma21WbmE2U1MwUm5JWWF4d1E?oc=5"
+        },
+        {
+          "title": "[30] Công đoàn cơ sở đổi mới từ nhu cầu người lao động - vietnam.vn (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMifEFVX3lxTFByZzJQanByT3h6VHBvTU8zOGtlWkhabXdQVWxic1BLcUsxNmFic0J0YXA1NFR6UHV1amJ2WGlSWDFPcjVTY21xRWM4MnIzTjdsZlJYOEdkSG1ZQWdvb2xXbVVnX1E5bDVJNTZuUnl0Y0Vya1lfWTRJSDUxVTk?oc=5"
+        },
+        {
+          "title": "[31] Coaching in a skills-short, AI-rich era. Plus news from Upwork, Deel and more - HR Executive (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMingFBVV95cUxONXdFSkRqbUlmUWEwU09tY0dJTzl1d1ZmOS1Ka0k5aFZTTlhaanlHQ0Vabk1zQXJ6UUJMT2h1WU04MjM1WkhwczhUa3A1RUdlcnFULXBUbHlYX2YzRzZKTEpDQVc0QlpmZkJYZ0RmVjlidXdrb1BkMUk3aEw4MjFoSElSajZydjItUGtyN2xxeTBpdmp0SmF3WXduWlFPQQ?oc=5"
+        },
+        {
+          "title": "[32] CEO’s Letter: The Prudent Approach to AI - HRO Today (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9IdzZCNWplS0M0R2dZX2M3SjRtY3BXNm5ENlZobHpQUzRoZlhlcnJVaEs1ZVg4RGdwckFVSnA2YUZFLWhhMG5aNXYtRVdTYVAzdTZ3Sjg4eEtaaXNiYkhEaVktbVIzeU5SS1VoQzcyMXpNQ29wcWRzQVlkTzAtZw?oc=5"
+        },
+        {
+          "title": "★ [33] Workday launches AI solution to consolidate employee benefits administration - Portal ERP (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWGUyWmpndGV4NTVObFhzRmI2YTdzV3RnUzRaVUVVWmxvNkhvenZkVGtQU0V0ek1rQXBRMDMzVWF5SVQyWEkzQ0EwTXVhSVdITVE4ZnhvUkhCdnhzMkNuOXU3ZGQwVy1PdU9na1JVLXpVdTd2R0tQOUlJMjZNR2ptemg3T3YxbVluSDIzQmJLRVpmb2pIVGtiVUg3WXZWb1ZZWlNYS05XVGcxZw?oc=5"
+        },
+        {
+          "title": "[34] ECU Notes: Research connects rural communities to Narcan access through vending machines - reflector.com (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPTW10NGNpZ1RZZmxabFY1ZnhmZ2VEblpxXzdVU0VFQnQzODI1QkRybnAwNEJJRVdTMWVsVm1zTEpiMzBMUnRVMEpjMUc4Y1hYQXdOMm5SM2prczhoVmpWYzFsZnFTUDhtVUM0NDhSXzVpY2NpM1JjbnFObkpuc08tLUhsbGNJMVlWMXhadkYzVEtXaWZBQXhpRmthT3gtY21WeTZQVFZndUhfNnpnRW0zWTBVUC1URWZhQmFWaEdIcVFaUjdVUjNWZGpuMFd2TFVhamQtcHI0QkVVeHdMTEtzUVY0QzdhZEJjc0Fmam1NMUlwRzRXbEpjbGxJR3hJcE5pS1dV?oc=5"
+        },
+        {
+          "title": "[35] Công ty cổ phần Lọc hóa dầu Bình Sơn - bsr.com.vn (2026-09-25)",
+          "uri": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOWDI3MjROUHNGNjlEMVh0ZkV4OXh3WXd1blBWN2ppYWl5cGRQRmJGMTVpSWdVRElHLVFvdFlCaTI0VEcyMEVKdF80N1ppN3NoQTFYOWdJYmg0Z2hSYVY3XzVMQWZUOEtWdzZwZlRkUlFzLXZlMkFQamlFd2c1cTNSOGNEWkM1M0FrYk9vOUFLM2RaTThDcG1XT2dDalp6VDBOLUtUckR5cUJZdHFXaXdlNjJxVE1fQjdVMzZKWjNSODVOem5CanozU3pZWVpOb1YwdW12TlcwM2tLWG9kQVdfY1pHRGEyVUlSa1dCWWw5RQ?oc=5"
+        },
+        {
+          "title": "[36] Nâng cao năng lực quản trị hiện đại, MB quyết tâm tiên phong cùng toàn quân chuyển đổi số - Baolangson.vn (2026-09-25)",
+          "uri": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNVBEdnVDVUNoT2ltcGFnekxNX05fRmFoZ2FTYWNlMU90dDhvV29adHRpYjRCVWt1WV9XekdNUkI5LWt4VVdYeDRzbWd5a05OeS1TS0VuT19DOGQ3dUVFZG9UZFZMd2VlUXZzSXc3T2dsQUpDWTBPQmI0bkhPTUVISXA2dHpobWtTbnNSQ0p2MFZrajA4V1hmWVdDNkFXNk92REtERDdDUmM4akdiLUxZRmxCclZTdjQ3RDZIZ2RIdnU?oc=5"
+        },
+        {
+          "title": "★ [37] Khi khách sạn 5 sao trở thành giảng đường đào tạo nguồn nhân lực - vietnam.vn (2026-09-25)",
+          "uri": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPaEpXa1Fwcmx2eDNyS3NWSzYwSUo2b3lFai1lRVhqX2d5Mnh6OE5tU29JT01lM1piaUZxd1Vlb2liZ3p0dWFRSURpWkFKcGFmUkxHeThCYk5pSFpYaHJwWnBVc0dMYjVURFo2bnNqc0NBY0d0TjVZTmp3MGhnYTVlclh1LVowZ1U1NWZHSGtFMGw?oc=5"
+        },
+        {
+          "title": "★ [38] Phát hiện một nhân sự làm trung bình 10 giờ/ngày trong 10 ngày liên tiếp, AI cảnh báo ngay lập tức - CafeF (2026-09-25)",
+          "uri": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMDc2dlVOaVlJdmhwejFIUzFNd2VLZ0hZY3NydUNmVnUtYzRsQkdhTFdYLWxPOE1SSGR3Rzh6RDRTM1hMZU1pQjZoRS1QVFZzRFJUUUluNUhDTDJHaG5vSTQwX0ZQWHd1ZElDZ1lQNXlTaVRoUXFhX0RQU3JMcjhITTEtank5RllodllKLVd4dXFCd2FHelJwZGhXOU01dXIyTG5lcFFQMUJ1aVZqLWVHMHpyNFNQUHl5VWlONW9zbkd6eGc3dFl5eDdKd3BReHVfZ3c?oc=5"
+        },
+        {
+          "title": "[39] Đà Nẵng hỗ trợ hơn 4,6 tỷ đồng cho doanh nghiệp, hộ kinh doanh năm 2027 - Baodautu.vn (2026-09-25)",
+          "uri": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVWc5TGdDX19TaG52MTFvYW8xVVllOUIzS1N6VTBqNTRfbVB3SGhQRG92NzB2UUp2d2E5LUFFV0djZmdjZVVoZHRQenZMeWVSbWhZWUJBLXhkYkUxUUdTVHFlQ2pLdUhzNGE5LVhGcUxSdVkyU05xZXZ4M3o1a01LUzZURWRZbXczOFJwc1NGZHJFOGxaU05yRjh0VzUzYldWdEw3eQ?oc=5"
+        },
+        {
+          "title": "[40] Dakruco có tân chủ tịch hội đồng quản trị - vietnam.vn (2026-09-25)",
+          "uri": "https://news.google.com/rss/articles/CBMickFVX3lxTFBLRmFyU0R4QTZpcWJhY2tzNkZvazhGS2hLbjFMcExZdWsxeW1KbVgxdVIyNzBEelMxa0ZGYWZxazN5dmFWTDg3TjFaZ3NNeUdETmZYQ1A1Q3lOSXBVcWhzVjlZdUdWa2s5dG1EM2pPSTdQdw?oc=5"
+        }
+      ],
+      "search_queries": [
+        "quản trị nhân sự",
+        "đào tạo đội ngũ bán hàng",
+        "thị trường lao động Việt Nam",
+        "AI in HR",
+        "sales leadership"
+      ],
+      "n_items": 40
+    },
+    "growth": [
+      {
+        "query": "\"sales force management\" OR \"salesperson performance\"",
+        "series": {
+          "2020": 48,
+          "2021": 34,
+          "2022": 35,
+          "2023": 29,
+          "2024": 32,
+          "2025": 44,
+          "2026": 34
+        },
+        "cagr": -0.017251730343853966,
+        "rel_cagr": -0.06418951830748698,
+        "cagr_window": "2020-2025",
+        "note": "Năm 2026 chưa trọn vẹn, không đưa vào CAGR."
+      },
+      {
+        "query": "\"artificial intelligence\" AND \"human resource management\"",
+        "series": {
+          "2020": 72,
+          "2021": 139,
+          "2022": 120,
+          "2023": 321,
+          "2024": 686,
+          "2025": 1307,
+          "2026": 1739
+        },
+        "cagr": 0.7856182591332361,
+        "rel_cagr": 0.7003339866302556,
+        "cagr_window": "2020-2025",
+        "note": "Năm 2026 chưa trọn vẹn, không đưa vào CAGR."
+      },
+      {
+        "query": "\"employee retention\" AND sales",
+        "series": {
+          "2020": 13,
+          "2021": 10,
+          "2022": 5,
+          "2023": 5,
+          "2024": 6,
+          "2025": 15,
+          "2026": 20
+        },
+        "cagr": 0.029033661071187877,
+        "rel_cagr": -0.02011479869430255,
+        "cagr_window": "2020-2025",
+        "note": "Năm 2026 chưa trọn vẹn, không đưa vào CAGR."
+      }
+    ],
+    "top_cited": [
+      {
+        "title": "SALES MANAGEMENT ANALYSIS AND DECISION MAKING",
+        "year": 2023,
+        "cited_by": 127,
+        "doi": "https://doi.org/10.62394/projmb.v2i1.57",
+        "source": "PROCURATIO Jurnal Manajemen & Bisnis",
+        "openalex": "https://openalex.org/W4400084901"
+      },
+      {
+        "title": "A desire for success: Exploring the roles of personal and job resources in determining the outcomes of salesperson social media use",
+        "year": 2023,
+        "cited_by": 33,
+        "doi": "https://doi.org/10.1016/j.indmarman.2023.06.005",
+        "source": "Industrial Marketing Management",
+        "openalex": "https://openalex.org/W4381429929"
+      },
+      {
+        "title": "Alleviating the negative effects of salesperson depression on performance during a crisis: Examining the role of job resources",
+        "year": 2023,
+        "cited_by": 30,
+        "doi": "https://doi.org/10.1016/j.indmarman.2023.02.009",
+        "source": "Industrial Marketing Management",
+        "openalex": "https://openalex.org/W4365816771"
+      },
+      {
+        "title": "Sales Force Management",
+        "year": 2025,
+        "cited_by": 22,
+        "doi": "https://doi.org/10.4324/9781032692807",
+        "source": null,
+        "openalex": "https://openalex.org/W4407767003"
+      },
+      {
+        "title": "How social media use enhances salesperson performance",
+        "year": 2023,
+        "cited_by": 20,
+        "doi": "https://doi.org/10.1108/jbim-02-2022-0082",
+        "source": "Journal of Business and Industrial Marketing",
+        "openalex": "https://openalex.org/W4320475210"
+      }
+    ]
+  },
+  "tech-business-fashion": {
+    "gemini": {
+      "model": "gemini-3.8-flash",
+      "mode": "news_rss",
+      "text": "| # | Xu hướng | Tín hiệu | Một câu vì sao đáng chú ý |\n|---|---|---|---|\n| 1 | Làn sóng Agentic AI và ứng dụng trí tuệ nhân tạo trong thương mại điện tử | ●●○ Trung bình | Sự dịch chuyển từ AI tạo sinh sang Agentic AI của các tập đoàn công nghệ lớn mở rộng khả năng tự động hóa tác vụ mua sắm tại Việt Nam |\n| 2 | Chuyển đổi số bán lẻ thực chiến và đưa sản phẩm địa phương OCOP lên sàn số | ●●○ Trung bình | Hoạt động số hóa chuyển hướng sang đo lường bằng đơn hàng thực tế kết hợp kênh Megalivestream cho sản phẩm địa phương |\n| 3 | Thương mại điện tử xanh gắn với giảm rác thải bao bì và phát thải Net Zero | ●●○ Trung bình | Áp lực bảo vệ môi trường buộc chuỗi logistics và các nền tảng số phải tìm lời giải cho lượng rác thải bao bì gia tăng |\n| 4 | Kích cầu tiêu dùng nội địa và ưu tiên sản phẩm xanh, sạch | ●●○ Trung bình | Thị trường trong nước được đặt làm trọng tâm kích cầu bền vững gắn với tiêu chí hàng hóa sạch và minh bạch |\n| 5 | Khởi nghiệp ngách và phong cách tiêu dùng cá nhân hóa của thế hệ trẻ | ●●○ Trung bình | Thế hệ Gen Z chủ động tạo doanh thu từ ngách thời trang, phụ kiện và định hình phong cách tiêu dùng độc lập |\n\n#### 1. Làn sóng Agentic AI và ứng dụng trí tuệ nhân tạo trong thương mại điện tử · ●●○ Trung bình\n- Diễn biến: Ngày 27/09/2026, Business Chief đưa tin Databricks mua lại Row Zero nhằm thúc đẩy chiến lược Agentic AI [15]. Cùng ngày 27/09/2026, thestreet.com ghi nhận Google chuẩn bị cạnh tranh với Meta Muse trong cuộc đua Agentic AI [16]. Tại Việt Nam, ngày 26/09/2026, Giám đốc quốc gia Meta nhận định Việt Nam đang đi trước trong làn sóng thương mại điện tử tích hợp AI theo vneconomy.vn [25]. Ngày 26/09/2026, futuristsspeakers.com đưa tin diễn giả tương lai Scott Steinberg trình bày về Agentic AI [32].\n- Bằng chứng định lượng: Chưa tìm thấy nguồn xác nhận số liệu đo lường cụ thể trong danh sách tin [15][16][25][32].\n- Insight xã hội/khách hàng: (Diễn giải) Khách hàng số hóa kỳ vọng hệ thống AI có khả năng tự động xử lý và đề xuất giao dịch chuẩn xác thay vì chỉ tương tác dạng hỏi đáp văn bản thông thường.\n- Câu hỏi nghiên cứu tiềm năng: Tác động của mức độ tự chủ của tác tử AI (biến độc lập) đến sự tin tưởng của người tiêu dùng và ý định hoàn tất đơn hàng trực tuyến (biến phụ thuộc) tại Việt Nam là gì?\n- Hàm ý kinh doanh: Thử nghiệm ứng dụng các công cụ AI hỗ trợ tư vấn viên phân loại nhu cầu tài chính của khách hàng để rút ngắn thời gian chuẩn bị hợp đồng bảo hiểm.\n\n#### 2. Chuyển đổi số bán lẻ thực chiến và đưa sản phẩm địa phương OCOP lên sàn số · ●●○ Trung bình\n- Diễn biến: Ngày 26/09/2026, Báo Công Thương dẫn lời ông Đỗ Hữu Hưng khẳng định chuyển đổi số cho tiểu thương phải đo bằng đơn hàng và doanh thu [26]. Ngày 26/09/2026, thuonghieucongluan.com.vn ghi nhận tỉnh Lào Cai đưa sản phẩm OCOP lên sàn thương mại điện tử qua phiên Megalivestream [27]. Ngày 27/09/2026, Thời báo Tài chính Việt Nam đưa tin Vietcombank mở rộng chuyển đổi số cùng tiểu thương trên cả nước [10]. Ngày 27/09/2026, vietnam.vn ghi nhận hoạt động đưa sản phẩm khởi nghiệp lên sàn thương mại điện tử [9].\n- Bằng chứng định lượng: Chưa tìm thấy nguồn xác nhận số liệu đơn hàng và doanh thu cụ thể trong danh sách tin [9][10][26][27].\n- Insight xã hội/khách hàng: (Diễn giải) Tiểu thương và hộ sản xuất tại địa phương chuyển dịch từ bán lẻ mặt đất sang nền tảng số do áp lực sụt giảm dòng tiền mặt truyền thống, tìm kiếm giải pháp thanh toán không dùng tiền mặt và kênh livestream để tiếp cận khách hàng.\n- Câu hỏi nghiên cứu tiềm năng: Tần suất tham gia các phiên Megalivestream bán hàng (biến độc lập) ảnh hưởng như thế nào đến doanh số thực tế của các chủ thể OCOP nông thôn (biến phụ thuộc)?\n- Hàm ý kinh doanh: Tiếp cận nhóm khách hàng là tiểu thương và chủ cơ sở OCOP tại khu vực Đồng bằng sông Cửu Long để tư vấn các gói bảo hiểm bảo vệ dòng tiền gắn liền với tài khoản thanh toán số của ngân hàng đối tác.\n\n#### 3. Thương mại điện tử xanh gắn với giảm rác thải bao bì và phát thải Net Zero · ●●○ Trung bình\n- Diễn biến: Ngày 27/09/2026, Tạp chí Công Thương đăng tải nội dung phát triển thương mại điện tử gắn liền với giảm thiểu bao bì, rác thải để bảo vệ môi trường [7]. Cùng ngày 27/09/2026, VTVgo đưa tin về sự bùng nổ thương mại điện tử đi kèm bài toán phát thải trong mục tiêu Net Zero [11]. Ngày 25/09/2026, VTVgo nhấn mạnh việc gắn kết phát triển logistics với thương mại điện tử [38]. Ngày 27/09/2026, VTVgo phản ánh việc người tiêu dùng ưu tiên sản phẩm xanh, sạch [1].\n- Bằng chứng định lượng: Chưa tìm thấy nguồn xác nhận số liệu về tỷ lệ rác thải hoặc lượng khí thải được cắt giảm trong danh sách tin [1][7][11][38].\n- Insight xã hội/khách hàng: (Diễn giải) Người tiêu dùng gặp xung đột nội tâm giữa việc muốn mua sắm nhận hàng nhanh chóng và cảm giác áy náy vì lượng rác thải bao bì nhựa phát sinh từ mỗi đơn hàng online.\n- Câu hỏi nghiên cứu tiềm năng: Ý thức bảo vệ môi trường của người tiêu dùng (biến độc lập) có tác động tích cực đến mức độ chấp nhận phụ phí bao bì thân thiện với môi trường trong giao hàng thương mại điện tử (biến phụ thuộc) hay không?\n- Hàm ý kinh doanh: Chuyển đổi toàn bộ quy trình phát hành hợp đồng bảo hiểm sang định dạng số (e-contract paperless), dùng thông điệp giảm rác thải giấy để tăng thiện cảm với khách hàng trẻ.\n\n#### 4. Kích cầu tiêu dùng nội địa và ưu tiên nguồn hàng Việt bền vững · ●●○ Trung bình\n- Diễn biến: Ngày 27/09/2026, vietnam.vn đưa tin kích cầu tiêu dùng hướng trọng tâm về thị trường nội địa [2]. Ngày 27/09/2026, Tạp chí Công Thương phân tích việc khai thác sức cầu nội địa nhằm chuyển hóa tiềm năng thành nền tảng bền vững cho hàng Việt [5]. Cùng ngày 27/09/2026, VTVgo đưa tin xu hướng tiêu dùng hàng hóa nội địa đang tăng [4].\n- Bằng chứng định lượng: Chưa tìm thấy nguồn xác nhận số liệu đo lường sức mua hoặc tỷ lệ tăng trưởng tiêu dùng nội địa trong danh sách tin [2][4][5].\n- Insight xã hội/khách hàng: (Diễn giải) Khách hàng ưu tiên lựa chọn các thương hiệu nội địa có xuất xứ rõ ràng để tối ưu chi phí sinh hoạt trong giai đoạn thắt chặt ngân sách cá nhân.\n- Câu hỏi nghiên cứu tiềm năng: Nhận thức về giá trị bền vững của thương hiệu nội địa (biến độc lập) tác động như thế nào đến lòng trung thành của người tiêu dùng đối với các dịch vụ tài chính trong nước (biến phụ thuộc)?\n- Hàm ý kinh doanh: Tinh chỉnh thông điệp bán hàng của đội ngũ đại lý tại các tỉnh thành Tây Nam Bộ, nhấn mạnh giá trị phụng sự và bảo vệ nguồn tài chính cho gia đình địa phương.\n\n#### 5. Khởi nghiệp ngách và phong cách tiêu dùng cá nhân hóa của thế hệ trẻ · ●●○ Trung bình\n- Diễn biến: Ngày 27/09/2026, Kenh14.vn đưa tin nữ Gen Z nghỉ việc ngân hàng để khởi nghiệp thương hiệu thiết kế trang sức ngách [12]. Ngày 26/09/2026, Tạp chí Saostar khai thác bài toán kinh doanh ngách thời trang mặc nhà từ Nguyễn Hoàng Khan [24]. Ngày 25/09/2026, vietnam.vn ghi nhận phong cách lãnh đạo AI Meta diện áo phông secondhand cùng dép Crocs [39] và trào lưu giới trẻ đính đá lên mặt của Gen Z [40].\n- Bằng chứng định lượng: Kenh14.vn ngày 27/09/2026 công bố thương hiệu trang sức của nữ Gen Z đạt doanh thu 26 tỷ đồng [12]. Chưa tìm thấy nguồn xác nhận số liệu thứ hai đối chứng.\n- Insight xã hội/khách hàng: (Diễn giải) Thế hệ trẻ ưu tiên thể hiện cái tôi và tính độc bản qua trang phục, phụ kiện đời thường, đồng thời có xu hướng rời bỏ công việc văn phòng cố định để tự làm chủ kinh doanh.\n- Câu hỏi nghiên cứu tiềm năng: Khát vọng tự chủ tài chính (biến độc lập) ảnh hưởng như thế nào đến quyết định từ bỏ việc làm truyền thống để khởi nghiệp thị trường ngách của Gen Z (biến phụ thuộc)?\n- Hàm ý kinh doanh: Thiết kế kế hoạch tuyển dụng tư vấn viên bảo hiểm thế hệ mới nhắm vào Gen Z với thông điệp tự do xây dựng doanh nghiệp cá nhân và tự chủ thời gian.\n\n#### Tín hiệu yếu cần theo dõi\n- Mô hình dịch vụ \"Căn phòng đập phá\" thu hút khách hàng giải tỏa căng thẳng tâm lý (VTVgo, 26/09/2026) [23].\n- Nền kinh tế thú cưng bùng nổ phản ánh sự chuyển dịch chi tiêu của các hộ gia đình trẻ (VTVgo, 27/09/2026) [6].\n- Xu hướng sử dụng mô hình mua trước, trả sau (BNPL) trong chi tiêu thông minh (VTVgo, 26/09/2026) [17].",
+      "sources": [
+        {
+          "title": "★ [1] Người tiêu dùng ưu tiên sản phẩm xanh, sạch - VTVgo (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1SSGtfbENOdE1zX2VsVGJ5UUltUDNRUExmc1VMbVhCS2YtMU1MNW5Nc2dYS3RGTG9qZE9nSlNDM2o?oc=5"
+        },
+        {
+          "title": "★ [2] Kích cầu tiêu dùng: Hướng về thị trường nội địa - vietnam.vn (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1xbjV2UkI5b08wTG9ialdneWluM05iWEd3RGlUYzFvOTJiWEl2UzNQSURBSmhUcmJXN1dTaTA5VEVBQTlhM2pfSmhLVkdwbkpXWTltTTl3SUlsU0hMRHlIdGJKb2VoaXhTX0kycWExSmFaTmY4NDVkcA?oc=5"
+        },
+        {
+          "title": "[3] Xu hướng tiêu dùng dịp lễ tình yêu - VTVgo (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9QYmN1ZXdjbUtqWGxWeXVHdDlQVkMtR1ZFTzVrVXpuS3djN1VvSjkxRXFLZkNRb1pBWVE1TFIwMFI?oc=5"
+        },
+        {
+          "title": "★ [4] Chào buổi sáng | 07/02/2025 | Xu hướng tăng tiêu dùng hàng hóa nội địa - VTVgo (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE80eFFYd1Y5dDdJN3VLT1ZNVXJWNGZvTHIyR3VVY0xpRm1UX1J5RkZJYXpsY0JMQl82amJSQW5OU3Y?oc=5"
+        },
+        {
+          "title": "★ [5] [eMagazine] Khai thác sức cầu nội địa: Chuyển hóa tiềm năng thị trường trong nước thành nền tảng bền vững cho hàng Việt - Tạp chí Công Thương (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPeUFBMHM4QVNJenlmUGRZNEswaXVybWxmQWV3YzBnRmNTM0drZFYyNDZ3cG00ZHp5QXVQWldiUXhDbThKeHdGd3RvdzBuNXVKNGZDekFJVjZkMVd3b1FMcF9WenFKc0JmdHd5bGk2OEQ3eW5OTUl0TEpyd0VBTy1mb0JVNVFhWkdBa21FOFJ3NUZZSDdYVm9tSl9SYU4yeTA5YmtHQklkRWpQTVRySkd2WUI0ckRRNV9KZ1FaTUtzQTYyN3dMSjJZOVZfX2h5eC1MRTdrTHVjTmdBUVZHeGYxdHhubXozUi1yRHhjU090WVpKT3k1SWR4elV3?oc=5"
+        },
+        {
+          "title": "★ [6] Nền kinh tế thú cưng bùng nổ - VTVgo (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1OUHdzeHVjYV9IamhJb1lYNmlhX2NiTFJWbkx4YzlyWWQ5VG5Da2hSTDNZNERnUG5DSUhOeDAydlg?oc=5"
+        },
+        {
+          "title": "★ [7] [eMagazine] Phát triển thương mại điện tử gắn với giảm bao bì, rác thải để bảo vệ môi trường - Tạp chí Công Thương (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOdldWWEdtdWNTTnR0Mjg3bmZYbzFfUGg5anJ1eUJLVmNFeVotalVvSzhPTFVSWTcyMVNkMGNOVXM5QTl0MHJHUkwyMWloak1uVHlJR0x6SC1xYnBieFRJbWkxWGFNRUpxMU54UThZTmFTUDNwOE9GaV9rZ040RUNYUndmMHk1RjZrNTM0MGJtbGU5cGNfcVJheEVkcVY3T1JSbnQ0V1pDaU5oQjJ2Wkc2RmpDcGxjcF9zMFlfVUp3R1diOW5pWXhrRWhXeDRyMnI1UkpsREx3?oc=5"
+        },
+        {
+          "title": "[8] Phát triển thương mại điện tử - baobacninhtv.vn (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMiekFVX3lxTE92ZWpxUmU2cUVYOUxoTjhzNkwwcW5NcXZPV1dycFdWdmROSm5tV3F1WFdDTEl3S05iT0NxTGt2ZHB0ZXVhSHVvNFA4aEFDUkJHRVY3RWJMLXpWYVdCQU56ZzVoWWswXzlNNlhKejFKSmxiUlhIRDlldVZ3?oc=5"
+        },
+        {
+          "title": "★ [9] Đưa sản phẩm khởi nghiệp lên sàn thương mại điện tử - vietnam.vn (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBBeTlvbU9YZzVFc3FKVVNfYzZqTDJOcVNuMmRXUVlqMGxxLWMyT0FtQnNpaGkzMUpqOHJGWHBiM0tqZ3dlSlZKNE95bXYxV1VIUVNMa3lBSW1JQThBUXdpSVRkN1M5TnAtX2U5SDZOWV9HX0NQUC05eVRLUktwemM?oc=5"
+        },
+        {
+          "title": "★ [10] Vietcombank nối dài hành trình chuyển đổi số cùng tiểu thương trên cả nước - Thời báo Tài chính Việt Nam (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQb2tTRWRaMlZ0YWctZ3FMbU52Q2NONGpzUWVBZ0x6ZTcycS0tU3pCSUdXVjBHcm1tVEhyZFJxVXRMTi1CX0lXallpN1FwaXh4VEVNZjhHWWE0TnlKNmFmbkRBa0x2dC11UkdILThmUGVVdGFOREo1SmY2UjJDOEQ2Q19nMzd0Y185Z1EyeHZiVVlNOGRZYUliWmR1RXQ4dkk1N3VSUG93ZzFkZEVSSHp2dUhCSV9PRFQ4bTVJcw?oc=5"
+        },
+        {
+          "title": "★ [11] Bùng nổ thương mại điện tử và bài toán phát thải | Net Zero - VTVgo (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFB4VG9jbmlmdWZCckFmNXdEeGU1MkZ1c0JVNnBKY1AzOHBteTNpOGVmRnY3LXJsQnU2anhla0x2SEk?oc=5"
+        },
+        {
+          "title": "★ [12] Nữ gen Z nghỉ việc ngân hàng, khởi nghiệp thương hiệu thiết kế trang sức doanh thu 26 tỷ đồng: Được đích thân sao Disney Channel đặt hàng - Kenh14.vn (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMihwJBVV95cUxORmZjNzVEYkFib095cUtMS2FtNUVZeEwxd3BKLURGbGpmRUtuU1llWnYtdXpxS21KcFhBT09ESmpqR19obTVzaVppeTU0bXpjUUJXMFhEd0FEaG95Y1NILUhYLWFkOHZuRkNCelZmTUVsNkNUV1NJNVFNRy04b1BtZXZhLVBlRDlkRDNCMkNnZWtzQTdrUDEycUpaRTlNVE92dGMwRVZhRnY1a05XTG9xYW5WeEpneFV6UEdSYjY5dnowQlRpNzgzRV94TUcwdHA4ZWNLSS1ZYk1VWldQUFYzbWF6cE5vbUdla0tVbFU1N1dLWHMzVUJEa2JxWjVBTktXNktOalN1bw?oc=5"
+        },
+        {
+          "title": "[13] Chương trình có hoàng tử William nhận đề cử Emmy - VTVgo (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1vcE1FcEZaMHkwN282Nk52aHBIT0s3ZEktaTV6alBpb3A1UklFWmV6RXFaNllBRV9nR3VzQXg4ekw?oc=5"
+        },
+        {
+          "title": "[14] 25 idol K-pop mặc đẹp nhất mọi thời đại: Vương và Hậu ai cũng biết là ai, số 3 liệu có hơi lấn cấn? - Kenh14.vn (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOS0J3VHRRaS1IWk00QmhVSzlSbDNjNU5XTmZGdTBLLW5VUlpxbzNtYVRBR2U1SHVLN1V2UjZIR09wTERySE9qRm9IMFJyWDEtaC1YNFAycUxNMW5nd21OV0xFc1paWWdmazY5MDhCOURCWXlGWE9ac3IwaWFTcnZodXBKTTJwVjVJWVdxeENGU1pFd3JRYUxFVHJLckgyODI0aVMwUVo4R1gtN0ZaZ1BJNXliUXU0SWJVdERia1ZIQXZneXd1cTJJWG9VOEpmUFB0YU9V?oc=5"
+        },
+        {
+          "title": "★ [15] Databricks Acquires Row Zero to Drive Agentic AI Strategy - Business Chief (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQV0w5bjIwcXpiMGxSaHVWdWdKX2lDaWNnQ1pmX0lIbXc3ZnUzTmlDZ0NkbG0tZ3k4WUFGSTZ0NlBkVUVZSUdtbC13QWVxN2xfbG94RGJYMUV6aXN5V0M0OGdUcHNNMWZEUEVxZV9UUGhOamFrQU5Zb0QzVW9NMEpzZEYwY3dtMFpYdnQwVlk3UVFQUQ?oc=5"
+        },
+        {
+          "title": "★ [16] Google set to challenge Meta Muse in the Agentic AI race - thestreet.com (2026-09-27)",
+          "uri": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeVRNUG51bDZQdzR4WUJoRTBpS1NuVnM5VlJuRUNxazhEQXhGam9wbDE1SFh5Y1B4MEpkdVZMYVZ6Sk5pSzJWNm5vVG5hNkp0VHd6TU5ENGFDNnRJVHdBZkRWUTFnTjMwTWxHakpKa2w5b3RQYXgzV3ZxYVEzSEl0SElDWmxFSXJUdGtLTVVkRkFBNGRNY0gtQQ?oc=5"
+        },
+        {
+          "title": "★ [17] Tiêu dùng thông minh với mua trước, trả sau - VTVgo (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE50emRLd3BhVXdCY2F3YkVjVC15dE9yendqWm82cmhvMFRxdmkwTDhSRE9ib21BdXlHZk5XWU5JcEs?oc=5"
+        },
+        {
+          "title": "[18] Nhu cầu thực phẩm giàu protein thúc đẩy doanh số thủy sản đóng hộp tại Mỹ - VASEP (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZzZuX2EzMGZFXy12Tklqc3pNbDd2UWpWa21WcmR0THpVQVl2c3FXUTRBNHRLMFpvbVpUOFZmbURhNHFvODlwaW8tOE14a0ZkR2l1VmktM0ZlRjFzaGlXcTJDLXN3VC1SWkFxd1pMYk1JaUFrQk9mSGVndU96Nzc1Ylc0dlczbE5aclJEbXh0ZVk4UEk1UWxTbDZJR1pOdjJGMTBQSFUyZXBuQkFsY2fSAa4BQVVfeXFMUGc2bl9hMzBmRV8tdk5JanN6TWw3dlFqVmttVnJkdEx6VUFZdnNxV1E0QTR0SzBab21aVDhWZm1EYTRxbzg5cGlvLThNeGtGZEdpdVZpLTNGZUYxc2hpV3EyQy1zd1QtUlpBcXdaTGJNSWlBa0JPZkhlZ3VPejc3NWJXNHZXM2xOWnJSRG14dGVZOFBJNVFsU2w2SUdaTnYyRjEwUEhVMmVwbkJBbGNn?oc=5"
+        },
+        {
+          "title": "[19] Công ty Trans-Ocean (Mỹ) tăng protein cho sản phẩm surimi - VASEP (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaWFyN1BSVERhQnRoX19fZ0gtY0ZUbTU2TlI0anpqYVdjcWstUXBGUDMxejJSbGVDX1JDcnVMMXY1a2xwRXhMaEFrQldqRUJOc21xUEVMVW1CejJSb2ZqZHRKbkN2NGVocjhyMGFEekQ0ejlqaXZSS1NIN1d2UFY0UE5VOEdmQTVxNlgzUTBIQmhadFpWb1HSAZYBQVVfeXFMTmlhcjdQUlREYUJ0aF9fX2dILWNGVG01Nk5SNGp6amFXY3FrLVFwRlAzMXoyUmxlQ19SQ3J1TDF2NWtscEV4TGhBa0JXakVCTnNtcVBFTFVtQnoyUm9mamR0Sm5DdjRlaHI4cjBhRHpENHo5aml2UktTSDdXdlBWNFBOVThHZkE1cTZYM1EwSEJoWnRaVm9R?oc=5"
+        },
+        {
+          "title": "[20] Trung Quốc: Viện bảo tàng thúc đẩy tiêu dùng - VTVgo (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBlTFZmcnJyN2ZlNGs5NDBFSlZLX3BzVEV5enRtWFNqYVJnUTZqaXlzLUxmRDM2RzhySndiUmRrTUc?oc=5"
+        },
+        {
+          "title": "[21] Sức hút của du lịch thẩm mỹ Hàn Quốc - VTVgo (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBnWEp3YnVyT19JaUhGdzJ3U0t0Zm5jbXRVbEJjZTktTnR6dEhXZThfYjdwcWlfMUgzTXN0SXhteXo?oc=5"
+        },
+        {
+          "title": "[22] Tàu du lịch kích cầu tiêu dùng mùa hè tại Trung Quốc - VTVgo (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBjSm5yZ0xYWTAweHcyWlh2b1plai1rTDBVc25xSG0xTFlCSDBrVWRkTmJLYjFhTzFLRDNLTFEwUTY?oc=5"
+        },
+        {
+          "title": "★ [23] \"Căn phòng đập phá\" thu hút khách hàng - VTVgo (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBKWUUzV2lvUUFWODhfcnJ5Nk5QXy1lQlBRa3BfODV5R0VXUHZGaS10WkJCT1JfSVlqeWVVRVI1aFc?oc=5"
+        },
+        {
+          "title": "★ [24] Giải mã bài toán kinh doanh ngách thời trang mặc nhà từ Nguyễn Hoàng Khan - Tạp chí Saostar (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOOXFuZ1NDNGpWZDZjMERFQlpROTJpOGw2Y2dCNnNUWnJ1TV9wQjFoSkNiaEtacWkwc19vUVgzTWtHcGhMMHJxTG56dm5kY2lXLVhOVGl3UktndXFTZ3VNLWpwRnFGSnVZeE13U0hOQUpmXzl3LXkyeWtwbUtORzdxcjZURFFzVmpDOUpYRXZaTkttUFZmUVlodUZvLW5vZENHeTV3UXRnYUdvT2dibGE5RE9tTmVEVXBCaHR6V0gxNElRejR0RVJ3OGpGWTVubmxiVk40?oc=5"
+        },
+        {
+          "title": "★ [25] Giám đốc quốc gia Meta: Việt Nam đi trước trong làn sóng thương mại điện tử tích hợp AI - vneconomy.vn (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQblIzNnJ0R21wcE5ILTFURVdSaDl1SEI2bFBfSER2QW5CUlhvYWlQYVFuMGRYV2UwT0RFVjE0WFFBNEZNVE9DRWo3T0x1ZFdpV0l5MFREbjJJa1AwWEloQ3dmbWxBZEdOMWYwZjhKVU90VXU1eDVBRHNkZ3djb19vaWdqSTZ5dThOTzdITS1PUi1mMzI5OHF0djRMSUVGT3NxamJDRHcwVlljVEs2ZTNMSg?oc=5"
+        },
+        {
+          "title": "★ [26] Ông Đỗ Hữu Hưng: Chuyển đổi số cho tiểu thương phải đo bằng đơn hàng, doanh thu - Báo Công Thương (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNGdqMTA0SGN4UEd2aHgwdnRaZnFpaXBPdkFlVWRMd0taNFVFZkpJNHdheDJhX3hJNDNaU1daRjlfN3ZiRnJRZGlGUUIwWU5XV0JQV3FUZnZXVndWeHFja3N5aGhfRVBMRGc1Nk9QZks2RDFRTWFPc1lIaW5kQW9kVWl1TVd3NFkzbzFISjl1WkVwbTdmb2luWmZuOV9BOFV3RDlxRVNpbV9adU4xZXBVMw?oc=5"
+        },
+        {
+          "title": "★ [27] Lào Cai đưa sản phẩm OCOP lên sàn thương mại điện tử qua phiên Megalivestream - thuonghieucongluan.com.vn (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOWE5NS0t0MmpRTXl1dlFoekh0dVlfcGJ2WjVYSHFINzdrbTlrbmdtd0tjSWtMekNRSFNDeWtydGNzS25oTFJGX3VzSGVGQ1dvT1RUeFNUbDlyeFBXa2VldFJLUXRWTVRDM2hIdllzU3V5QjZYbmREb0QyLTZXd0NucmhlUmhiUE9NMDNaVms2RDFHbHdzcnFxeGVVVVJzZjhTVnhoN0FVWHNnOGo0ZndzRHhFelBFcUNRd2VpNFlPMmgxUQ?oc=5"
+        },
+        {
+          "title": "[28] Nhan sắc mỹ nhân Gen Z góp mặt trong “Chị chị em em 3” - VOV.VN (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUGR0RGZPTTE3VjMtbWZsNUxheE9EVW1LSVh0U3paNHllR2ZPSXZPV3gtTUx6dUpiOHBuM21NQ1d1alctWG5tNzhXZ3pkMWtNMWVvNi04RDlPcmRNdGVLZGczak1ic0xMVVdPU0tyclNXaGdMNGo3VHRzLWdWdF9qUzJCN3NCTlZyUkdGeWxEeUs5YW1aSjFN?oc=5"
+        },
+        {
+          "title": "[29] \"The Odyssey\" lập kỷ lục doanh thu chiếu sớm tại phòng vé Bắc Mỹ - VTVgo (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1CeW5CSmcyTGNaajNMVWhvVk5PYkFhNmpTX29uWnBSNElVVWR2SjdmY1ZLZE9pMFBNMTNNLUtRUnM?oc=5"
+        },
+        {
+          "title": "[30] Hoàng Thùy Linh diện set đồ gần 1,2 tỷ đồng dạo phố - Eva.vn (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQjJ2cEJDdy12NnNUOXlabmVsUWc0ZEgyd2ZYQV8wNmk1b0NXa19fMm9SRlowclY2cG5tay1jdHdfSWxqQTdTWGp3RFJGbnlrM25nMHR2d3EyZ0R1U1NsV3N3enR1NEREdTktREYyVWRUWEo3bGdCd2EzcE5uWFdvYUFFMU5uQlFXNndHV3RtRTg1aTVQbnBn?oc=5"
+        },
+        {
+          "title": "[31] What’s New in Drink Trends - nutritionaloutlook.com (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMidEFVX3lxTE92dmpqSU93b1FuWFM4MFg0TldWcGg0WWtnOTRGeF96Q1E1LVJmdkFHOEdKZ2JVMlYtbEJRWkJJampBT1hSblpqM0J2UW56c3VEcGNFTlRpUzVFcEtKeW1pRy0zMDlBNjRWVTRzOEZZaWxGRkR0?oc=5"
+        },
+        {
+          "title": "★ [32] Best Keynote Speakers on Agentic AI Futurist Scott Steinberg - futuristsspeakers.com (2026-09-26)",
+          "uri": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVzNqWUVIMFFYOHdOdjYwSU0xNVN6Ti15eTJSNHRXQjhtajVOWUJQNXJYaTZwX25XQkJWWkFqVUtGdUpxZE1yWUZ3VzVJMzh5MGZ0eVM0N214WUZrYkx6U1ZXZklORmEwOHEySWlWdEQ3dWFucW02UVpNQ3BZb3phU0NjYzN4UQ?oc=5"
+        },
+        {
+          "title": "[33] Sản phẩm ngăn ngừa rụng tóc được quan tâm hơn bao giờ hết - vneconomy.vn (2026-09-25)",
+          "uri": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSlpXbVhpOTRqOEcwblkyZkpGUWtTUzloSExwSGtvNjF1RDVINDhjdkpHNmlqandva0dzeWlxcjV5SUVhbHItUGdmdXBVNXdPWmR3Y1ZmaEZTQnhObFRkNTd5UDRtQjJVclFtQkZkcmJRMEdmRkc4dmJjTkQ0ajlGRWxTdjFLOEQzVEE?oc=5"
+        },
+        {
+          "title": "[34] Trung Quốc: Nhà máy cũ hồi sinh thành không gian tiêu dùng mới - VTVgo (2026-09-25)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE9uc0EyOFVRbkM5bjhXTXNSY3Q5aFk3b1JZWm9RZVJGWjVBTjQ5a2xkNXMydm43SjhaUEFKS1hCTW4?oc=5"
+        },
+        {
+          "title": "[35] Thương mại điện tử tăng tốc, dữ liệu trở thành “hạ tầng” của chuyển đổi số - thuonghieucongluan.com.vn (2026-09-25)",
+          "uri": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSWZmazdMQXZTRmwtSWl1TXdXWktCLWJBOUtnTGtIMFVSYW1BLVF6MHhheDdnM1BVMkJpLU1jb3ZiMFFQQVVPQnlIY0VUVGtjODBWbVg5c1FjX0psc2NheTJpRmlxanpJTDFob3NwRlJaMThBbENCNFlmWnpzaXhZd2U1NlVWSk9oNjlSTUFJTmVzN0ViQWczUkRkcTM1Q3RqU0ZRR2tXYTdma25JWHZYckVMaXI0Y2doRUE?oc=5"
+        },
+        {
+          "title": "[36] Tập huấn về chuyển đổi số trong hoạt động xúc tiến đầu tư, thương mại và du lịch - dangcongsan.vn (2026-09-25)",
+          "uri": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQQ21fQVhvbVN2RVJUTkN5b01DVldZQm51RGNnSnJHUURRSHpYNXNNSHhseERPRVJWTHFZWHRURGVkQzRGVm1KUGFVb1czZG4xZzBNUG05OGx2cWFvaUo4NFFFcG9ZbER0X1Vmem9aeV9SSERlaU05el94azBTb0V6ZVRaX2NyellITWZqUjFYMFlqbVJYUTRDcGFZakMyUXZ1NU9NMXNmeWI0RFpadnFDMnhBaEQyU0h6TmtaOWVBeVhhOHlSWTFfRDdzMXhvZw?oc=5"
+        },
+        {
+          "title": "[37] Kết nối doanh nghiệp, thúc đẩy hợp tác thương mại và đầu tư Việt Nam - Tamil Nadu - moit.gov.vn (2026-09-25)",
+          "uri": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPT1ZpUWdlSnU3NWlDa3hVdmZRcXNxSlg1VTc1SF9qZDFhTHlXeHRuWDF2aXp6SllxNW9MZkNTN1RqN3R5N1l5VGx6QVhPWWVNMlhTZDdRVnkyTW9lbDNmX2docERuU29JMHFxY0xNdzRKY2djNWRrX1VQd3lKN1pTaFdzR3hzanZfSDZSTVNaNlFnZWZmNGFSVWVkaDBpdWptNGRNM053?oc=5"
+        },
+        {
+          "title": "★ [38] Gắn phát triển Logistics với thương mại điện tử - VTVgo (2026-09-25)",
+          "uri": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBra3FfUWZpMDdfMGNiZGdlYU4tVC1LWWRCNzFOYXFGN2x1Tk05S1lha3RpQVdOcmdzQUp2am8tMFk?oc=5"
+        },
+        {
+          "title": "★ [39] Sếp AI Meta đi Crocs, mặc áo phông secondhand lên sân khấu - vietnam.vn (2026-09-25)",
+          "uri": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNdV93a1lHcVgzZG9sSlFBdnJiNlRvMGl6a3FSYUxQQVZOaUQ2aXB5RjVHZkpYeGJ5WnE5dk1aR1hyNHA0WENaU20yY3FSNEdLWnlzeTBsa3A1a2k1VnBhb1c1Z29mUjl2aUYxTHJDdkpUcnd0S0RIVnZHMi1xaW90WjNBOFNWTm8?oc=5"
+        },
+        {
+          "title": "★ [40] Á hậu Phương Nga, Salim 'đu trend' đính đá lên mặt của Gen Z - vietnam.vn (2026-09-25)",
+          "uri": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSWU2SFpfTzRNUjlzVlI1M1VWMUc5S3VrRkxIQ19hWndYcDMzbU9QZi0tRnBqczgxMnpoa0lYWHVjMWYtRVVHTEVKd2ZHZW80bUJKZVB5RUl6ZU9NcUs0UFVSZjd1N2lKMVAwT25WaTJjMm1tWDBEeXpHNWNJTFBRU2ZFcml2cGM?oc=5"
+        }
+      ],
+      "search_queries": [
+        "xu hướng tiêu dùng",
+        "thương mại điện tử Việt Nam",
+        "thời trang Gen Z",
+        "consumer trends 2026",
+        "agentic AI business"
+      ],
+      "n_items": 40
+    },
+    "growth": [
+      {
+        "query": "\"social commerce\" AND \"consumer behavior\"",
+        "series": {
+          "2020": 12,
+          "2021": 11,
+          "2022": 15,
+          "2023": 30,
+          "2024": 74,
+          "2025": 159,
+          "2026": 218
+        },
+        "cagr": 0.6766529432781054,
+        "rel_cagr": 0.5965730461466408,
+        "cagr_window": "2020-2025",
+        "note": "Năm 2026 chưa trọn vẹn, không đưa vào CAGR."
+      },
+      {
+        "query": "\"sustainable fashion\" AND consumption",
+        "series": {
+          "2020": 51,
+          "2021": 72,
+          "2022": 82,
+          "2023": 95,
+          "2024": 195,
+          "2025": 303,
+          "2026": 321
+        },
+        "cagr": 0.4281521909827728,
+        "rel_cagr": 0.3599411273870039,
+        "cagr_window": "2020-2025",
+        "note": "Năm 2026 chưa trọn vẹn, không đưa vào CAGR."
+      },
+      {
+        "query": "\"agentic AI\"",
+        "series": {
+          "2020": 14,
+          "2021": 15,
+          "2022": 21,
+          "2023": 76,
+          "2024": 203,
+          "2025": 2908,
+          "2026": 12637
+        },
+        "cagr": 1.9073229281663373,
+        "rel_cagr": 1.76846406536536,
+        "cagr_window": "2020-2025",
+        "note": "Năm 2026 chưa trọn vẹn, không đưa vào CAGR."
+      }
+    ],
+    "top_cited": [
+      {
+        "title": "Social commerce and buying intention post COVID-19: Evidence from a hybrid approach based on SEM – fsQCA",
+        "year": 2023,
+        "cited_by": 89,
+        "doi": "https://doi.org/10.1016/j.jretconser.2023.103548",
+        "source": "Journal of Retailing and Consumer Services",
+        "openalex": "https://openalex.org/W4386468616"
+      },
+      {
+        "title": "The effects of trust and platform innovation characteristics on consumer behaviors in social commerce: A social influence perspective",
+        "year": 2023,
+        "cited_by": 66,
+        "doi": "https://doi.org/10.1016/j.elerap.2023.101284",
+        "source": "Electronic Commerce Research and Applications",
+        "openalex": "https://openalex.org/W4380757864"
+      },
+      {
+        "title": "Developing trends in showrooming, webrooming, and omnichannel shopping behaviors: Performance analysis, conceptual mapping, and future directions",
+        "year": 2023,
+        "cited_by": 59,
+        "doi": "https://doi.org/10.1002/cb.2186",
+        "source": "Journal of Consumer Behaviour",
+        "openalex": "https://openalex.org/W4378905635"
+      },
+      {
+        "title": "The role of online interaction in user stickiness of social commerce: The shopping value perspective",
+        "year": 2023,
+        "cited_by": 52,
+        "doi": "https://doi.org/10.1016/j.digbus.2023.100061",
+        "source": "Digital Business",
+        "openalex": "https://openalex.org/W4367856182"
+      },
+      {
+        "title": "Beyond likes and comments: How social proof influences consumer impulse buying on short-form video platforms",
+        "year": 2024,
+        "cited_by": 45,
+        "doi": "https://doi.org/10.1016/j.jretconser.2024.104199",
+        "source": "Journal of Retailing and Consumer Services",
+        "openalex": "https://openalex.org/W4405411743"
+      }
+    ]
+  }
+}
